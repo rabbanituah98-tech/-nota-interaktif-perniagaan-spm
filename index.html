@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nota Kilat Perniagaan SPM</title>
+<meta name="description" content="Nota last minit Perniagaan SPM Tingkatan 4 & 5 — ringkas, padat dan mudah faham. Disediakan oleh Cikgu Rabbani, SMK Dato' Undang Musa Al-Haj, Jelebu.">
+<meta name="author" content="Cikgu Rabbani, SMK Dato' Undang Musa Al-Haj, Jelebu">
+<meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1417" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Perniagaan SPM">
+<meta name="application-name" content="Perniagaan SPM">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314b8a6'/%3E%3Cstop offset='1' stop-color='%23064e3b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Crect x='14' y='24' width='36' height='24' rx='4' fill='%23fff'/%3E%3Cpath d='M25 24v-4a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v4' fill='none' stroke='%23fff' stroke-width='4'/%3E%3Cpath d='M20 42l8-7 6 4 9-9' fill='none' stroke='%23f59e0b' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+/* ============ TOKEN WARNA ============ */
+:root{
+  --bg:#f6f3ea; --surface:#ffffff; --surface-2:#efeadf; --surface-3:#e7e0d1;
+  --ink:#1b2430; --muted:#5a6372; --line:#e0d9c9;
+  --primary:#0f766e; --primary-2:#115e59; --primary-ink:#ffffff; --primary-soft:#d6efe9;
+  --accent:#b45309; --accent-soft:#fcebc9; --accent-ink:#ffffff;
+  --t5:#9a3412; --t5-soft:#fde3d3;
+  --ok:#15803d; --ok-soft:#dcf3e3;
+  --bad:#b42318; --bad-soft:#fde2df;
+  --info:#1d4ed8; --info-soft:#dfe8ff;
+  --shadow:0 1px 2px rgba(27,36,48,.06),0 6px 18px rgba(27,36,48,.06);
+  --radius:16px; --radius-sm:10px;
+  --fs:16px;
+  --sidebar:290px; --topbar:62px;
+  --font:"Segoe UI","Noto Sans","Helvetica Neue",Roboto,Arial,system-ui,sans-serif;
+  --display:"Segoe UI Black","Arial Black","Segoe UI",Roboto,system-ui,sans-serif;
+  --mono:ui-monospace,"Cascadia Mono","Consolas","Menlo",monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1417; --surface:#151d22; --surface-2:#1a242a; --surface-3:#22303a;
+    --ink:#e7eef1; --muted:#9db0ba; --line:#28363f;
+    --primary:#2dd4bf; --primary-2:#5eead4; --primary-ink:#04201c; --primary-soft:#11352f;
+    --accent:#fbbf24; --accent-soft:#3a2d0c; --accent-ink:#231800;
+    --t5:#fb923c; --t5-soft:#3a1f10;
+    --ok:#4ade80; --ok-soft:#10301c;
+    --bad:#f87171; --bad-soft:#3a1717;
+    --info:#93b4ff; --info-soft:#17233f;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1417; --surface:#151d22; --surface-2:#1a242a; --surface-3:#22303a;
+  --ink:#e7eef1; --muted:#9db0ba; --line:#28363f;
+  --primary:#2dd4bf; --primary-2:#5eead4; --primary-ink:#04201c; --primary-soft:#11352f;
+  --accent:#fbbf24; --accent-soft:#3a2d0c; --accent-ink:#231800;
+  --t5:#fb923c; --t5-soft:#3a1f10;
+  --ok:#4ade80; --ok-soft:#10301c;
+  --bad:#f87171; --bad-soft:#3a1717;
+  --info:#93b4ff; --info-soft:#17233f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+
+/* ============ ASAS ============ */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--topbar) + 14px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:var(--fs);line-height:1.65;overflow-x:hidden}
+a{color:var(--primary)}
+h1,h2,h3,h4{line-height:1.25;margin:0 0 .5em}
+h3{font-size:1.18em;margin-top:1.6em;display:flex;gap:.55em;align-items:baseline}
+h3 .sn{font-family:var(--mono);font-size:.78em;color:var(--primary);background:var(--primary-soft);padding:.1em .45em;border-radius:6px;flex:none}
+.t5 h3 .sn{color:var(--t5);background:var(--t5-soft)}
+h4{font-size:1.02em;margin-top:1.1em}
+p{margin:.4em 0 .8em}
+b,strong{font-weight:700}
+.k{background:linear-gradient(transparent 60%,var(--accent-soft) 60%);font-weight:700;padding:0 .1em}
+mark{background:#fde047;color:#111;border-radius:3px;padding:0 .1em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+button{font:inherit;color:inherit}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ============ TOPBAR ============ */
+.topbar{position:fixed;inset:0 0 auto 0;height:var(--topbar);z-index:50;display:flex;align-items:center;gap:10px;padding:0 14px;padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right));background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;text-decoration:none;color:inherit}
+.brand .logo{width:38px;height:38px;flex:none;border-radius:11px;box-shadow:0 3px 10px rgba(15,118,110,.35)}
+.brand .tt{display:flex;flex-direction:column;min-width:0;line-height:1.15}
+.brand .tt b{font-family:var(--display);font-size:1.02rem;letter-spacing:-.01em;white-space:nowrap}
+.brand .tt small{color:var(--muted);font-size:.74rem;white-space:nowrap}
+.spacer{flex:1}
+.clock{display:flex;flex-direction:column;align-items:flex-end;line-height:1.15;padding:5px 11px;border-radius:12px;background:var(--surface-2);border:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.clock .tm{font-weight:800;font-size:.98rem;letter-spacing:.02em}
+.clock .dt{font-size:.72rem;color:var(--muted)}
+.ibtn{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer;flex:none;transition:transform .15s,background .15s}
+.ibtn:hover{background:var(--surface-2)}
+.ibtn:active{transform:scale(.94)}
+.ibtn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.menu-btn{display:none}
+.search{position:relative;width:min(340px,32vw)}
+.search input{width:100%;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0 36px 0 38px;font:inherit;font-size:.93rem}
+.search input::placeholder{color:var(--muted)}
+.search .si{position:absolute;left:11px;top:10px;width:19px;height:19px;stroke:var(--muted);fill:none;stroke-width:2.2;stroke-linecap:round}
+.search .kbd{position:absolute;right:9px;top:9px;font-size:.7rem;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:1px 6px;background:var(--surface-2)}
+.results{position:absolute;top:46px;right:0;width:min(520px,92vw);max-height:min(70vh,560px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:6px;display:none;z-index:60}
+.results.show{display:block}
+.results .rh{font-size:.78rem;color:var(--muted);padding:6px 10px}
+.results a{display:block;padding:9px 11px;border-radius:10px;text-decoration:none;color:var(--ink)}
+.results a:hover,.results a.sel{background:var(--surface-2)}
+.results a .rt{font-weight:700;font-size:.86rem;color:var(--primary)}
+.results a .rs{font-size:.86rem;color:var(--muted);display:block;margin-top:2px}
+.progress-top{position:fixed;left:0;top:var(--topbar);height:3px;background:linear-gradient(90deg,var(--primary),var(--accent));width:0;z-index:51;transition:width .1s linear}
+
+/* ============ SIDEBAR ============ */
+.sidebar{position:fixed;top:var(--topbar);bottom:0;left:0;width:var(--sidebar);overflow-y:auto;background:var(--surface);border-right:1px solid var(--line);padding:14px 12px 30px;z-index:40;overscroll-behavior:contain}
+.sb-prog{background:var(--surface-2);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:12px}
+.sb-prog .row{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted);margin-bottom:6px}
+.sb-prog .row b{color:var(--ink)}
+.bar{height:9px;border-radius:99px;background:var(--surface-3);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:99px;transition:width .4s}
+.nav-g{font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:16px 8px 6px;display:flex;align-items:center;gap:8px}
+.nav-g::after{content:"";flex:1;height:1px;background:var(--line)}
+.nav a{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:11px;color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.3;margin:1px 0}
+.nav a:hover{background:var(--surface-2)}
+.nav a.active{background:var(--primary-soft);color:var(--primary);font-weight:700}
+.nav a.t5l.active{background:var(--t5-soft);color:var(--t5)}
+.nav a .no{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-weight:800;font-size:.8rem;background:var(--surface-2);border:1px solid var(--line);color:var(--muted)}
+.nav a.t4l .no{color:var(--primary)}
+.nav a.t5l .no{color:var(--t5)}
+.nav a .ck{margin-left:auto;flex:none;width:18px;height:18px;border-radius:50%;border:2px solid var(--line)}
+.nav a.done .ck{background:var(--ok);border-color:var(--ok);box-shadow:inset 0 0 0 3px var(--surface)}
+.sb-tools{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+.sb-tools button{border:1px solid var(--line);background:var(--surface-2);border-radius:11px;padding:9px 6px;font-size:.82rem;cursor:pointer;display:flex;gap:6px;align-items:center;justify-content:center}
+.sb-tools button:hover{border-color:var(--primary)}
+.sb-credit{margin-top:18px;font-size:.76rem;color:var(--muted);text-align:center;line-height:1.5}
+.scrim{display:none}
+
+/* ============ KANDUNGAN ============ */
+main{margin-left:var(--sidebar);padding:calc(var(--topbar) + 22px) clamp(16px,4vw,48px) 60px;max-width:calc(var(--sidebar) + 1000px)}
+.wrap{max-width:940px;margin:0 auto}
+section.chap{margin:0 0 34px;background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
+.chap-body{padding:6px clamp(16px,3.4vw,34px) 26px}
+.chap-head{position:relative;padding:26px clamp(16px,3.4vw,34px) 22px;background:
+  radial-gradient(120% 140% at 100% 0%,color-mix(in srgb,var(--primary) 22%,transparent) 0%,transparent 55%),
+  linear-gradient(135deg,var(--primary-soft),var(--surface) 70%);border-bottom:1px solid var(--line)}
+.t5 .chap-head{background:radial-gradient(120% 140% at 100% 0%,color-mix(in srgb,var(--t5) 22%,transparent) 0%,transparent 55%),linear-gradient(135deg,var(--t5-soft),var(--surface) 70%)}
+.chap-head .pill{display:inline-flex;gap:6px;align-items:center;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--primary);background:var(--surface);border:1px solid var(--line);padding:4px 10px;border-radius:99px}
+.t5 .chap-head .pill{color:var(--t5)}
+.chap-head h2{font-family:var(--display);font-size:clamp(1.45rem,3.6vw,2.1rem);letter-spacing:-.02em;margin:.45em 0 .25em;display:flex;gap:14px;align-items:center}
+.chap-head h2 .big{flex:none;display:grid;place-items:center;width:58px;height:58px;border-radius:16px;background:var(--primary);color:var(--primary-ink);font-size:1.5rem}
+.t5 .chap-head h2 .big{background:var(--t5);color:#fff}
+.chap-head .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;padding:4px 10px;border-radius:99px;background:var(--surface);border:1px solid var(--line);color:var(--muted)}
+.chip.hot{background:var(--accent-soft);color:var(--accent);border-color:transparent;font-weight:700}
+.chap-actions{position:absolute;top:18px;right:18px;display:flex;gap:6px}
+.chap-actions .ibtn{width:36px;height:36px}
+
+/* blok */
+.blk{margin:16px 0;border-radius:var(--radius);padding:14px 16px;border:1px solid var(--line);background:var(--surface)}
+.blk>.lb{display:inline-flex;align-items:center;gap:6px;font-size:.7rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.def{border-left:6px solid var(--primary);background:color-mix(in srgb,var(--primary-soft) 55%,var(--surface))}
+.def>.lb{color:var(--primary)}
+.t5 .def{border-left-color:var(--t5);background:color-mix(in srgb,var(--t5-soft) 55%,var(--surface))}
+.t5 .def>.lb{color:var(--t5)}
+.def p{margin:.2em 0;font-size:1.02em}
+.mnemo{border:2px dashed var(--accent);background:color-mix(in srgb,var(--accent-soft) 60%,var(--surface))}
+.mnemo>.lb{color:var(--accent)}
+.mnemo .code{font-family:var(--display);font-size:1.25em;letter-spacing:.02em;margin:2px 0 6px}
+.mnemo .code u{text-decoration:none;color:var(--accent);font-size:1.15em}
+.trap{background:var(--bad-soft);border-color:transparent}
+.trap>.lb{color:var(--bad)}
+.tip{background:var(--info-soft);border-color:transparent}
+.tip>.lb{color:var(--info)}
+.note{background:var(--surface-2)}
+.note>.lb{color:var(--muted)}
+.blk p:last-child,.blk ul:last-child,.blk ol:last-child{margin-bottom:0}
+
+/* senarai isi */
+ol.pts{list-style:none;counter-reset:p;padding:0;margin:10px 0}
+ol.pts>li{counter-increment:p;position:relative;padding:8px 0 8px 44px;border-bottom:1px dashed var(--line)}
+ol.pts>li:last-child{border-bottom:0}
+ol.pts>li::before{content:counter(p);position:absolute;left:0;top:7px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:.85rem;background:var(--primary);color:var(--primary-ink)}
+.t5 ol.pts>li::before{background:var(--t5);color:#fff}
+ol.pts>li>b:first-child{color:var(--ink)}
+ul.dot{padding-left:1.2em;margin:.4em 0}
+ul.dot li{margin:.2em 0}
+ul.dot li::marker{color:var(--primary)}
+.t5 ul.dot li::marker{color:var(--t5)}
+.cols{columns:2 260px;column-gap:26px}
+.cols>*{break-inside:avoid}
+
+/* banding */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}
+.vs>div{border-radius:14px;padding:12px 14px;border:1px solid var(--line)}
+.vs .plus{background:var(--ok-soft);border-color:transparent}
+.vs .minus{background:var(--bad-soft);border-color:transparent}
+.vs h4{margin:0 0 6px;font-size:.92rem;letter-spacing:.02em}
+.vs .plus h4{color:var(--ok)} .vs .minus h4{color:var(--bad)}
+.vs ul{margin:0;padding-left:1.15em}
+.vs li{margin:.18em 0}
+
+/* jadual */
+.tw{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:14px;-webkit-overflow-scrolling:touch}
+table.t{border-collapse:collapse;width:100%;min-width:520px;font-size:.92em}
+table.t th,table.t td{padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+table.t th{background:var(--surface-2);font-size:.82em;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+table.t tr:last-child td{border-bottom:0}
+table.t td:first-child{font-weight:700}
+table.t.nofirst td:first-child{font-weight:400}
+
+/* aliran */
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:8px;margin:12px 0;counter-reset:f}
+.flow>div{counter-increment:f;flex:1 1 140px;position:relative;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:26px 10px 10px;font-size:.88rem;text-align:center;font-weight:600}
+.flow>div::before{content:counter(f);position:absolute;top:6px;left:50%;transform:translateX(-50%);font-size:.7rem;font-weight:900;color:var(--primary-ink);background:var(--primary);border-radius:99px;padding:0 8px}
+.t5 .flow>div::before{background:var(--t5);color:#fff}
+.flow>div small{display:block;font-weight:400;color:var(--muted);margin-top:3px}
+
+/* formula */
+.fx{border:1px solid var(--line);background:var(--surface-2);border-radius:14px;padding:12px 16px;margin:12px 0}
+.fx .fl{font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.eq{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:1.08em;font-weight:700;margin:6px 0}
+.frac{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;text-align:center;line-height:1.3}
+.frac>span:first-child{padding:0 6px 2px}
+.frac>span:last-child{border-top:2px solid currentColor;padding:2px 6px 0}
+.eq .x{font-weight:400;color:var(--muted)}
+.ex{font-family:var(--mono);font-size:.88em;background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:8px 12px;margin-top:8px;white-space:pre-wrap;overflow-x:auto}
+
+/* details */
+details.more{margin:12px 0;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+details.more>summary{cursor:pointer;list-style:none;padding:11px 14px;font-weight:700;display:flex;align-items:center;gap:8px}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::before{content:"▸";transition:transform .2s;color:var(--primary)}
+details.more[open]>summary::before{transform:rotate(90deg)}
+details.more>.in{padding:0 14px 12px}
+
+/* kad imbas */
+.flips{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin:12px 0}
+.flip{perspective:900px;cursor:pointer;border:0;background:none;padding:0;text-align:inherit;font:inherit;color:inherit;display:block;width:100%}
+.flips{align-items:stretch}
+.flip .fi{display:grid;width:100%;height:100%;min-height:132px;transition:transform .5s;transform-style:preserve-3d}
+.flip.on .fi{transform:rotateY(180deg)}
+.flip .fa,.flip .fb{grid-area:1/1;position:relative;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;justify-content:center;min-height:132px}
+.flip .fa{background:linear-gradient(135deg,var(--primary),var(--primary-2));color:var(--primary-ink);font-weight:800;font-size:1.05em}
+.t5 .flip .fa{background:linear-gradient(135deg,var(--t5),#c2410c);color:#fff}
+.flip .fa small{font-weight:600;opacity:.85;font-size:.72em;margin-top:6px}
+.flip .fb{transform:rotateY(180deg);background:var(--surface);border:1px solid var(--line);font-size:.9em}
+
+/* kuiz */
+.quiz{margin:22px 0 6px;border:2px solid var(--line);border-radius:18px;padding:16px;background:linear-gradient(180deg,var(--surface-2),var(--surface))}
+.quiz-h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.quiz-h h4{margin:0;font-size:1.05em}
+.qscore{font-weight:800;font-size:.86rem;color:var(--primary);background:var(--primary-soft);padding:4px 10px;border-radius:99px}
+.q{padding:12px 0;border-top:1px dashed var(--line)}
+.quiz-h + .q{border-top:0}
+.q .qt{font-weight:700;margin-bottom:8px}
+.q .qt .qn{color:var(--accent);margin-right:6px}
+.opts{display:grid;gap:7px}
+.opt{display:flex;gap:10px;align-items:flex-start;text-align:left;width:100%;padding:9px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-size:.95em;line-height:1.4}
+.opt:hover{border-color:var(--primary)}
+.opt .L{flex:none;width:24px;height:24px;border-radius:7px;display:grid;place-items:center;font-weight:800;font-size:.8rem;background:var(--surface-2);border:1px solid var(--line)}
+.opt.right{background:var(--ok-soft);border-color:var(--ok)}
+.opt.right .L{background:var(--ok);color:#fff;border-color:var(--ok)}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.opt.wrong .L{background:var(--bad);color:#fff;border-color:var(--bad)}
+.opt[disabled]{cursor:default}
+.qfb{display:none;margin-top:8px;padding:9px 12px;border-radius:12px;font-size:.92em}
+.qfb.show{display:block}
+.qfb.ok{background:var(--ok-soft)} .qfb.no{background:var(--bad-soft)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;border-radius:12px;padding:10px 16px;font-weight:700;background:var(--primary);color:var(--primary-ink);text-decoration:none;font-size:.95em}
+.btn:hover{filter:brightness(1.06)}
+.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.btn.acc{background:var(--accent);color:var(--accent-ink)}
+.btn.done-on{background:var(--ok);color:#fff}
+.chap-foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-radius:26px;padding:clamp(22px,4vw,40px);margin-bottom:28px;color:#fff;background:
+  radial-gradient(90% 120% at 100% 0%,rgba(251,191,36,.35),transparent 55%),
+  radial-gradient(70% 90% at 0% 100%,rgba(45,212,191,.35),transparent 60%),
+  linear-gradient(135deg,#0b4f49,#0f766e 45%,#134e4a);box-shadow:var(--shadow)}
+.hero::after{content:"";position:absolute;right:-40px;bottom:-60px;width:300px;height:300px;background:
+  repeating-linear-gradient(0deg,rgba(255,255,255,.07) 0 2px,transparent 2px 26px),
+  repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 2px,transparent 2px 26px);transform:rotate(-12deg);border-radius:30px;pointer-events:none}
+.hero .kick{display:inline-block;font-size:.75rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.14);padding:5px 12px;border-radius:99px}
+.hero h1{font-family:var(--display);font-size:clamp(1.9rem,5.4vw,3.2rem);letter-spacing:-.03em;margin:.35em 0 .2em;line-height:1.05}
+.hero h1 em{font-style:normal;color:#fcd34d}
+.hero p.lead{font-size:1.05em;max-width:58ch;opacity:.95}
+.hero .by{margin-top:14px;font-size:.86rem;opacity:.9}
+.hero .by b{color:#fde68a}
+.hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:20px;align-items:center;position:relative;z-index:1}
+.hero .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.hero .btn{background:#fcd34d;color:#3b2a00}
+.hero .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.3)}
+.ring{width:170px;height:170px;margin:auto;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:14}
+.ring .bgc{stroke:rgba(255,255,255,.18)}
+.ring .fgc{stroke:#fcd34d;stroke-linecap:round;transition:stroke-dashoffset .6s}
+.ring .lbl{position:absolute;inset:0;display:grid;place-items:center;text-align:center;line-height:1.1}
+.ring .lbl b{font-family:var(--display);font-size:2.2rem;display:block}
+.ring .lbl small{font-size:.78rem;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px;position:relative;z-index:1}
+.stats div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:10px 12px}
+.stats b{display:block;font-family:var(--display);font-size:1.45rem}
+.stats small{opacity:.88;font-size:.78rem}
+
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0}
+.mini{border:1px solid var(--line);border-radius:16px;padding:14px;background:var(--surface)}
+.mini h4{margin:0 0 4px;display:flex;gap:8px;align-items:center}
+.mini .em{font-size:1.4em}
+.mini p{margin:0;color:var(--muted);font-size:.92em}
+.chlist{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin:10px 0 0}
+.chlist a{display:flex;gap:12px;align-items:center;padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--surface);text-decoration:none;color:var(--ink);transition:transform .15s,border-color .15s}
+.chlist a:hover{transform:translateY(-2px);border-color:var(--primary)}
+.chlist a .no{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-weight:900;background:var(--primary-soft);color:var(--primary)}
+.chlist a.t5l .no{background:var(--t5-soft);color:var(--t5)}
+.chlist a small{display:block;color:var(--muted);font-size:.8rem}
+.chlist a.done{border-color:var(--ok)}
+.chlist a.done .no{background:var(--ok);color:#fff}
+
+/* kalkulator */
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:10px 0}
+.calc label{display:flex;flex-direction:column;gap:4px;font-size:.84rem;font-weight:700;color:var(--muted)}
+.calc input{height:42px;border-radius:11px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0 12px;font:inherit;font-weight:700;font-variant-numeric:tabular-nums}
+.out{border-radius:14px;background:var(--primary-soft);padding:12px 14px;margin-top:8px;font-variant-numeric:tabular-nums}
+.out .row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dashed color-mix(in srgb,var(--primary) 30%,transparent)}
+.out .row:last-child{border-bottom:0}
+.out .row b{color:var(--primary);white-space:nowrap}
+.out .row span small{display:block;color:var(--muted);font-size:.8em}
+
+.totop{position:fixed;right:18px;bottom:18px;z-index:45;opacity:0;pointer-events:none;transition:opacity .2s}
+.totop.show{opacity:1;pointer-events:auto}
+.totop .ibtn{width:48px;height:48px;border-radius:16px;background:var(--primary);color:var(--primary-ink);border:0;box-shadow:var(--shadow)}
+
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(30px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:.9rem;opacity:0;transition:.25s;z-index:80;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+footer.ft{margin-top:30px;text-align:center;color:var(--muted);font-size:.86rem;padding:24px 10px;border-top:1px solid var(--line)}
+footer.ft b{color:var(--ink)}
+.flash{animation:flash 2.2s ease}
+@keyframes flash{0%,40%{background:var(--accent-soft);box-shadow:0 0 0 6px var(--accent-soft)}100%{background:transparent;box-shadow:0 0 0 0 transparent}}
+.print-only{display:none}
+
+/* ============ RESPONSIF ============ */
+@media (max-width:1100px) and (min-width:641px){.clock .dt{display:none}}
+.clock .dt .short{display:none}
+@media (max-width:640px){.clock .dt .short{display:inline}}
+@media (max-width:980px){
+  .menu-btn{display:inline-grid}
+  .sidebar{transform:translateX(-102%);transition:transform .25s ease;box-shadow:var(--shadow);width:min(86vw,320px)}
+  body.nav-open .sidebar{transform:none}
+  .scrim{display:block;position:fixed;inset:var(--topbar) 0 0 0;background:rgba(0,0,0,.35);z-index:39;opacity:0;pointer-events:none;transition:opacity .2s}
+  body.nav-open .scrim{opacity:1;pointer-events:auto}
+  main{margin-left:0}
+  .search{width:auto;flex:1;max-width:340px}
+  .hero-grid{grid-template-columns:1fr}
+  .ring{width:140px;height:140px}
+}
+@media (max-width:640px){
+  :root{--topbar:58px}
+  .topbar{gap:7px;padding-left:max(10px,env(safe-area-inset-left));padding-right:max(10px,env(safe-area-inset-right))}
+  .brand{display:none}
+  .clock{padding:3px 8px;border-radius:10px}
+  .clock .tm{font-size:.8rem}
+  .clock .dt{display:block !important;font-size:.66rem}
+  .clock .dt .long{display:none}
+  .search .kbd{display:none}
+  .search input{padding-right:10px;font-size:.88rem}
+  .ring{width:118px;height:118px}
+  .ring .lbl b{font-size:1.7rem}
+  table.t.stack{min-width:0}
+  table.t.stack,table.t.stack tbody,table.t.stack tr,table.t.stack td{display:block;width:100%}
+  table.t.stack tr.hd{display:none}
+  table.t.stack tr{padding:8px 4px;border-bottom:1px solid var(--line)}
+  table.t.stack tr:last-child{border-bottom:0}
+  table.t.stack td{border:0;padding:3px 10px}
+  table.t.stack td[data-label]::before{content:attr(data-label);display:block;font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+  table.t.stack td.c0{font-size:1.02em;color:var(--primary)}
+  .t5 table.t.stack td.c0{color:var(--t5)}
+  table.t.stack td.c0::before{display:none !important}
+  .results{left:10px;right:10px;width:auto;top:calc(var(--topbar) + 4px);position:fixed}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .vs{grid-template-columns:1fr}
+  .chap-actions{position:static;margin-top:12px}
+  .chap-head h2 .big{width:48px;height:48px;font-size:1.25rem}
+  .hide-sm{display:none !important}
+  .brand .tt{display:none}
+}
+@media (max-width:350px){ .clock .dt{display:none !important} }
+
+/* ============ CETAK ============ */
+@media print{
+  :root,:root[data-theme],:root:not([data-theme="light"]){--bg:#fff;--surface:#fff;--surface-2:#f4f4f4;--surface-3:#eee;--ink:#000;--muted:#333;--line:#bbb;--primary:#0f5f58;--primary-soft:#e3f2ef;--t5:#8a2f0e;--t5-soft:#fbe9df;--accent:#8a4206;--accent-soft:#fdf0d6;--ok-soft:#e6f5ea;--bad-soft:#fbe7e5;--info-soft:#e8eefc;color-scheme:light}
+  @page{size:A4;margin:14mm 12mm}
+  html,body{background:#fff !important;font-size:11pt}
+  .topbar,.sidebar,.scrim,.totop,.toast,.progress-top,.chap-actions,.quiz,.chap-foot,.no-print,.hero .cta,.ring,.flips{display:none !important}
+  .print-only{display:block}
+  main{margin:0;padding:0;max-width:none}
+  .wrap{max-width:none}
+  section.chap{box-shadow:none;border:0;border-radius:0;break-before:page;margin:0}
+  section.chap:first-of-type{break-before:auto}
+  .chap-head{background:none !important;border-bottom:3px solid #000;padding:0 0 8px}
+  .chap-head h2 .big{border:2px solid #000;background:#fff !important;color:#000 !important}
+  .chap-body{padding:0}
+  .hero{background:#fff !important;color:#000;box-shadow:none;border:2px solid #000;padding:16px}
+  .hero::after{display:none}
+  .hero h1 em{color:#000}
+  .stats div{border-color:#999;background:#fff}
+  .blk,.vs>div,.fx,details.more,.tw,.mini{break-inside:avoid}
+  h2,h3,h4{break-after:avoid;page-break-after:avoid}
+  table.t tr{break-inside:avoid}
+  details.more>summary::before{content:""}
+  a{color:#000;text-decoration:none}
+  .print-flips{display:block !important}
+  body.print-one section.chap:not(.print-target),body.print-one .hero,body.print-one #mula,body.print-one #teknik,body.print-one #formula,body.print-one #rawak,body.print-one footer{display:none !important}
+  body.print-one section.chap.print-target{break-before:auto}
+}
+</style>
+</head>
+<body>
+<a class="sr" href="#kandungan">Langkau ke kandungan</a>
+<div class="progress-top" id="readbar"></div>
+
+<header class="topbar">
+  <button class="ibtn menu-btn" id="menuBtn" aria-label="Buka menu bab"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  <a class="brand" href="#utama" aria-label="Ke halaman utama">
+    <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#064e3b"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#lg)"/><rect x="13" y="24" width="38" height="25" rx="5" fill="#fff"/><path d="M25 24v-4a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v4" fill="none" stroke="#fff" stroke-width="4"/><path d="M19 43l8-7 6 4 10-10" fill="none" stroke="#f59e0b" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 30h5v5" fill="none" stroke="#f59e0b" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="tt"><b>Nota Kilat Perniagaan</b><small>SPM · Tingkatan 4 &amp; 5</small></span>
+  </a>
+  <div class="spacer hide-sm"></div>
+  <div class="search" role="search">
+    <svg class="si" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Cari: koperasi, TPM, overdraf…" autocomplete="off" aria-label="Cari dalam nota">
+    <span class="kbd">/</span>
+    <div class="results" id="results" role="listbox"></div>
+  </div>
+  <div class="clock" aria-live="off" title="Masa &amp; tarikh semasa"><span class="tm" id="clkT">--:--:--</span><span class="dt" id="clkD">—</span></div>
+  <button class="ibtn" id="themeBtn" aria-label="Tukar mod siang / malam" title="Mod siang / malam"><svg viewBox="0 0 24 24" id="themeIco"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  <button class="ibtn hide-sm" id="printBtn" aria-label="Cetak semua nota" title="Cetak semua nota"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="sidebar" id="sidebar" aria-label="Senarai bab">
+  <div class="sb-prog">
+    <div class="row"><span>Kemajuan ulang kaji</span><b id="sbPct">0%</b></div>
+    <div class="bar"><i id="sbBar"></i></div>
+    <div class="row" style="margin:6px 0 0"><span id="sbCount">0 / 11 bab selesai</span><span id="sbQuiz">Kuiz: 0</span></div>
+  </div>
+  <div class="nav" id="nav">
+    <div class="nav-g">Mula di sini</div>
+    <a href="#utama"><span class="no">🏠</span>Halaman utama</a>
+    <a href="#teknik"><span class="no">✍️</span>Teknik jawab SPM</a>
+    <a href="#formula"><span class="no">🧮</span>Formula &amp; kalkulator</a>
+    <a href="#rawak"><span class="no">🎯</span>Kuiz rawak 10 soalan</a>
+    <div class="nav-g">Tingkatan 4</div>
+    <a href="#t4b1" class="t4l" data-ch="t4b1"><span class="no">1</span>Tujuan &amp; Pemilikan Perniagaan<span class="ck"></span></a>
+    <a href="#t4b2" class="t4l" data-ch="t4b2"><span class="no">2</span>Trend Semasa dalam Perniagaan<span class="ck"></span></a>
+    <a href="#t4b3" class="t4l" data-ch="t4b3"><span class="no">3</span>Visi, Misi &amp; Objektif<span class="ck"></span></a>
+    <a href="#t4b4" class="t4l" data-ch="t4b4"><span class="no">4</span>Bahagian Fungsian Utama<span class="ck"></span></a>
+    <div class="nav-g">Tingkatan 5</div>
+    <a href="#t5b1" class="t5l" data-ch="t5b1"><span class="no">1</span>Pengurusan Sumber Manusia<span class="ck"></span></a>
+    <a href="#t5b2" class="t5l" data-ch="t5b2"><span class="no">2</span>Sumber Fizikal &amp; Teknologi<span class="ck"></span></a>
+    <a href="#t5b3" class="t5l" data-ch="t5b3"><span class="no">3</span>Sumber Pembiayaan<span class="ck"></span></a>
+    <a href="#t5b4" class="t5l" data-ch="t5b4"><span class="no">4</span>Penyata Kewangan<span class="ck"></span></a>
+    <a href="#t5b5" class="t5l" data-ch="t5b5"><span class="no">5</span>Persediaan Menjadi Usahawan<span class="ck"></span></a>
+    <a href="#t5b6" class="t5l" data-ch="t5b6"><span class="no">6</span>Persediaan Memulakan Perniagaan<span class="ck"></span></a>
+    <a href="#t5b7" class="t5l" data-ch="t5b7"><span class="no">7</span>Rancangan Perniagaan<span class="ck"></span></a>
+  </div>
+  <div class="sb-tools">
+    <button id="fsDown" aria-label="Kecilkan tulisan">A− Kecil</button>
+    <button id="fsUp" aria-label="Besarkan tulisan">A+ Besar</button>
+    <button id="openAll">📖 Buka semua</button>
+    <button id="printBtn2">🖨️ Cetak</button>
+  </div>
+  <div class="sb-credit">Disediakan oleh<br><b>Cikgu Rabbani</b><br>SMK Dato' Undang Musa Al-Haj, Jelebu</div>
+</nav>
+
+<main id="kandungan">
+<div class="wrap">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="utama">
+  <div class="hero-grid">
+    <div>
+      <span class="kick">Nota Last Minit · SPM</span>
+      <h1>Perniagaan <em>Kilat</em><br>Faham. Hafal. Skor.</h1>
+      <p class="lead">Semua 11 bab Tingkatan 4 &amp; 5 diringkaskan jadi isi penting, jadual banding, jambatan hafalan dan kuiz pantas. Baca satu bab dalam 10–15 minit.</p>
+      <div class="cta">
+        <a class="btn" href="#t4b1">▶ Mula baca Bab 1</a>
+        <a class="btn ghost" href="#rawak">🎯 Uji diri</a>
+        <a class="btn ghost" href="#formula">🧮 Formula</a>
+      </div>
+      <div class="by">Disediakan oleh <b>Cikgu Rabbani</b> · SMK Dato' Undang Musa Al-Haj, Jelebu</div>
+    </div>
+    <div class="ring" aria-label="Kemajuan ulang kaji">
+      <svg viewBox="0 0 120 120"><circle class="bgc" cx="60" cy="60" r="50"/><circle class="fgc" id="ringFg" cx="60" cy="60" r="50" stroke-dasharray="314.16" stroke-dashoffset="314.16"/></svg>
+      <div class="lbl"><div><b id="ringPct">0%</b><small>bab selesai</small></div></div>
+    </div>
+  </div>
+  <div class="stats">
+    <div><b>11</b><small>bab (T4 + T5)</small></div>
+    <div><b id="statQ">0</b><small>soalan kuiz</small></div>
+    <div><b>22</b><small>formula wajib</small></div>
+    <div><b id="statM">0</b><small>jambatan hafalan</small></div>
+  </div>
+</section>
+
+<!-- ================= MULA ================= -->
+<section class="chap" id="mula">
+  <div class="chap-body" style="padding-top:22px">
+    <h2 style="font-family:var(--display);letter-spacing:-.02em">Cara guna modul ini</h2>
+    <div class="card-grid">
+      <div class="mini"><h4><span class="em">📖</span>1. Baca</h4><p>Baca kotak <b>Definisi</b> dan <b>isi bernombor</b>. Perkataan berwarna = kata kunci yang pemeriksa cari.</p></div>
+      <div class="mini"><h4><span class="em">🧠</span>2. Hafal</h4><p>Guna kotak <b>Jambatan Hafalan</b> — ayat lucu untuk ingat senarai panjang.</p></div>
+      <div class="mini"><h4><span class="em">⚠️</span>3. Elak silap</h4><p>Kotak <b>Perangkap SPM</b> tunjuk kesilapan biasa calon. Jangan ulang!</p></div>
+      <div class="mini"><h4><span class="em">✅</span>4. Uji</h4><p>Jawab <b>kuiz</b> hujung bab, kemudian tekan <b>"Saya dah faham"</b>. Kemajuan disimpan dalam peranti anda.</p></div>
+    </div>
+    <h3>Pilih bab</h3>
+    <div class="chlist" id="chlist">
+      <a href="#t4b1" class="t4l" data-ch="t4b1"><span class="no">T4·1</span><span>Tujuan &amp; Pemilikan Perniagaan<small>Milikan tunggal, perkongsian, syarikat, koperasi, francais</small></span></a>
+      <a href="#t4b2" class="t4l" data-ch="t4b2"><span class="no">T4·2</span><span>Trend Semasa dalam Perniagaan<small>Peranan kerajaan, inflasi, deflasi, SWOT</small></span></a>
+      <a href="#t4b3" class="t4l" data-ch="t4b3"><span class="no">T4·3</span><span>Visi, Misi &amp; Objektif<small>SMART, TPM, kesan gagal capai objektif</small></span></a>
+      <a href="#t4b4" class="t4l" data-ch="t4b4"><span class="no">T4·4</span><span>Bahagian Fungsian Utama<small>11 bahagian, saluran agihan, komunikasi</small></span></a>
+      <a href="#t5b1" class="t5l" data-ch="t5b1"><span class="no">T5·1</span><span>Pengurusan Sumber Manusia<small>Peranan PSM, struktur organisasi, gaji</small></span></a>
+      <a href="#t5b2" class="t5l" data-ch="t5b2"><span class="no">T5·2</span><span>Sumber Fizikal &amp; Teknologi<small>Insurans, paten, hak cipta</small></span></a>
+      <a href="#t5b3" class="t5l" data-ch="t5b3"><span class="no">T5·3</span><span>Sumber Pembiayaan<small>Dalaman, luaran, MARA, TEKUN, CGC</small></span></a>
+      <a href="#t5b4" class="t5l" data-ch="t5b4"><span class="no">T5·4</span><span>Penyata Kewangan<small>Penyata pendapatan, kunci kira-kira, nisbah</small></span></a>
+      <a href="#t5b5" class="t5l" data-ch="t5b5"><span class="no">T5·5</span><span>Persediaan Menjadi Usahawan<small>13 ciri usahawan, 7 faktor penyumbang</small></span></a>
+      <a href="#t5b6" class="t5l" data-ch="t5b6"><span class="no">T5·6</span><span>Persediaan Memulakan Perniagaan<small>Akta, pendaftaran SSM, dokumen, 4P</small></span></a>
+      <a href="#t5b7" class="t5l" data-ch="t5b7"><span class="no">T5·7</span><span>Rancangan Perniagaan<small>12 bahagian format rancangan perniagaan</small></span></a>
+    </div>
+    <div class="blk tip"><span class="lb">💡 Pelan 7 hari saat akhir</span>
+      <ul class="dot">
+        <li><b>Hari 1–2:</b> Tingkatan 4 (Bab 1–4) — fokus jadual banding bentuk pemilikan &amp; bahagian fungsian.</li>
+        <li><b>Hari 3–5:</b> Tingkatan 5 (Bab 1–7) — fokus PSM, pembiayaan, penyata kewangan.</li>
+        <li><b>Hari 6:</b> Latih semua <a href="#formula">formula</a> guna kalkulator — kira dulu di kertas, kemudian semak.</li>
+        <li><b>Hari 7:</b> Buat <a href="#rawak">kuiz rawak</a> berulang kali sampai dapat 8/10 ke atas.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEKNIK JAWAB ================= -->
+<section class="chap" id="teknik">
+  <div class="chap-head">
+    <span class="pill">✍️ Wajib baca</span>
+    <h2><span class="big">✍️</span>Teknik Jawab SPM</h2>
+    <p style="margin:0;color:var(--muted)">Tahu isi sahaja tidak cukup — kena tahu <b>cara tulis</b> supaya markah tidak tercicir.</p>
+  </div>
+  <div class="chap-body">
+    <h3><span class="sn">01</span>Faham kata tugas soalan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Kata tugas</th><th>Apa perlu tulis</th><th>Contoh ringkas</th></tr>
+      <tr><td>Nyatakan / Senaraikan</td><td>Isi sahaja (ringkas, tepat)</td><td>"Liabiliti terhad."</td></tr>
+      <tr><td>Terangkan / Jelaskan</td><td>Isi + huraian (kenapa / bagaimana)</td><td>"Liabiliti terhad — pemegang syer hanya rugi setakat modal dilaburkan."</td></tr>
+      <tr><td>Huraikan</td><td>Isi + huraian + <b>contoh</b></td><td>Tambah contoh situasi / syarikat.</td></tr>
+      <tr><td>Bezakan / Bandingkan</td><td>Aspek yang <b>sama</b> untuk kedua-dua pihak</td><td>"Dari aspek liabiliti, milikan tunggal… <b>manakala</b> Sdn. Bhd. …"</td></tr>
+      <tr><td>Bincangkan</td><td>Huraikan beberapa sudut (kebaikan &amp; keburukan) + kesimpulan</td><td>—</td></tr>
+      <tr><td>Cadangkan</td><td>Cadangan + sebab ia sesuai (justifikasi)</td><td>"Saya cadangkan pinjaman TEKUN kerana…"</td></tr>
+      <tr><td>Wajarkan / Pada pendapat anda</td><td>Pendirian (setuju/tidak) + alasan yang dikaitkan dengan situasi</td><td>—</td></tr>
+      <tr><td>Hitung / Kira</td><td>Formula → masukkan nilai → jawapan + unit</td><td>"= 20,000 unit"</td></tr>
+    </table></div>
+
+    <h3><span class="sn">02</span>Formula jawapan I-H-C</h3>
+    <div class="flow"><div>Isi<small>tulis kata kunci</small></div><div>Huraian<small>terangkan 1–2 ayat</small></div><div>Contoh<small>situasi / nama syarikat</small></div></div>
+    <div class="blk note"><span class="lb">Contoh jawapan</span>
+      <p><b>Soalan:</b> Huraikan satu kelebihan perniagaan milikan tunggal.</p>
+      <p><b>I:</b> Mudah ditubuhkan. <b>H:</b> Pemilik hanya perlu mendaftar dengan SSM dan mendapatkan lesen PBT; tidak banyak syarat dan modal yang diperlukan kecil. <b>C:</b> Contohnya, Puan Aminah boleh terus membuka gerai nasi lemak selepas mendaftar perniagaannya.</p>
+    </div>
+
+    <h3><span class="sn">03</span>Soalan kajian kes / situasi</h3>
+    <ol class="pts">
+      <li><b>Garis</b> fakta penting dalam petikan (nama, jumlah RM, masalah).</li>
+      <li>Kenal pasti <b>bab &amp; topik</b> yang diuji (contoh: "pusing ganti pekerja" = PSM).</li>
+      <li>Setiap isi mesti <b>dikaitkan</b> dengan situasi — guna nama watak/syarikat dalam petikan.</li>
+      <li>Untuk soalan cadangan, beri cadangan yang <b>realistik</b> dengan sebab.</li>
+    </ol>
+
+    <h3><span class="sn">04</span>Soalan pengiraan</h3>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span>
+      <ul class="dot">
+        <li>Tidak tulis formula — markah kaedah hilang. <b>Tulis formula dahulu.</b></li>
+        <li>Lupa unit: <b>RM</b>, <b>%</b>, <b>kali</b>, <b>: 1</b>, <b>unit</b>.</li>
+        <li>Guna <b>jualan</b> dan bukannya <b>jualan bersih</b> dalam nisbah margin.</li>
+        <li>Lupa <b>tafsir</b> jawapan, contoh: "Setiap RM1 jualan bersih menghasilkan 43 sen untung kasar."</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FORMULA ================= -->
+<section class="chap" id="formula">
+  <div class="chap-head">
+    <span class="pill">🧮 Wajib hafal</span>
+    <h2><span class="big">∑</span>Formula &amp; Kalkulator</h2>
+    <p style="margin:0;color:var(--muted)">Semua formula dari T4 Bab 3 dan T5 Bab 1, 4 &amp; 6. Kira sendiri dulu di kertas, kemudian semak dengan kalkulator.</p>
+  </div>
+  <div class="chap-body">
+    <h3><span class="sn">A</span>Untung, kos &amp; titik pulang modal (T4 Bab 3)</h3>
+    <div class="fx"><div class="fl">F1 · Keuntungan</div><div class="eq">Untung = Jumlah hasil (jualan) − Jumlah kos</div></div>
+    <div class="fx"><div class="fl">F2 · Jumlah hasil</div><div class="eq">Jumlah hasil = Harga × Kuantiti</div></div>
+    <div class="fx"><div class="fl">F3 · Jumlah kos</div><div class="eq">Jumlah kos = Kos tetap + Kos berubah</div><div class="eq" style="font-weight:600">Kos berubah = Kos berubah seunit × Kuantiti</div></div>
+    <div class="fx"><div class="fl">F4 · Titik Pulang Modal (TPM)</div>
+      <div class="eq">TPM (unit) = <span class="frac"><span>Kos tetap</span> <span>Harga − Kos berubah seunit</span></span></div>
+      <div class="eq" style="font-weight:600">TPM (RM) = TPM (unit) × Harga</div>
+      <div class="ex">Contoh buku teks: Kos tetap RM500,000, harga RM100, kos berubah seunit RM75
+TPM = 500,000 ÷ (100 − 75) = 500,000 ÷ 25 = 20,000 biji bola</div>
+    </div>
+    <div class="fx"><div class="fl">F5 · Syer pasaran</div><div class="eq">Syer pasaran (%) = <span class="frac"><span>Jualan / pelanggan firma</span> <span>Jumlah jualan / pelanggan pasaran</span></span> × 100</div></div>
+
+    <div class="blk note no-print"><span class="lb">🧮 Kalkulator TPM</span>
+      <div class="calc">
+        <label>Kos tetap (RM)<input type="number" inputmode="decimal" id="c_kt" value="500000"></label>
+        <label>Harga seunit (RM)<input type="number" inputmode="decimal" id="c_h" value="100"></label>
+        <label>Kos berubah seunit (RM)<input type="number" inputmode="decimal" id="c_kb" value="75"></label>
+        <label>Kuantiti dijual (unit)<input type="number" inputmode="decimal" id="c_q" value="25000"></label>
+      </div>
+      <div class="out" id="tpmOut"></div>
+    </div>
+
+    <h3><span class="sn">B</span>Gaji (T5 Bab 1)</h3>
+    <div class="fx"><div class="fl">F6 · Caruman KWSP &amp; PERKESO (kadar ikut buku teks)</div>
+      <div class="eq">KWSP pekerja = 11% × gaji · KWSP majikan = 12% × gaji</div>
+      <div class="eq" style="font-weight:600">PERKESO: majikan 1.25% · pekerja 0.5% gaji bulanan</div>
+      <div class="ex">Gaji RM3,000 → pekerja RM330 + majikan RM360 = jumlah KWSP RM690 sebulan</div>
+    </div>
+
+    <h3><span class="sn">C</span>Penyata kewangan (T5 Bab 4 &amp; 6)</h3>
+    <div class="card-grid">
+      <div class="fx" style="margin:0"><div class="fl">F7</div><div class="eq">Jualan bersih = Jualan − Pulangan jualan</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F8</div><div class="eq">Belian bersih = Belian − Pulangan belian</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F9</div><div class="eq">Kos belian = Belian bersih + Belanja atas belian</div><small style="color:var(--muted)">(angkutan masuk, upah atas belian, insurans atas belian, duti import)</small></div>
+      <div class="fx" style="margin:0"><div class="fl">F10</div><div class="eq">Kos jualan = Inventori awal + Kos belian − Inventori akhir</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F11</div><div class="eq">Untung kasar = Jualan bersih − Kos jualan</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F12</div><div class="eq">Untung bersih = Untung kasar + Hasil − Belanja</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F13</div><div class="eq">Aset = Ekuiti pemilik + Liabiliti</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F14</div><div class="eq">Modal akhir = Modal awal + Untung bersih − Ambilan</div></div>
+      <div class="fx" style="margin:0"><div class="fl">F15 · Aliran tunai</div><div class="eq">Baki h/b = Baki b/b + Jumlah penerimaan − Jumlah pembayaran</div><small style="color:var(--muted)">Baki h/b bulan ini = baki b/b bulan depan</small></div>
+    </div>
+
+    <div class="blk note no-print"><span class="lb">🧮 Kalkulator penyata pendapatan</span>
+      <div class="calc">
+        <label>Jualan<input type="number" inputmode="decimal" id="p_j" value="210000"></label>
+        <label>Pulangan jualan<input type="number" inputmode="decimal" id="p_pj" value="8000"></label>
+        <label>Inventori awal<input type="number" inputmode="decimal" id="p_ia" value="50000"></label>
+        <label>Belian<input type="number" inputmode="decimal" id="p_b" value="110000"></label>
+        <label>Pulangan belian<input type="number" inputmode="decimal" id="p_pb" value="3000"></label>
+        <label>Belanja atas belian<input type="number" inputmode="decimal" id="p_bab" value="17000"></label>
+        <label>Inventori akhir<input type="number" inputmode="decimal" id="p_ik" value="59000"></label>
+        <label>Hasil lain (komisen, faedah)<input type="number" inputmode="decimal" id="p_h" value="8550"></label>
+        <label>Jumlah belanja (sewa, gaji…)<input type="number" inputmode="decimal" id="p_bl" value="21600"></label>
+      </div>
+      <div class="out" id="ppOut"></div>
+      <p style="font-size:.85em;color:var(--muted);margin:.6em 0 0">Nilai asal = contoh XYZ Enterprise dalam buku teks (untung bersih RM73,950).</p>
+    </div>
+
+    <h3><span class="sn">D</span>Nisbah asas (T5 Bab 4)</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis</th><th>Nisbah</th><th>Formula</th><th>Unit / tafsiran</th></tr>
+      <tr><td rowspan="4">Nisbah untung</td><td>F16 · Margin untung kasar</td><td>Untung kasar ÷ Jualan bersih × 100</td><td>% · makin tinggi makin baik</td></tr>
+      <tr><td>F17 · Margin untung bersih</td><td>Untung bersih ÷ Jualan bersih × 100</td><td>% · tunjuk kecekapan urus operasi</td></tr>
+      <tr><td>F18 · Untung tokokan</td><td>Untung kasar ÷ <b>Kos jualan</b> × 100</td><td>% · kawalan harga jual &amp; kos</td></tr>
+      <tr><td>F19 · Pulangan atas modal</td><td>Untung bersih ÷ Modal awal × 100</td><td>% · tinggi = pelaburan baik</td></tr>
+      <tr><td>Nisbah kecairan</td><td>F20 · Nisbah semasa</td><td>Aset semasa ÷ Liabiliti semasa</td><td>___ : 1 · mampu bayar hutang jangka pendek</td></tr>
+      <tr><td rowspan="2">Nisbah kecekapan</td><td>F21 · Pusing ganti stok</td><td>Kos jualan ÷ Stok purata<br><small>Stok purata = (Stok awal + Stok akhir) ÷ 2</small></td><td>kali · berapa kali stok dijual &amp; diganti</td></tr>
+      <tr><td>F22 · Pusing ganti aset</td><td>Jualan bersih ÷ Jumlah aset</td><td>kali · kecekapan guna aset jana jualan</td></tr>
+    </table></div>
+
+    <div class="blk note no-print"><span class="lb">🧮 Kalkulator nisbah kewangan</span>
+      <div class="calc">
+        <label>Jualan bersih<input type="number" inputmode="decimal" id="n_jb" value="202000"></label>
+        <label>Kos jualan<input type="number" inputmode="decimal" id="n_kj" value="115000"></label>
+        <label>Untung kasar<input type="number" inputmode="decimal" id="n_uk" value="87000"></label>
+        <label>Untung bersih<input type="number" inputmode="decimal" id="n_ub" value="73950"></label>
+        <label>Modal awal<input type="number" inputmode="decimal" id="n_ma" value="50000"></label>
+        <label>Aset semasa<input type="number" inputmode="decimal" id="n_as" value="122900"></label>
+        <label>Liabiliti semasa<input type="number" inputmode="decimal" id="n_ls" value="11950"></label>
+        <label>Stok awal<input type="number" inputmode="decimal" id="n_sa" value="50000"></label>
+        <label>Stok akhir<input type="number" inputmode="decimal" id="n_sk" value="59000"></label>
+        <label>Jumlah aset<input type="number" inputmode="decimal" id="n_ja" value="224900"></label>
+      </div>
+      <div class="out" id="nOut"></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 4 · BAB 1
+========================================================= -->
+<section class="chap t4" id="t4b1" data-title="T4 Bab 1 · Tujuan & Pemilikan Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 4 · Tajuk 1: Tujuan Perniagaan</span>
+    <h2><span class="big">1</span>Tujuan Perniagaan &amp; Pemilikan Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±15 min</span><span class="chip hot">🔥 Fokus: banding bentuk pemilikan</span><span class="chip">Francais · Usaha sama · Saiz · Sektor</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t4b1" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Perniagaan</b> ialah aktiviti <span class="k">urus niaga jual beli barang atau perkhidmatan</span> antara penjual dengan pembeli bagi memenuhi <b>keperluan dan kehendak</b> pengguna, yang melibatkan <b>pertukaran nilai</b> supaya penjual memperoleh <b>keuntungan</b>.</p>
+    </div>
+
+    <h3><span class="sn">1.0</span>Enam konsep asas perniagaan</h3>
+    <ol class="pts">
+      <li><b>Barang &amp; perkhidmatan</b> (= produk). Barang ada bentuk fizikal (perabot, makanan); perkhidmatan tiada bentuk fizikal (insurans, pengangkutan).</li>
+      <li><b>Memuaskan keperluan &amp; kehendak.</b> <i>Keperluan</i>: untuk terus hidup, terhad, mudah dipuaskan, sama bagi semua. <i>Kehendak</i>: untuk hidup selesa, tidak terhad, sukar dipuaskan, berbeza antara individu.</li>
+      <li><b>Pertukaran nilai</b> — pembeli beri wang sebagai balasan produk; berlaku apabila setuju harga.</li>
+      <li><b>Keuntungan</b> — lebihan hasil jualan selepas tolak semua kos. <span class="k">Untung = Jumlah jualan − Jumlah kos</span>.</li>
+      <li><b>Penjual &amp; pembeli</b> — urus niaga berlaku apabila setuju masa, harga, kuantiti dan tempat.</li>
+      <li><b>Kontrak perniagaan</b> — perjanjian sah antara dua pihak atau lebih; dikuatkuasakan oleh <b>Akta Kontrak 1950</b> (cth. kontrak jual beli, sewa beli).</li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span>
+      <div class="code"><u>B</u>adan <u>K</u>uat <u>P</u>erlu <u>U</u>sahakan <u>P</u>enjual <u>K</u>ontrak</div>
+      <p>Barang/perkhidmatan · Keperluan &amp; kehendak · Pertukaran nilai · Untung · Penjual &amp; pembeli · Kontrak</p>
+    </div>
+
+    <h3><span class="sn">1.1</span>Tujuan perniagaan</h3>
+    <p>Tujuan utama perniagaan ialah <b>menawarkan barang atau perkhidmatan</b>, sama ada oleh organisasi <b>bermotifkan untung</b> atau <b>bukan bermotifkan untung</b>.</p>
+    <div class="vs">
+      <div class="plus" style="background:var(--primary-soft)"><h4 style="color:var(--primary)">Organisasi Bermotifkan Untung (OBU)</h4>
+        <ul><li>Objektif utama: <b>keuntungan</b>.</li><li>Contoh: Jakel Trading Sdn. Bhd.</li><li>Kepentingan untung: ukur prestasi &amp; hala tuju, kembang &amp; kelangsungan perniagaan, lambang imej (tarik pelabur), laksana <b>CSR</b> kepada masyarakat.</li></ul></div>
+      <div class="plus" style="background:var(--accent-soft)"><h4 style="color:var(--accent)">Organisasi Bukan Bermotifkan Untung (OBBU)</h4>
+        <ul><li>Penuhi keperluan awam: pendidikan, keagamaan, sosial, budaya.</li><li>Bantu golongan miskin, OKU, warga emas, haiwan terbiar.</li><li>Contoh: Persatuan Pengguna, Rumah Anak Yatim, FOMCA, MAKNA.</li></ul></div>
+    </div>
+    <h4>3 kaedah perniagaan OBBU</h4>
+    <div class="tw"><table class="t">
+      <tr><th>Kaedah</th><th>Maksud</th><th>Contoh</th></tr>
+      <tr><td>Percuma</td><td>Barang/perkhidmatan diberi tanpa bayaran (kerajaan / NGO)</td><td>Bantuan perubatan &amp; barang keperluan semasa banjir</td></tr>
+      <tr><td>Jualan pada harga kos</td><td>Harga hanya tampung kos — <b>tiada untung</b></td><td>Peserta bengkel dibekalkan bahan pada harga kos</td></tr>
+      <tr><td>Jualan di bawah harga kos</td><td>Harga lebih rendah daripada kos sebenar; biasanya ada <b>subsidi kerajaan</b></td><td>Tepung gandum 1 kg bersubsidi</td></tr>
+    </table></div>
+
+    <h3><span class="sn">1.2</span>Bentuk pemilikan perniagaan</h3>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span>
+      <div class="code"><u>T</u>upai <u>P</u>andai <u>S</u>impan <u>K</u>acang</div>
+      <p>Milikan <b>T</b>unggal · <b>P</b>erkongsian · <b>S</b>yarikat Berhad · <b>K</b>operasi</p>
+    </div>
+    <div class="tw"><table class="t">
+      <tr><th>Aspek</th><th>Milikan tunggal</th><th>Perkongsian</th><th>Sdn. Bhd.</th><th>Berhad (awam)</th><th>Koperasi</th></tr>
+      <tr><td>Pemilik</td><td>1 orang</td><td>2–20 orang (biasa)</td><td>Pemegang saham (maks. 50)</td><td>Pemegang saham, tiada had maksimum</td><td>Min. 50 anggota</td></tr>
+      <tr><td>Liabiliti</td><td><b>Tidak terhad</b></td><td>Tidak terhad (kecuali rakan kongsi berhad / PLT)</td><td>Terhad</td><td>Terhad</td><td>Terhad (setakat modal/yuran)</td></tr>
+      <tr><td>Akta / daftar</td><td>Akta Pendaftaran Perniagaan 1956 · SSM</td><td>Akta Perkongsian 1961 · SSM</td><td>Akta Syarikat · SSM</td><td>Akta Syarikat · SSM</td><td>Akta Koperasi 1993 · SKM</td></tr>
+      <tr><td>Saham</td><td>—</td><td>—</td><td>Tidak boleh dijual di Bursa; pindah milik perlu kelulusan lembaga pengarah</td><td>Boleh diurus niaga di <b>Bursa Malaysia</b></td><td>Syer tidak boleh dipindah milik; maks. 20% seorang</td></tr>
+      <tr><td>Cukai</td><td>Cukai pendapatan individu (rendah)</td><td>Cukai individu rakan kongsi</td><td>Cukai syarikat (tinggi)</td><td>Cukai syarikat (tinggi)</td><td>Dikecualikan cukai</td></tr>
+      <tr><td>Contoh</td><td>Butik kecil, gerai</td><td>Firma guaman</td><td>Butik Naelofar</td><td>Sime Darby Berhad</td><td>Koperasi sekolah, KPF</td></tr>
+    </table></div>
+    <div class="blk trap"><span class="lb">⚠ Info terkini</span>
+      <p>Buku T4 (Akta Syarikat 1965) sebut Sdn. Bhd. perlu <b>2–50</b> pemegang saham. Buku T5 ikut <b>Akta Syarikat 2016</b>: Sdn. Bhd. boleh ditubuhkan oleh <b>seorang hingga 50</b> pemegang syer; syarikat awam min. seorang pemegang syer &amp; min. 2 pengarah. Ikut kehendak soalan.</p>
+    </div>
+
+    <h4>(a) Milikan tunggal</h4>
+    <p>Dimiliki &amp; dikawal <b>seorang individu</b>; modal daripada simpanan sendiri, saudara-mara, agensi kerajaan, institusi kewangan. Bentuk pemilikan <b>paling popular</b> di Malaysia. Mesti didaftar di <b>SSM dalam tempoh 30 hari</b> dari tarikh mula berniaga, kemudian dapatkan <b>lesen PBT</b>.</p>
+    <div class="flow"><div>Carian nama</div><div>Isi Borang A</div><div>Bayar fi<small>RM30 nama sendiri · RM60 nama tred (buku T4)</small></div><div>Hantar ke SSM</div><div>Terima Borang D<small>Sijil Perakuan Pendaftaran</small></div></div>
+    <div class="vs">
+      <div class="plus"><h4>✓ Kelebihan</h4><ul><li>Mudah ditubuhkan, modal kecil</li><li>Mudah diurus (saiz kecil)</li><li>Bebas buat keputusan sendiri</li><li>Semua untung milik pemilik</li><li>Beban cukai rendah (cukai individu)</li></ul></div>
+      <div class="minus"><h4>✗ Kekurangan</h4><ul><li>Liabiliti <b>tidak terhad</b> — harta peribadi boleh disita</li><li>Modal kecil, sukar berkembang</li><li>Beban kerja ditanggung seorang</li><li>Tidak berterusan — tutup jika pemilik meninggal</li><li>Sukar berkongsi kepakaran</li></ul></div>
+    </div>
+
+    <h4>(b) Perkongsian</h4>
+    <p>Kerjasama <b>2 atau lebih individu</b>; boleh secara <b>lisan atau bertulis</b>. Tanpa perjanjian bertulis → tertakluk pada <b>Akta Perkongsian 1961</b>. Perjanjian bertulis = <b>surat ikatan perkongsian</b> (nama firma, nama rakan kongsi, hak &amp; tanggungjawab, nisbah untung/rugi, cara menamatkan).</p>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis rakan kongsi</th><th>Liabiliti</th><th>Peranan</th></tr>
+      <tr><td>Rakan kongsi biasa</td><td>Tidak terhad</td><td>Berhak urus perniagaan</td></tr>
+      <tr><td>Rakan kongsi aktif</td><td>Tidak terhad</td><td>Aktif mengurus, <b>dibayar gaji</b> bulanan</td></tr>
+      <tr><td>Rakan kongsi lelap (tidur)</td><td>Tidak terhad</td><td>Tidak aktif, <b>sumbang modal sahaja</b></td></tr>
+      <tr><td>Rakan kongsi berhad</td><td><b>Terhad</b> setakat modal</td><td>Tiada kuasa urus; boleh periksa rekod &amp; akaun</td></tr>
+      <tr><td>Rakan kongsi nominal (namaan)</td><td>Tidak terhad</td><td>Pinjam <b>nama</b> sahaja, tiada modal</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>B</u>udak <u>A</u>ktif <u>L</u>ari <u>B</u>ila <u>N</u>ampak</div><p>Biasa · Aktif · Lelap · Berhad · Nominal</p></div>
+    <ul class="dot">
+      <li><b>Perkongsian biasa:</b> 2–20 orang, semua rakan kongsi biasa (liabiliti tidak terhad).</li>
+      <li><b>Perkongsian berhad:</b> 2–50 orang; ada rakan kongsi berliabiliti terhad, tetapi <b>sekurang-kurangnya seorang</b> rakan kongsi biasa.</li>
+      <li><b>Perkongsian profesional</b> (peguam, akauntan): tidak melebihi 50 orang.</li>
+      <li><b>Perkongsian Liabiliti Terhad (PLT):</b> diperkenalkan SSM 2013 di bawah <b>Akta PLT 2012</b>; min. 2 orang, <b>tiada had maksimum</b>. Ciri: <b>entiti berasingan, liabiliti terhad, hayat berterusan</b>. Kelebihan: fleksibel, aset peribadi dilindungi, jimat kos (tiada keperluan audit/modal minimum).</li>
+    </ul>
+    <div class="vs">
+      <div class="plus"><h4>✓ Kelebihan perkongsian</h4><ul><li>Modal lebih besar</li><li>Mudah ditubuhkan, sedikit peraturan</li><li>Berkongsi kepakaran, pengalaman &amp; beban kerja</li></ul></div>
+      <div class="minus"><h4>✗ Kekurangan perkongsian</h4><ul><li>Modal masih terhad berbanding syarikat</li><li>Tidak berterusan — bubar jika rakan kongsi mati, muflis atau bertelagah</li><li>Liabiliti tidak terhad</li></ul></div>
+    </div>
+
+    <h4>(c) Syarikat Berhad</h4>
+    <p>Didaftar dengan <b>SSM</b>; dianggotai <b>lembaga pengarah</b> (buat polisi &amp; keputusan) dan <b>pemegang saham</b> (pemilik). Hak pemegang saham: mengundi dalam mesyuarat agung tahunan, dengar laporan tahunan, persoal polisi, lulus/tolak cadangan, lantik ahli lembaga pengarah.</p>
+    <div class="vs">
+      <div class="plus"><h4>✓ Kelebihan Sdn. Bhd.</h4><ul><li>Modal besar melalui terbitan syer</li><li>Liabiliti terhad</li><li>Hal ehwal syarikat <b>dirahsiakan</b> (laporan kewangan tidak perlu diumumkan)</li></ul></div>
+      <div class="minus"><h4>✗ Kekurangan Sdn. Bhd.</h4><ul><li>Syer hanya ditawar kepada saudara &amp; rakan (maks. 50)</li><li>Cukai syarikat tinggi</li><li>Syer tidak boleh dipindah milik secara bebas</li></ul></div>
+      <div class="plus"><h4>✓ Kelebihan Berhad (awam)</h4><ul><li>Modal paling besar (pemegang syer tiada had)</li><li>Nikmati <b>ekonomi bidangan</b></li><li>Liabiliti terhad · <b>kewujudan kekal</b> (entiti berasingan)</li></ul></div>
+      <div class="minus"><h4>✗ Kekurangan Berhad (awam)</h4><ul><li>Proses penubuhan rumit</li><li>Cukai syarikat tinggi</li><li>Pemilik &amp; pengurusan terpisah — risiko penyelewengan</li><li>Tiada kerahsiaan; risiko diambil alih (pembelian saham majoriti)</li></ul></div>
+    </div>
+
+    <h4>(d) Koperasi</h4>
+    <p>Organisasi ditubuhkan <b>secara sukarela</b> oleh sekumpulan individu yang mempunyai kepentingan sama, konsep <b>"milik bersama"</b>, untuk melindungi kepentingan anggota. Tertakluk pada <b>Akta Koperasi 1993 (Pindaan 2007)</b>; dikawal selia <b>Suruhanjaya Koperasi Malaysia (SKM)</b>. Min. <b>50 anggota</b>; setiap anggota <b>satu undi</b> tanpa mengira jumlah syer.</p>
+    <p><b>Prinsip koperasi (Prinsip Rochdale, England 1844):</b></p>
+    <ol class="pts">
+      <li><b>Keanggotaan sukarela &amp; terbuka</b> — tanpa paksaan, tanpa beza kaum/agama/politik.</li>
+      <li><b>Kawalan demokratik</b> oleh anggota — hak bersuara &amp; mengundi.</li>
+      <li><b>Penglibatan ekonomi</b> anggota — modal datang daripada anggota.</li>
+      <li><b>Kebebasan autonomi</b> — tidak dikuasai mana-mana pihak.</li>
+      <li><b>Pendidikan, latihan &amp; maklumat</b> kepada anggota dan orang ramai.</li>
+      <li><b>Kerjasama antara koperasi.</b></li>
+      <li><b>Prihatin terhadap komuniti.</b></li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>S</u>aya <u>D</u>atang <u>E</u>sok, <u>A</u>jak <u>P</u>ak <u>K</u>assim <u>K</u>awan</div><p>Sukarela · Demokratik · Ekonomi · Autonomi · Pendidikan · Kerjasama · Komuniti</p></div>
+    <div class="vs">
+      <div class="plus"><h4>✓ Kelebihan</h4><ul><li>Liabiliti terhad</li><li>Pentadbiran demokrasi (anggota undi ALK)</li><li>Dikecualikan cukai</li><li>Rebat kepada pelanggan/anggota · dividen</li></ul></div>
+      <div class="minus"><h4>✗ Kekurangan</h4><ul><li>Dividen rendah berbanding syarikat</li><li>Pengurusan &amp; pemilik terpisah — pekerja kurang terdorong</li><li>Syer terhad: maks. 20% seorang</li><li>Syer tidak boleh dipindah milik</li></ul></div>
+    </div>
+
+    <h3><span class="sn">1.3</span>Bentuk perniagaan lain</h3>
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Francais</b> — hubungan perjanjian urus niaga antara <b>francaisor</b> (syarikat induk pemilik jenama &amp; sistem) dengan <b>francaisi</b> (pihak yang membeli hak guna jenama). Dikawal <b>Akta Francais 1998</b>.</p>
+      <p><b>Usaha sama</b> — perkongsian strategik dua atau lebih individu/syarikat untuk <b>membentuk entiti baharu</b> dalam tempoh tertentu; berkongsi modal, aset, hasil &amp; risiko. Cth. Lembaga Tabung Haji + Amanah Raya → Abraj Management Sdn. Bhd.</p>
+    </div>
+    <ul class="dot">
+      <li><b>Ciri francais:</b> ikut sistem francaisor · tempoh ikut perjanjian · francaisi guna cap/rahsia dagangan · francaisor kawal berterusan &amp; beri bantuan · francaisi bayar fi (bayaran permulaan + bayaran berkala).</li>
+      <li><b>Peranan francaisor:</b> beri hak guna imej &amp; jenama, sediakan <b>"blueprint"</b>, latihan, promosi bersepadu, ramuan khas &amp; alatan.</li>
+      <li><b>Peranan francaisi:</b> jalankan perniagaan ikut peraturan &amp; piawaian francaisor — gagal patuh → kontrak ditamatkan.</li>
+    </ul>
+    <div class="tw"><table class="t">
+      <tr><th></th><th>Kelebihan</th><th>Kekurangan</th></tr>
+      <tr><td>Kepada francaisor</td><td>Kembang secara global · ekonomi bidangan · tembusi pasaran baharu · kongsi risiko · struktur pengurusan kecil</td><td>Reputasi terjejas jika francaisi tak jaga kualiti · kos sokongan naik · sukar pilih francaisi yang baik</td></tr>
+      <tr><td>Kepada francaisi</td><td>Sistem perniagaan tersusun · reka bentuk seragam · sokongan pengurusan · risiko gagal rendah · jenama terkenal · tak perlu banyak pengalaman</td><td>Mesti kawal kualiti · terikat perjanjian &amp; bergantung pada francaisor · tiada inovasi sendiri</td></tr>
+      <tr><td>Usaha sama</td><td>Luaskan asas perniagaan · tambah dana &amp; tenaga kerja · pasaran lebih besar · dapat teknologi baharu · mudah dapat bahan mentah · aset asal dikekalkan · risiko dikongsi</td><td>Visi &amp; misi berbeza → konflik · perbezaan budaya &amp; cara pengurusan</td></tr>
+    </table></div>
+
+    <h3><span class="sn">1.4</span>Klasifikasi perniagaan: saiz &amp; sektor</h3>
+    <p>Saiz ditentukan oleh <b>jumlah jualan tahunan</b> dan <b>bilangan pekerja tetap</b> (definisi Majlis Pembangunan PKS Kebangsaan / SME Corp — ikut buku teks):</p>
+    <div class="tw"><table class="t">
+      <tr><th>Saiz</th><th>Pengilangan — jualan</th><th>Pekerja</th><th>Perkhidmatan — jualan</th><th>Pekerja</th></tr>
+      <tr><td>Kecil</td><td>RM300,000 – &lt; RM15 juta</td><td>5 – &lt; 75</td><td>RM300,000 – &lt; RM3 juta</td><td>5 – &lt; 30</td></tr>
+      <tr><td>Sederhana</td><td>RM15 juta – &lt; RM50 juta</td><td>75 – &lt; 200</td><td>RM3 juta – &lt; RM20 juta</td><td>30 – &lt; 75</td></tr>
+      <tr><td>Besar</td><td>RM50 juta ke atas</td><td>200 ke atas</td><td>RM20 juta ke atas</td><td>75 ke atas</td></tr>
+    </table></div>
+    <div class="tw"><table class="t">
+      <tr><th>Saiz</th><th>Kelebihan</th><th>Kekurangan</th><th>Cabaran</th></tr>
+      <tr><td>Kecil</td><td>Kos overhed rendah · cepat selesai rungutan pelanggan · fleksibel · kos upah rendah</td><td>Kos pengeluaran tinggi · kurang daya saing · sukar dapat pekerja mahir · kurang sumber kewangan (tiada cagaran)</td><td>Aliran tunai negatif · beban kerja · kekalkan &amp; cari pelanggan · motivasi pekerja · kos overhed</td></tr>
+      <tr><td>Sederhana</td><td>Mudah ditubuh · fleksibel · semangat berpasukan tinggi · laporan kewangan dirahsiakan</td><td>Sukar sediakan latihan · sukar maju kerjaya · wujud jurang hubungan majikan-pekerja</td><td>Tingkatkan hasil · ambil pekerja pakar · banyak undang-undang &amp; lesen</td></tr>
+      <tr><td>Besar</td><td><b>Ekonomi bidangan</b> (kos seunit rendah) · kuasai pasaran · pengkhususan</td><td>Komunikasi kurang berkesan (banyak hierarki) · risiko kerugian besar</td><td>Ketidakpastian pasaran · ambil pekerja pakar · tingkat untung tahunan · birokrasi · peraturan kerajaan</td></tr>
+    </table></div>
+    <div class="tw"><table class="t">
+      <tr><th>Sektor</th><th>Aktiviti</th><th>Contoh</th></tr>
+      <tr><td>Utama (primer)</td><td>Ekstrak sumber semula jadi dari bumi/laut</td><td>Perlombongan (petroleum, bijih timah), pertanian (kelapa sawit, getah), pembalakan, perikanan</td></tr>
+      <tr><td>Kedua (sekunder)</td><td>Proses bahan mentah → barang siap/separuh siap; nilai tambah lebih tinggi</td><td>Pembuatan &amp; pengilangan (kilang roti), kejuruteraan (Proton), pembekalan tenaga (TNB, Petronas, SAINS), pembinaan</td></tr>
+      <tr><td>Ketiga (tertier)</td><td>Bekalkan perkhidmatan; sokong sektor 1 &amp; 2; <b>penyumbang terbesar KDNK</b></td><td>Perkhidmatan awam, swasta (peruncitan, akauntan), sukarela/kebajikan; pelancongan, perbankan, telekomunikasi</td></tr>
+    </table></div>
+
+    <h3><span class="sn">1.5</span>Skala perniagaan</h3>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Pasaran domestik (dalam negara)</h4><ul><li><b>Tempatan</b> — kawasan tertentu, pasaran kecil, kos rendah</li><li><b>Negeri</b> — beberapa daerah; kebanyakan PKS</li><li><b>Kebangsaan</b> — seluruh negara; ekonomi bidangan, beli stok pukal → diskaun</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Pasaran antarabangsa</h4><ul><li><b>Zon</b> — fokus kawasan tertentu (cth. ASEAN)</li><li><b>Global</b> — merentasi sempadan; mudah melalui Internet</li><li>Melibatkan <b>import, eksport &amp; entreport</b>; dibantu <b>MATRADE</b></li></ul></div>
+    </div>
+
+    <h3><span class="sn">1.6–1.7</span>Perkaitan &amp; perkembangan sektor di Malaysia</h3>
+    <div class="blk tip"><span class="lb">💡 Isi penting</span><p><b>Saiz tidak mempengaruhi skala.</b> Perniagaan kecil boleh menembusi pasaran global melalui Internet. Bentuk pemilikan boleh diubah apabila perniagaan berkembang (cth. milikan tunggal → perkongsian; perlu didaftar di SSM).</p></div>
+    <div class="flow"><div>Selepas Merdeka<small>Sektor utama — pertanian; pengeluar getah &amp; bijih timah</small></div><div>Era 1990-an<small>Sektor kedua jadi penyumbang utama eksport; kurangkan import</small></div><div>Abad ke-21<small>Sektor ketiga (perkhidmatan) semakin penting ke arah negara maju</small></div></div>
+
+    <div class="flips" data-flips="t4b1"></div>
+    <div class="quiz" data-ch="t4b1"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t4b1">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t4b2">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 4 · BAB 2
+========================================================= -->
+<section class="chap t4" id="t4b2" data-title="T4 Bab 2 · Trend Semasa dalam Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 4 · Tajuk 1: Tujuan Perniagaan</span>
+    <h2><span class="big">2</span>Trend Semasa dalam Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±15 min</span><span class="chip hot">🔥 Fokus: inflasi, deflasi, pengangguran, SWOT</span><span class="chip">Dasar fiskal vs kewangan</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t4b2" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <h3><span class="sn">2.1</span>Peranan kerajaan menangani isu</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Isu</th><th>Maksud</th></tr>
+      <tr><td>Tempatan</td><td>Perniagaan di kawasan setempat — hubungan dengan komuniti, pengguna tempatan, tanggungjawab sosial, sosiobudaya</td></tr>
+      <tr><td>Negara</td><td>Masalah negara — pendapatan negara, inflasi, kemelesetan, kadar pertumbuhan ekonomi</td></tr>
+      <tr><td>Serantau</td><td>Hubungan Malaysia dengan negara jiran — Singapura, Indonesia, Thailand, Brunei</td></tr>
+    </table></div>
+
+    <h4>(a) Kerajaan Pusat (Putrajaya) — 3 aspek</h4>
+    <ol class="pts">
+      <li><b>Perundangan</b> — Parlimen gubal undang-undang (Akta Kontrak 1950, Akta Jualan Barangan 1957, Akta Sewa Beli 1967, Akta Perkongsian 1961, Akta Syarikat, Akta Perhubungan Industri 1967); wajibkan pendaftaran (SSM); <b>perlindungan pengguna</b> (Akta Perihal Dagangan 1972, Akta Kawalan Harga 1946, Akta Timbang Sukat 1972, Akta Mutu Alam Sekitar 1974, Akta Perlindungan Pengguna 1999; Tribunal Tuntutan Pengguna).</li>
+      <li><b>Pelepasan cukai</b> — galak rakyat berniaga:
+        <ul class="dot"><li><b>Taraf perintis</b> — dikecualikan cukai <b>5 tahun</b>.</li><li><b>Elaun cukai pelaburan</b> — status MSC &amp; berasaskan bahan mentah tempatan.</li><li><b>Potongan cukai</b> — pengeksport barangan tempatan.</li><li><b>Pengecualian cukai</b> — syarikat MSC/teknologi tinggi (kos penyelidikan pasaran eksport, pameran, iklan luar negara).</li><li><b>Elaun pelaburan semula</b> — pengeluaran makanan, bina jalan, buka tanah.</li></ul>
+        Agensi pungutan cukai: <b>LHDN</b> &amp; <b>Jabatan Kastam Diraja Malaysia (JKDM)</b>.</li>
+      <li><b>Kewangan &amp; perkembangan aktiviti perniagaan</b> — pembiayaan (MARA, PUNB, TEKUN, Amanah Ikhtiar, Bank Pembangunan, CGC); BNM pantau ekonomi &amp; dasar kewangan; <b>promosi</b> (MATRADE, ditubuh 1993 — cari pasaran baharu, temukan pengeksport &amp; pengimport, misi &amp; pameran perdagangan); <b>latihan</b> (MPC, MEDEC, SME Corp); <b>R&amp;D</b> (cth. SIRIM — piawaian &amp; kualiti produk).</li>
+    </ol>
+    <h4>(b) Kerajaan Negeri</h4>
+    <p>Kuasa atas <b>tanah &amp; bahan galian</b> → wujudkan kawasan industri (hasil daripada bayaran lesen); kerjasama dengan swasta tarik pelabur (cth. Hub Perdagangan ICT Iskandar Malaysia, Johor); <b>Perbadanan Kemajuan Ekonomi Negeri (PKEN)</b> (cth. SEDCO, PKNP) bantu usahawan baharu; galak projek pertanian.</p>
+    <h4>(c) Pihak Berkuasa Tempatan (PBT)</h4>
+    <p>Ditubuh di bawah <b>Akta Kerajaan Tempatan 1976</b> (Majlis Bandaraya/Perbandaran/Daerah). Peranan: sediakan infrastruktur, bina pusat perniagaan (pasar, gerai), kawal kesihatan awam &amp; keselamatan, laksana tanggungjawab sosial, keluarkan <b>lesen</b>, gubal <b>undang-undang kecil</b> (pelesenan perniagaan &amp; perindustrian, pasar, penjaja).</p>
+
+    <h4>Isu ekonomi &amp; tindakan kerajaan</h4>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Dasar fiskal</h4><p style="margin:0">Tindakan kerajaan melalui <b>perbelanjaan kerajaan</b> dan <b>kadar cukai</b>.</p></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Dasar kewangan</h4><p style="margin:0">Dilaksana <b>Bank Negara Malaysia</b> melalui <b>kadar faedah</b>, sumber kredit &amp; penawaran wang.</p></div>
+    </div>
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Pertumbuhan ekonomi</b> — peningkatan kegiatan ekonomi yang menambah <b>KDNK</b> negara.</p>
+      <p><b>Guna tenaga penuh</b> — kadar pengangguran <b>kurang daripada 4%</b> (hanya wujud pengangguran geseran).</p>
+      <p><b>Inflasi</b> — kenaikan harga barang &amp; perkhidmatan secara <b>berterusan</b> (permintaan &gt; penawaran, atau <i>inflasi tolakan kos</i>).</p>
+      <p><b>Deflasi</b> — kejatuhan harga barang &amp; perkhidmatan secara <b>berterusan</b> (permintaan jatuh; pembeli tangguh pembelian).</p>
+    </div>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis pengangguran</th><th>Sebab</th><th>Cara kerajaan atasi</th></tr>
+      <tr><td>Bermusim</td><td>Bekerja jangka pendek setiap tahun</td><td>Insentif (pengecualian cukai gaji) supaya majikan kekalkan pekerja</td></tr>
+      <tr><td>Teknologi</td><td>Pekerja diganti mesin/teknologi</td><td>Mesin hanya untuk proses yang tak boleh buat oleh buruh; kongsi maklumat peluang kerja</td></tr>
+      <tr><td>Kitaran</td><td>Ekonomi meleset, majikan kurangkan pekerja</td><td>Dasar fiskal &amp; dasar kewangan kekang kemelesetan</td></tr>
+      <tr><td>Struktur</td><td>Perubahan struktur industri, kemahiran tidak diperlukan</td><td>Rancang ekonomi ikut trend; latih pekerja ikut tuntutan semasa</td></tr>
+      <tr><td>Geseran</td><td>Berhenti kerja &amp; sedang cari kerja baharu</td><td>— (wujud walaupun guna tenaga penuh)</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>B</u>udak <u>T</u>u <u>K</u>ena <u>S</u>ound <u>G</u>uru</div><p>Bermusim · Teknologi · Kitaran · Struktur · Geseran</p></div>
+    <div class="vs">
+      <div class="minus"><h4>Atasi INFLASI (harga naik)</h4><ul><li>Galakan pelaburan → tambah pengeluaran</li><li>Beri <b>subsidi</b> kepada pengeluar (inflasi tolakan kos)</li><li><b>Naikkan kadar faedah</b> → rakyat menyimpan, permintaan jatuh</li><li>Dasar kerajaan stabilkan harga; duti eksport</li></ul></div>
+      <div class="plus"><h4>Atasi DEFLASI (harga jatuh)</h4><ul><li><b>Turunkan kadar cukai</b> → pendapatan boleh guna naik</li><li><b>Turunkan kadar faedah</b> → kurang simpan, lebih belanja</li><li>Khidmat nasihat &amp; perundangan kepada peniaga</li><li>Dasar fiskal tingkatkan permintaan; turunkan cukai eksport</li></ul></div>
+    </div>
+    <p><b>Kesan deflasi:</b> bantut aktiviti perniagaan → penduduk hilang kerja → kuasa beli menurun.</p>
+
+    <h3><span class="sn">2.2</span>Trend persekitaran perniagaan</h3>
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Trend persekitaran perniagaan</b> = arah aliran perkembangan sesuatu perniagaan, dipengaruhi <b>faktor dalaman</b> (persekitaran tugas — <i>boleh dikawal</i>) dan <b>faktor luaran</b> (persekitaran umum — <i>di luar kawalan</i>).</p></div>
+    <div class="tw"><table class="t">
+      <tr><th>Trend</th><th>Faktor dalaman</th><th>Faktor luaran</th></tr>
+      <tr><td>📈 Meningkat</td><td>Pekerja bermotivasi, kreatif, berkemahiran; pengurusan cekap</td><td>Ekonomi berkembang, politik stabil, teknologi terkini, persaingan sihat</td></tr>
+      <tr><td>📉 Menurun</td><td>Gaya pengurusan tak sesuai, pekerja kurang produktif, pemasaran lemah, tiada R&amp;D</td><td>Ekonomi lembap, politik tidak stabil, bencana alam</td></tr>
+      <tr><td>➖ Mendatar</td><td colspan="2">Tiada perubahan ketara — pasaran <b>tepu</b> (jualan statik). Penyelesaian: tambah baik produk, keluarkan produk baharu, cari pasaran baharu.</td></tr>
+    </table></div>
+    <ul class="dot">
+      <li><b>Jenis pasaran:</b> pasaran untuk semua (<i>mass market</i> — sabun, sos), pasaran produk (makanan, pelancongan, perumahan), pasaran kewangan (saham, pertukaran wang asing, pinjaman).</li>
+      <li><b>Kitaran ekonomi:</b> Fasa I <b>kemelesetan</b> (pendapatan &amp; permintaan jatuh, pengangguran naik) ↔ Fasa II <b>melambung</b> (pengeluaran &amp; pekerja bertambah, eksport &amp; pelaburan luar).</li>
+      <li><b>Sumber pendapatan sampingan perniagaan:</b> sewa bangunan, dividen saham, faedah simpanan bank.</li>
+    </ul>
+
+    <h3><span class="sn">2.3</span>Faktor yang membawa perubahan</h3>
+    <h4>Faktor dalaman (7)</h4>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>G</u>ila <u>S</u>ungguh <u>P</u>ak <u>P</u>andir <u>K</u>ena <u>T</u>ipu <u>R</u>usa</div><p>Gaya pengurusan · Sumber manusia · Pemasaran · Pengeluaran · Kewangan · Teknologi maklumat · R&amp;D</p></div>
+    <div class="tw"><table class="t">
+      <tr><th>Gaya pengurusan (grid)</th><th>Ciri</th></tr>
+      <tr><td>Laissez-faire (1,1)</td><td>Terlalu beri kebebasan; tingkah laku pekerja sukar dikawal → gagal capai matlamat</td></tr>
+      <tr><td>Sokongan (1,9)</td><td>Hubungan baik dengan pekerja, tetapi risiko gagal pengaruhi pekerja capai matlamat</td></tr>
+      <tr><td>Sederhana (5,5)</td><td>Bijak jaga hubungan &amp; beri motivasi</td></tr>
+      <tr><td>Autokratik (9,1)</td><td>Tegas capai matlamat; boleh timbul tidak puas hati</td></tr>
+      <tr><td>Demokratik (9,9)</td><td>Toleransi &amp; hubungan baik dalam semua aspek — <b>paling berkesan</b></td></tr>
+    </table></div>
+    <div class="tw"><table class="t">
+      <tr><th>Sumber manusia</th><th>Kelebihan</th><th>Kekurangan</th></tr>
+      <tr><td>Dalaman (pekerja sedia ada)</td><td>Motivasi (peluang naik pangkat) · faham budaya organisasi (tak perlu induksi) · maklumat pekerja sudah diketahui</td><td>Tiada idea baharu · kekosongan jawatan baharu · pengetahuan stereotaip</td></tr>
+      <tr><td>Luaran (dari luar organisasi)</td><td>Idea baharu · kemahiran baharu &amp; terkini · semangat berkobar-kobar</td><td>Perlu program induksi · ambil masa faham budaya · kos merekrut tinggi</td></tr>
+    </table></div>
+    <h4>Faktor luaran (6) — ingat <b>PESTEL</b></h4>
+    <div class="tw"><table class="t">
+      <tr><th>Faktor</th><th>Contoh kesan</th></tr>
+      <tr><td><b>P</b>olitik</td><td>Dasar &amp; undang-undang baharu — cth. GST 6% diperkenalkan 1 April 2015 (peniaga perlu beli perisian GST)</td></tr>
+      <tr><td><b>E</b>konomi</td><td>Pendapatan naik → kuasa beli naik; kemelesetan → pengguna beli keperluan sahaja</td></tr>
+      <tr><td><b>S</b>osiobudaya</td><td>Cara hidup, komposisi kaum, trend gaya hidup sihat → pusat kecergasan berkembang</td></tr>
+      <tr><td><b>T</b>eknologi</td><td>Wujud produk &amp; pasaran baharu, kos lebih rendah — cth. ATM/perbankan 24 jam</td></tr>
+      <tr><td><b>E</b>kologi</td><td>Sumber alam terhad, pencemaran — cth. teknologi solar mesra alam</td></tr>
+      <tr><td><b>L</b>egal (undang-undang)</td><td>Lindungi pengguna &amp; alam sekitar, wujudkan persaingan sihat</td></tr>
+    </table></div>
+    <h4>Analisis SWOT</h4>
+    <div class="vs">
+      <div class="plus"><h4>Dalaman</h4><ul><li><b>S — Kekuatan:</b> jenama popular, paten, hubungan baik dengan pelanggan, kewangan kukuh</li><li><b>W — Kelemahan:</b> kurang tenaga/kepakaran/bahan mentah, jenama belum dikenali</li></ul></div>
+      <div class="minus"><h4>Luaran</h4><ul><li><b>O — Peluang:</b> teknologi baharu, perubahan cita rasa pelanggan</li><li><b>T — Ancaman:</b> barang pengganti pesaing, perubahan undang-undang</li></ul></div>
+    </div>
+    <div class="tw"><table class="t">
+      <tr><th>Strategi</th><th>Huraian ringkas</th></tr>
+      <tr><td>SO</td><td>Guna kekuatan untuk rebut peluang</td></tr>
+      <tr><td>WO</td><td>Atasi kelemahan secara proaktif supaya peluang dapat direbut</td></tr>
+      <tr><td>ST</td><td>Guna kekuatan untuk hadapi ancaman</td></tr>
+      <tr><td>WT</td><td>Jalin kerjasama dengan pihak lain untuk atasi kelemahan &amp; ancaman</td></tr>
+    </table></div>
+
+    <h3><span class="sn">2.4</span>Kesan perubahan persekitaran</h3>
+    <ol class="pts">
+      <li><b>Pasaran</b> — perubahan fesyen/gaya hidup (beli CD → muat turun Internet), <b>lambakan barang import</b> murah, teknologi baharu (versi lama kurang permintaan).</li>
+      <li><b>Trend</b> — guna tenaga (trend menurun = pengangguran naik), pendapatan (pendapatan boleh guna naik → ekonomi rancak), pertumbuhan ekonomi.</li>
+      <li><b>Undang-undang</b> — (a) lindungi daripada penipuan: <b>Akta Kontrak 1950</b> (mesti ada <i>balasan</i>); (b) sistem perniagaan adil: <b>Akta Persaingan 2010</b> (larang salah guna kedudukan dominan; <i>dasar lambakan</i> = jual di bawah kos untuk singkir pesaing kecil); (c) lindungi hak: <b>Akta Hak Cipta 1987</b>, Akta Paten 1983, Akta Cap Dagangan 1976 (MyIPO). <b>Paten dilindungi 20 tahun</b> dari tarikh pemfailan.</li>
+    </ol>
+
+    <div class="flips" data-flips="t4b2"></div>
+    <div class="quiz" data-ch="t4b2"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t4b2">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t4b3">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 4 · BAB 3
+========================================================= -->
+<section class="chap t4" id="t4b3" data-title="T4 Bab 3 · Visi, Misi & Objektif">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 4 · Tajuk 2: Organisasi Perniagaan</span>
+    <h2><span class="big">3</span>Penetapan Visi, Misi &amp; Objektif Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±12 min</span><span class="chip hot">🔥 Fokus: SMART, TPM, kesan gagal capai objektif</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t4b3" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <h3><span class="sn">3.1</span>Maksud visi, misi &amp; objektif (VMO)</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Visi</th><th>Misi</th><th>Objektif</th></tr>
+      <tr class="nofirst"><td style="font-weight:400">Wawasan / perancangan <b>jangka panjang</b> (&gt; 5 tahun); panduan buat keputusan supaya hala tuju tepat.<br><i>Cth. Petronas: "pembekal minyak terkemuka di Malaysia &amp; antarabangsa"</i></td><td>Pernyataan ringkas <b>tujuan utama</b>; sebab organisasi wujud <b>pada masa ini</b>; menjurus aktiviti semasa.</td><td>Maklumat <b>lebih khusus</b>; sasaran <b>boleh diukur</b>; ikut ciri SMART.</td></tr>
+    </table></div>
+    <div class="flow"><div>Visi<small>ditetapkan pengurusan atasan</small></div><div>Misi<small>selaras visi</small></div><div>Objektif<small>asas capai misi &amp; visi</small></div></div>
+
+    <h3><span class="sn">3.2</span>Banding VMO organisasi berbeza</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Aspek</th><th>OBU (bermotif untung)</th><th>OBBU / pertubuhan sukarela</th></tr>
+      <tr><td>Aktiviti</td><td>Keluarkan barang &amp; perkhidmatan</td><td>Beri perkhidmatan kepada masyarakat</td></tr>
+      <tr><td>Tujuan</td><td>Maksimumkan keuntungan</td><td>Kepuasan &amp; kebajikan ahli/masyarakat</td></tr>
+      <tr><td>Sumber kewangan</td><td>Modal pemilik, pinjaman, keuntungan</td><td>Kerajaan, sumbangan, yuran keahlian</td></tr>
+      <tr><td>Pendaftaran</td><td>Pendaftar Perniagaan / <b>SSM</b></td><td><b>ROS</b> (Jabatan Pendaftaran Pertubuhan) atau <b>ROY</b> (Pertubuhan Belia)</td></tr>
+      <tr><td>Contoh</td><td>FGV, Khazanah Nasional</td><td>Persatuan, kelab, yayasan, angkatan</td></tr>
+    </table></div>
+
+    <h3><span class="sn">3.3</span>Ciri objektif yang baik — SMART</h3>
+    <p>Objektif <b>jangka pendek</b> = <b>kurang 5 tahun</b>; objektif <b>jangka panjang</b> = <b>lebih 5 tahun</b>.</p>
+    <div class="tw"><table class="t">
+      <tr><th>Huruf</th><th>Ciri</th><th>Maksud ringkas</th></tr>
+      <tr><td>S</td><td>Specific — Spesifik</td><td>Dinyatakan secara khusus, jelas</td></tr>
+      <tr><td>M</td><td>Measurable — Boleh diukur</td><td>Boleh banding sasaran vs pencapaian — <b>kuantitatif</b> (angka, masa, wang) atau <b>kualitatif</b> (kepuasan pelanggan). Cth. sasar 100,000 kereta, capai 90,000 → jurang 10,000.</td></tr>
+      <tr><td>A</td><td>Attainable — Boleh dicapai</td><td>Boleh dicapai jika pekerja gembleng tenaga ikut sumber sedia ada</td></tr>
+      <tr><td>R</td><td>Realistic — Munasabah</td><td>Tidak mustahil; sepadan dengan kemampuan sumber manusia &amp; fizikal</td></tr>
+      <tr><td>T</td><td>Time frame — Jangka masa</td><td>Ada tarikh/tempoh capai (boleh guna <b>Carta Gantt</b>)</td></tr>
+    </table></div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span><p>Jangan tertukar <b>A (boleh dicapai — guna sumber sedia ada)</b> dengan <b>R (munasabah — tidak mustahil, sesuai kemampuan)</b>. Tulis contoh objektif SMART: <i>"Meningkatkan jualan sebanyak 10% (M) bagi produk kek (S) dalam tempoh 6 bulan (T)…"</i></p></div>
+
+    <h3><span class="sn">3.4</span>Tujuan penetapan VMO</h3>
+    <ul class="dot">
+      <li><b>Visi:</b> dorong semua pihak faham &amp; bekerjasama menterjemah visi kepada tindakan (disampaikan CEO → pengurus → pekerja).</li>
+      <li><b>Misi:</b> memudahkan pengagihan sumber manusia &amp; fizikal kepada setiap unit/bahagian; garis panduan menilai keperluan; asas penyataan objektif.</li>
+      <li><b>Objektif:</b> sasaran spesifik (SMART) yang selaras misi — mudah difahami semua pihak.</li>
+    </ul>
+
+    <h3><span class="sn">3.5</span>Faktor dipertimbang semasa menghasilkan VMO (indikator prestasi)</h3>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>T</u>ok <u>P</u>enghulu <u>M</u>akan <u>D</u>urian <u>S</u>ambil <u>J</u>ual <u>P</u>isang</div><p>TPM · Pertumbuhan · Maksimum untung · Daya saing · Syer pasaran · Jualan · Penyediaan perkhidmatan</p></div>
+    <ol class="pts">
+      <li><b>Titik pulang modal (TPM)</b> — tahap jumlah hasil = jumlah kos (tiada untung, tiada rugi). Kuantiti &lt; TPM = rugi; &gt; TPM = untung.
+        <div class="fx"><div class="eq">TPM = <span class="frac"><span>Kos tetap</span> <span>Harga − Kos berubah seunit</span></span></div><div class="ex">Kos tetap RM500,000; harga RM100; kos berubah seunit RM75
+TPM = 500,000 ÷ 25 = 20,000 unit</div></div></li>
+      <li><b>Pertumbuhan perniagaan</b> — hasil meningkat dari semasa ke semasa: buka cawangan baharu, besarkan perniagaan sedia ada.</li>
+      <li><b>Memaksimumkan keuntungan</b> — maksimumkan hasil, minimumkan kos. Jangka pendek belum tentu untung (kos seunit tinggi); jangka panjang boleh untung maksimum.</li>
+      <li><b>Daya saing</b> — kemampuan kekal dalam industri; faktor: kewangan, sumber manusia, teknologi, pemasaran, jaringan. Peringkat pengurusan: <b>atasan</b> (CEO, pengarah urusan), <b>pertengahan</b> (pengurus bahagian), <b>bawahan</b> (penyelia).</li>
+      <li><b>Syer pasaran</b> — peratus penguasaan pasaran berbanding pesaing; syer terbesar = <b>pemimpin pasaran</b>.</li>
+      <li><b>Jualan</b> — strategi promosi: jualan murah, diskaun harga, sampel percuma, peraduan.</li>
+      <li><b>Penyediaan perkhidmatan</b> — beli dalam talian, hantar ke rumah, kemudahan bayaran, baik pulih.</li>
+    </ol>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis kos</th><th>Maksud</th><th>Contoh</th></tr>
+      <tr><td>Kos tetap</td><td>Tidak berubah walaupun kuantiti pengeluaran berubah</td><td>Sewa bangunan, insurans, jentera, gaji tetap</td></tr>
+      <tr><td>Kos berubah</td><td>Berubah mengikut kuantiti pengeluaran</td><td>Bahan mentah, kos air, elektrik, telefon</td></tr>
+    </table></div>
+
+    <h3><span class="sn">3.6</span>Kesan gagal mencapai matlamat &amp; objektif</h3>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>J</u>angan <u>K</u>acau <u>P</u>ak <u>I</u>mam <u>K</u>ampung</div><p>Jualan merosot · tak mampu bayar <b>K</b>os · gagal <b>P</b>ersaingan · <b>I</b>mej terjejas · tak mampu <b>K</b>embangkan perniagaan</p></div>
+    <ul class="dot">
+      <li><b>Tidak mampu bayar kos</b> — bank nilai pinjaman ikut <b>5C</b>: Capital (modal), Capacity (kapasiti), Character (karakter), Collateral (cagaran), Conditions (keadaan).</li>
+      <li><b>Imej terjejas</b> — sukar dapat kerjasama; bank kenakan syarat ketat.</li>
+    </ul>
+    <div class="blk tip"><span class="lb">💡 Langkah penyelesaian</span><p>Kurangkan kos · turunkan harga · pelbagaikan produk · kurangkan kadar dividen · guna teknologi/kaedah baharu · semak semula matlamat.</p></div>
+
+    <h3><span class="sn">3.7–3.8</span>Faktor perubahan VMO &amp; penilaian pencapaian</h3>
+    <div class="vs">
+      <div class="plus"><h4>Faktor dalaman (analisis S &amp; W)</h4><ul><li><b>Sumber manusia</b> — kuantiti &amp; kualiti pekerja (cth. pekerja mahir pelbagai bahasa → VMO boleh dinaikkan)</li><li><b>Kewangan</b> — modal bertambah → sasaran boleh dinaikkan</li></ul></div>
+      <div class="minus"><h4>Faktor luaran (analisis O &amp; T)</h4><ul><li><b>Ekonomi</b> — kitaran (pertumbuhan, melambung, kemerosotan, kemelesetan), dasar kewangan &amp; fiskal</li><li><b>Sosiobudaya</b> — amalan kaum Melayu/Bumiputera, Cina, India</li><li><b>Teknologi</b> — perlu pelaburan besar</li><li><b>Undang-undang</b> — cth. perubahan kadar cukai; undang-undang luar negara</li></ul></div>
+    </div>
+    <p>Pencapaian VMO dinilai menggunakan <b>kriteria yang sama</b>: TPM, pertumbuhan, untung maksimum, daya saing, syer pasaran, jualan dan penyediaan perkhidmatan.</p>
+
+    <div class="flips" data-flips="t4b3"></div>
+    <div class="quiz" data-ch="t4b3"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t4b3">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t4b4">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 4 · BAB 4
+========================================================= -->
+<section class="chap t4" id="t4b4" data-title="T4 Bab 4 · Bahagian Fungsian Utama">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 4 · Tajuk 2: Organisasi Perniagaan</span>
+    <h2><span class="big">4</span>Bahagian-bahagian Fungsian Utama dalam Organisasi</h2>
+    <div class="meta"><span class="chip">⏱ ±15 min</span><span class="chip hot">🔥 Fokus: 11 bahagian, saluran agihan, proses komunikasi</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t4b4" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Bahagian fungsian</b> — sebahagian/rantaian dalam organisasi yang mempunyai tanggungjawab dan fungsi <b>khusus</b>.</p>
+      <p><b>Struktur organisasi</b> — susunan &amp; hubungan antara bahagian fungsian untuk mencapai VMO. <b>Carta organisasi</b> — struktur organisasi dalam bentuk <b>hierarki</b>.</p>
+    </div>
+    <h3><span class="sn">4.1</span>Carta organisasi menunjukkan</h3>
+    <ol class="pts"><li><b>Pembahagian kerja</b> — agihan tugas ikut jawatan</li><li><b>Hubungan ketua dengan pekerja</b> — kuasa mengarah &amp; melapor</li><li><b>Jenis tugas</b> — ikut jawatan disandang</li><li><b>Hierarki pengurusan</b> — atasan (keseluruhan), pertengahan (bahagian), bawahan (unit)</li></ol>
+    <p><b>Tujuan bahagian fungsian:</b> tingkatkan kemahiran (kerja sama dalam satu jabatan) · mudah latih pekerja baharu · kurangkan kos (kongsi sumber) · pengkhususan tugas.</p>
+
+    <h3><span class="sn">4.2</span>11 bahagian fungsian — tujuan &amp; peranan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Bahagian</th><th>Tujuan / peranan utama</th></tr>
+      <tr><td>Pentadbiran</td><td>Proses sokongan; urus, simpan &amp; terima rekod; sedia dokumen; urus mesyuarat</td></tr>
+      <tr><td>Pengurusan sumber manusia</td><td>Perancangan SM (rekrut, polisi kerjaya, pertukaran, kenaikan pangkat, disiplin) · latihan &amp; pembangunan (induksi) · perkhidmatan &amp; kebajikan (pengangkutan, kaunseling, kantin) · perhubungan industri (kesatuan sekerja, selesai pertikaian)</td></tr>
+      <tr><td>Kewangan</td><td>Rancang kewangan (objektif) · agih sumber ikut bajet · kawal perbelanjaan, elak penyelewengan</td></tr>
+      <tr><td>ICT</td><td>Operasi efektif &amp; efisien · komunikasi dalaman (<b>Intranet</b>) &amp; luaran (<b>Internet</b>) · simpan data · percepat urus niaga · jaga keselamatan sistem &amp; sandaran data</td></tr>
+      <tr><td>Penyelidikan &amp; pembangunan (R&amp;D)</td><td>Bangunkan produk baharu &amp; tambah baik produk sedia ada; produk berkualiti, kos efektif (cth. kulit gantian MyDerm)</td></tr>
+      <tr><td>Pembelian</td><td>Tentukan kuantiti &amp; spesifikasi tepat · pilih pembekal · terima barang tepat masa/lokasi · bayar harga berpatutan</td></tr>
+      <tr><td>Pengeluaran</td><td>Tukar <b>input → output</b> (tanah, buruh, teknologi, bahan mentah) · kawalan awalan, semasa, selepas</td></tr>
+      <tr><td>Pemasaran</td><td>Wujud &amp; tingkat permintaan · kenal pasti <b>sasaran pasaran</b> · urus <b>campuran pemasaran (4P)</b> · jalin hubungan pengguna setia</td></tr>
+      <tr><td>Pengagihan</td><td>Barang sampai ke pengguna pada <b>tempat &amp; masa tepat</b>, keadaan baik · pilih saluran &amp; pengangkutan sesuai</td></tr>
+      <tr><td>Jualan</td><td>Capai sasaran jualan · jawab pertanyaan · sebut harga · runding diskaun · nasihat teknikal · kemas kini rekod pelanggan</td></tr>
+      <tr><td>Khidmat pelanggan</td><td>Beri perkhidmatan melebihi jangkaan pelanggan; jawab pertanyaan; sedia pakar</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>P</u>ak <u>S</u>alleh <u>K</u>ata <u>I</u>kan <u>R</u>ebus <u>P</u>edas, <u>P</u>enuh <u>P</u>inggan <u>P</u>ula, <u>J</u>angan <u>K</u>ongsi</div><p>Pentadbiran · SM · Kewangan · ICT · R&amp;D · Pembelian · Pengeluaran · Pemasaran · Pengagihan · Jualan · Khidmat pelanggan</p></div>
+
+    <h4>Tatacara pembelian</h4>
+    <div class="flow"><div>Terima tempahan belian (pengurus jualan)</div><div>Cari pembekal</div><div>Terima sebut harga</div><div>Nilai pembekal</div><div>Buat pesanan belian</div><div>Terima barang</div></div>
+    <h4>Kawalan dalam pengeluaran</h4>
+    <div class="tw"><table class="t">
+      <tr><th>Kawalan</th><th>Bila</th><th>Apa diperiksa</th></tr>
+      <tr><td>Awalan</td><td>Sebelum proses</td><td>Mesin baik, bahan mentah berkualiti, tenaga kerja cukup</td></tr>
+      <tr><td>Semasa</td><td>Semasa proses</td><td>Kawalan <b>pengeluaran</b>, <b>utiliti mesin</b>, <b>staf</b></td></tr>
+      <tr><td>Selepas</td><td>Selepas siap</td><td>Pemeriksaan kualiti terakhir (manual/automatik)</td></tr>
+    </table></div>
+    <h4>Campuran pemasaran (4P)</h4>
+    <div class="card-grid">
+      <div class="mini"><h4>📦 Produk</h4><p>R&amp;D produk baharu, ujian, pembungkusan, jaminan</p></div>
+      <div class="mini"><h4>💰 Harga</h4><p>Penetapan harga, polisi &amp; strategi harga, diskaun</p></div>
+      <div class="mini"><h4>🚚 Pengedaran/Tempat</h4><p>Pastikan produk sampai kepada pengguna</p></div>
+      <div class="mini"><h4>📣 Promosi</h4><p>Pengiklanan, promosi jualan, publisiti</p></div>
+    </div>
+    <h4>4 saluran agihan</h4>
+    <div class="tw"><table class="t">
+      <tr><th>Saluran</th><th>Aliran</th><th>Sesuai untuk</th></tr>
+      <tr><td>1 (langsung)</td><td>Pengeluar → Pengguna</td><td>Barang tidak tahan lama (pertanian), bernilai tinggi (kapal terbang), tempahan khas (pakaian), perkhidmatan profesional (doktor, peguam)</td></tr>
+      <tr><td>2</td><td>Pengeluar → Peruncit → Pengguna</td><td>Barang tahan lama / perlu nasihat pakar: kosmetik, tayar, alat elektrik</td></tr>
+      <tr><td>3</td><td>Pengeluar → Pemborong → Peruncit → Pengguna</td><td>Barang keperluan harian: gula, beras. Pemborong <b>beli pukal &amp; pecah pukal</b></td></tr>
+      <tr><td>4</td><td>Pengeluar → Ejen → Peruncit → Pengguna</td><td>Pakaian berjenama, buku, majalah</td></tr>
+    </table></div>
+
+    <h3><span class="sn">4.3</span>Pembangunan produk &amp; pasaran baharu</h3>
+    <p><b>Pembangunan produk</b> = memperkenalkan produk baharu kepada <b>pasaran sedia ada</b>. 8 langkah:</p>
+    <div class="flow"><div>Penjanaan idea<small>sumber dalaman &amp; luaran</small></div><div>Penyaringan idea</div><div>Pembangunan &amp; pengujian konsep</div><div>Strategi pemasaran</div><div>Analisis perniagaan<small>jualan, kos, unjuran untung</small></div><div>Pembangunan produk<small>prototaip</small></div><div>Ujian pemasaran</div><div>Komersialisasi<small>di mana, bila, siapa, bagaimana</small></div></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>I</u>kan <u>S</u>ardin <u>K</u>ering <u>S</u>edap, <u>A</u>yam <u>P</u>anggang <u>U</u>dang <u>K</u>etam</div><p>Idea · Saring · Konsep · Strategi · Analisis · Produk · Ujian · Komersial</p></div>
+    <p><b>Pasaran baharu</b> = cari pasaran baharu untuk produk <b>sedia ada</b>. Kepentingan: kuasai pasaran lebih besar, wujud peluang baharu, elak pasaran tepu. Strategi domestik: ekspo/pameran di kawasan belum diterokai. Antarabangsa: promosi agresif, rundingan dua hala, usaha sama, pameran luar negara.</p>
+
+    <h3><span class="sn">4.4</span>Penggunaan teknologi maklumat (ICT)</h3>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Tujuan</h4><ul><li>Mudahkan sistem operasi &amp; buat keputusan</li><li>Peroleh maklumat mudah &amp; cepat</li><li>Luaskan skop (fizikal → maya)</li><li>Mudahkan kewangan &amp; perakaunan</li><li>Operasi efektif &amp; efisien</li><li>Luaskan pasaran global</li><li>Luaskan jaringan</li><li>Percepat pengeluaran &amp; pengedaran</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Aplikasi</h4><ul><li><b>e-pemasaran</b> — pasar produk dalam talian</li><li><b>e-dagang</b> — tempah, beli &amp; bayar dalam talian</li><li><b>e-government</b> — urusan dengan kerajaan</li><li><b>e-banking</b> — bayar bil, semak baki</li><li><b>Laman sosial</b> — iklan, cari pelanggan</li><li><b>E-mel</b> — maklumat cepat, jimat kos</li></ul></div>
+    </div>
+
+    <h3><span class="sn">4.5</span>Hubungan &amp; interaksi</h3>
+    <p><b>Interaksi dengan organisasi luar</b> (pembekal, pelanggan, bank, agensi kerajaan). Kepentingan: wujud jaringan · kukuhkan hubungan sedia ada · jalin kerjasama strategik · tambah sumber (bahan mentah, pembiayaan, kepakaran).</p>
+    <h4>Proses komunikasi (aliran maklumat)</h4>
+    <div class="flow"><div>Penghantar<small>cipta maklumat</small></div><div>Enkod<small>olah idea: tulisan, gambar, pertuturan</small></div><div>Saluran<small>audio, visual, bertulis</small></div><div>Dekod<small>penerima terjemah mesej</small></div><div>Penerima</div><div>Maklum balas<small>ukur keberkesanan</small></div></div>
+    <p><b>Gangguan</b> = unsur luaran (cth. persekitaran) yang mempengaruhi proses komunikasi pada mana-mana peringkat.</p>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>P</u>ak <u>E</u>ngku <u>S</u>uka <u>D</u>uduk <u>P</u>inggir <u>M</u>asjid — <u>G</u>aduh!</div><p>Penghantar · Enkod · Saluran · Dekod · Penerima · Maklum balas · Gangguan</p></div>
+    <h4>Aliran barang &amp; perkhidmatan (contoh pesanan peralatan sukan oleh sekolah)</h4>
+    <div class="flow"><div>Katalog diedar<small>pemasaran &amp; jualan</small></div><div>Terima pesanan<small>jualan</small></div><div>Jadual pengeluaran<small>jualan &amp; pengeluaran</small></div><div>Pesan bahan mentah<small>pembelian</small></div><div>Terima invois pembekal &amp; bayar<small>kewangan</small></div><div>Keluar &amp; edar barang<small>pengeluaran &amp; pengagihan</small></div><div>Hantar invois &amp; terima bayaran<small>kewangan</small></div></div>
+
+    <h3><span class="sn">4.6</span>Perniagaan kecil vs besar</h3>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Perniagaan kecil</h4><ul><li>Bahagian fungsian sedikit</li><li>Interaksi formal &amp; tidak formal</li><li>Pengurus mudah pantau staf; pertanyaan cepat selesai</li><li>Bahagian jualan berhubung terus dengan pelanggan &amp; turut buat fungsi pembelian</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Perniagaan besar</h4><ul><li>Banyak bahagian &amp; ramai staf</li><li>Proses komunikasi panjang &amp; lama</li><li>Hubungan komunikasi pengurus–pekerja sangat penting</li><li>Kecil hubungi besar → luaskan pasaran; besar hubungi kecil → kukuhkan pasaran</li></ul></div>
+    </div>
+
+    <div class="flips" data-flips="t4b4"></div>
+    <div class="quiz" data-ch="t4b4"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t4b4">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b1">Ke Tingkatan 5 →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 1
+========================================================= -->
+<section class="chap t5" id="t5b1" data-title="T5 Bab 1 · Pengurusan Sumber Manusia">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 1: Sumber Perniagaan</span>
+    <h2><span class="big">1</span>Pengurusan Sumber Manusia</h2>
+    <div class="meta"><span class="chip">⏱ ±15 min</span><span class="chip hot">🔥 Fokus: 9 peranan PSM, struktur organisasi, sistem gaji</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b1" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Pengurusan sumber manusia (PSM)</b> — usaha pembangunan tenaga kerja dalam organisasi untuk <span class="k">menarik, membangun dan mengekalkan</span> pekerja yang berprestasi tinggi. Juga dikenali sebagai <b>pengurusan modal insan</b>.</p>
+    </div>
+    <p><b>Kepentingan PSM (6):</b> sumber manusia sentiasa mencukupi · latihan cukup &amp; terkini · kebajikan pekerja dijaga · pengagihan SM berkesan · prestasi sentiasa dipantau · motivasi pekerja tinggi.</p>
+
+    <h3><span class="sn">1.2</span>9 peranan PSM</h3>
+    <p>Peranan PSM melibatkan proses <b>merancang, mengorganisasi, memimpin dan mengawal</b> keperluan sumber manusia.</p>
+    <ol class="pts">
+      <li><b>Keperluan pekerja, merekrut, kontrak &amp; deskripsi tugas</b> — teknik rekrut tarik calon layak; deskripsi tugas jelas → kerja cekap; kontrak menarik → kesetiaan.</li>
+      <li><b>Membangunkan pasukan untuk capai sasaran</b> — semangat berpasukan; capai <b>KPI</b> pasukan; kongsi pengetahuan &amp; kemahiran.</li>
+      <li><b>Prestasi pasukan</b> — pengaruhi produktiviti, kuantiti &amp; kualiti; ditingkat melalui latihan &amp; kursus intensif.</li>
+      <li><b>Latihan peningkatan kemahiran</b> — berterusan ikut keperluan semasa (cth. latihan sambil bekerja).</li>
+      <li><b>Persekitaran kerja positif &amp; harmoni</b> — kondusif → produktiviti, motivasi, kurang kesilapan &amp; tekanan.</li>
+      <li><b>Pemantapan budaya profesional</b> — etika, integriti; konsep pengurusan Jepun: <b>TQM, Kaizen, 5S, Zero Defect</b>.</li>
+      <li><b>Menggalakkan kreativiti &amp; inovasi</b> — bangunkan bakat, biaya pendidikan, beri ganjaran kepada pekerja kreatif.</li>
+      <li><b>Pemberian insentif yang munasabah</b> — ganjaran tingkat prestasi &amp; kesetiaan; skim kesihatan &amp; keselamatan.</li>
+      <li><b>Pemberhentian pekerja</b> — persaraan, sukarela, tindakan disiplin, pemecatan; beri gratuiti/pampasan/pencen.</li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>K</u>ami <u>B</u>ina <u>P</u>asukan <u>L</u>atih <u>P</u>ekerja <u>B</u>udaya <u>K</u>reatif <u>I</u>nsentif <u>P</u>encen</div><p>Keperluan/rekrut · Bangun pasukan · Prestasi pasukan · Latihan · Persekitaran · Budaya profesional · Kreativiti · Insentif · Pemberhentian</p></div>
+
+    <h3><span class="sn">1.3</span>Aplikasi PSM dalam perniagaan mampan</h3>
+    <p><b>Perniagaan mampan</b> = kekal mencipta nilai, prestasi kewangan &amp; penarafan meningkat secara berterusan.</p>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Maybank</h4><ul><li>Program kompetensi &amp; praktikal</li><li>Penilaian prestasi melalui <b>KPI</b>; dialog mingguan dalam talian</li><li>Program kepimpinan; uji kreativiti bakat baharu</li><li>Skim ganjaran pelbagai; konsep <b>T.I.G.E.R</b></li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">PERODUA</h4><ul><li>Deskripsi &amp; spesifikasi tugas jelas; pengkhususan kerja</li><li>Latihan simulasi, teknikal &amp; praktikal</li><li>Program <b>mentor-menti</b>; pangkalan data pekerja, carta penggantian</li><li>Ganjaran &amp; insentif; khidmat kaunseling</li></ul></div>
+    </div>
+
+    <h3><span class="sn">1.4</span>Aspek pengelolaan sumber manusia (6)</h3>
+    <ol class="pts">
+      <li><b>Penempatan pekerja &amp; fasiliti</b> — ikut kemahiran, kebolehan, minat, pengalaman (cth. akauntan perlu perisian perakaunan terkini).</li>
+      <li><b>Standard Prosedur Operasi (SOP)</b> — <span class="k">dokumen arahan bertulis</span> untuk keseragaman pelaksanaan tugas; minimumkan risiko, jaga keselamatan (cth. topi keselamatan di tapak bina).</li>
+      <li><b>Sistem penggajian</b> — kompetitif → motivasi; tidak adil → pekerja berhenti, kos latih pekerja baharu naik.</li>
+      <li><b>Penghargaan &amp; hukuman</b> — hukuman: amaran lisan/bertulis, potong gaji, tiada naik pangkat/insentif, pemberhentian.</li>
+      <li><b>Penyelesaian masalah</b> — perbincangan berkala, komunikasi berkesan, hubungan harmoni.</li>
+      <li><b>Struktur organisasi</b> — jelaskan tanggungjawab, jawatan, jalur komunikasi &amp; deskripsi tugas.</li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>P</u>ak <u>S</u>u <u>G</u>emuk <u>H</u>endak <u>M</u>akan <u>S</u>ate</div><p>Penempatan · SOP · Gaji · Hukuman &amp; penghargaan · Masalah · Struktur organisasi</p></div>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis kesalahan pekerja</th><th>Contoh</th></tr>
+      <tr><td>Rasuah</td><td>Minta 2% komisen peribadi daripada kontraktor</td></tr>
+      <tr><td>Salah guna aset syarikat</td><td>Guna kereta syarikat hantar anak ke sekolah tanpa kebenaran</td></tr>
+      <tr><td>Pecah amanah</td><td>Salah guna wang/harta yang diamanahkan</td></tr>
+      <tr><td>Ingkar arahan tanpa sebab kukuh · Ponteng kerja · Tidak beretika</td><td>—</td></tr>
+    </table></div>
+
+    <h3><span class="sn">1.5</span>Kemahiran kebolehkerjaan</h3>
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Kebolehkerjaan</b> — kemahiran atau kebolehan yang dimiliki pekerja yang membuatkan bakal majikan berminat menawarkan pekerjaan.</p></div>
+    <p><b>7 kemahiran:</b> berkomunikasi · kerja berpasukan · penyelesaian masalah · perancangan &amp; pengurusan diri · keupayaan pembelajaran · penggunaan teknologi terkini · inisiatif &amp; keusahawanan.</p>
+    <p><b>Hubung kait dengan kejayaan perniagaan (5 aspek):</b></p>
+    <ol class="pts"><li><b>Kelayakan yang bersesuaian</b> — akademik &amp; profesional; diuji melalui pelbagai ujian.</li><li><b>Berpengalaman</b> — jimat masa &amp; kos latihan (cth. cef berpengalaman).</li><li><b>Berpengetahuan tentang produk &amp; perkhidmatan</b> — pasarkan dengan berkesan (cth. pegawai bank).</li><li><b>Berpengalaman dalam industri tertentu</b> — cth. pramugari lama berkhidmat.</li><li><b>Keberkesanan mencapai sasaran</b> individu, pasukan atau jabatan.</li></ol>
+
+    <h3><span class="sn">1.6</span>5 jenis struktur organisasi</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Struktur</th><th>Ciri</th><th>Sesuai untuk</th></tr>
+      <tr><td>Fungsi</td><td>Ikut fungsi utama (pemasaran, pengeluaran, kewangan, R&amp;D, SM); mudah dibentuk</td><td>Kebanyakan organisasi</td></tr>
+      <tr><td>Produk</td><td>Setiap pengurus urus satu produk</td><td>Syarikat besar, pelbagai produk</td></tr>
+      <tr><td>Geografi / wilayah</td><td>Ikut kawasan pasaran (Utara, Selatan, Sabah…); perlu ramai staf di ibu pejabat</td><td>Rangkaian stokis seluruh negara</td></tr>
+      <tr><td>Pelanggan</td><td>Ikut keperluan pelanggan (kaunter, ATM, nasihat pelaburan)</td><td>Organisasi perkhidmatan (bank)</td></tr>
+      <tr><td>Matriks</td><td>Gabungan fungsi + produk/projek; <b>sistem berbilang arahan</b></td><td>Syarikat pembinaan, berprojek</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>F</u>izah <u>P</u>ergi <u>G</u>enting <u>P</u>akai <u>M</u>otor</div><p>Fungsi · Produk · Geografi · Pelanggan · Matriks</p></div>
+
+    <h3><span class="sn">1.7</span>Sistem penggajian</h3>
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Gaji</b> — bayaran tetap oleh majikan kepada pekerja. <b>Penggajian</b> — semua urusan berkaitan gaji. Tujuan: <b>tarik, kekal &amp; motivasikan</b> pekerja. Dua komponen: <b>gaji</b> dan <b>faedah</b>.</p></div>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Gaji</h4><ul><li><b>Gaji asas</b> — tanpa elaun/bonus/komisen</li><li><b>Upah</b> — ikut jam atau hari bekerja</li><li><b>Elaun</b> — bayaran tambahan ikut jawatan</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Faedah</h4><ul><li><b>KWSP</b> (wajib): majikan 12%, pekerja 11% *</li><li><b>PERKESO</b> (wajib): majikan 1.25%, pekerja 0.5% *</li><li>Komisen (ikut jumlah jualan) · bonus tunai (ikut prestasi) · pinjaman · biasiswa</li><li>Insurans berkelompok · perubatan · cuti · keselamatan · penginapan · penjagaan anak</li></ul></div>
+    </div>
+    <p style="font-size:.85em;color:var(--muted)">* Kadar ikut buku teks. Dalam soalan, guna kadar yang diberi.</p>
+    <h4>6 faktor penentu sistem penggajian</h4>
+    <ol class="pts"><li><b>Kemampuan organisasi</b> — kewangan kukuh → ganjaran lebih.</li><li><b>Bentuk &amp; jenis tugas</b> — tanggungjawab besar → ganjaran tinggi.</li><li><b>Undang-undang &amp; peraturan kerajaan</b> — kadar gaji minimum.</li><li><b>Ganjaran dibayar pesaing</b> — setara/lebih tinggi untuk elak "pusing ganti" pekerja.</li><li><b>Permintaan &amp; penawaran buruh</b> — tentukan kadar upah pasaran.</li><li><b>Faktor lokasi</b> — kos sara hidup, geografi, risiko (cth. dipindah ke KL, gaji naik).</li></ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>K</u>ucing <u>B</u>elang <u>U</u>lang-alik <u>G</u>erai <u>P</u>ak <u>L</u>ong</div><p>Kemampuan · Bentuk tugas · Undang-undang · Ganjaran pesaing · Permintaan &amp; penawaran buruh · Lokasi</p></div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span><p><b>Potongan wajib</b> dalam gaji = <b>KWSP &amp; PERKESO</b>. Bayaran balik pinjaman bukan potongan wajib. Bonus &amp; elaun <b>menambah</b> gaji, bukan mengurangkan.</p></div>
+
+    <div class="flips" data-flips="t5b1"></div>
+    <div class="quiz" data-ch="t5b1"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b1">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b2">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 2
+========================================================= -->
+<section class="chap t5" id="t5b2" data-title="T5 Bab 2 · Sumber Fizikal & Teknologi">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 1: Sumber Perniagaan</span>
+    <h2><span class="big">2</span>Pengurusan Sumber Fizikal &amp; Teknologi</h2>
+    <div class="meta"><span class="chip">⏱ ±10 min</span><span class="chip hot">🔥 Fokus: jenis sumber, prosedur urus, paten vs hak cipta</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b2" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span>
+      <p><b>Sumber fizikal</b> — aset berbentuk <span class="k">ketara / nyata</span> yang digunakan untuk menjalankan perniagaan.</p>
+      <p><b>Sumber teknologi</b> — harta intelek, lesen perisian, serta kemahiran &amp; pengalaman pekerja; membantu pemilik membuat keputusan tepat.</p>
+    </div>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">6 sumber fizikal</h4><ul><li><b>Bangunan &amp; kemudahan</b> — tempat operasi, infrastruktur</li><li><b>Kilang &amp; mesin</b> — proses bahan mentah</li><li><b>Peralatan ICT</b> — telefon, komputer, pencetak</li><li><b>Stok</b> — barang siap/dagangan sedia dijual di stor</li><li><b>Bahan mentah</b> — untuk hasilkan barang lain</li><li><b>Produk siap</b> — barang akhir sedia dijual</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">3 sumber teknologi</h4><ul><li><b>Harta intelek</b> — hasil kreativiti (reka bentuk, lukisan, muzik, video); lindungi daripada cetak rompak &amp; tiruan</li><li><b>Lesen perisian</b> — perjanjian bertulis pemilik–pengguna; guna perisian tanpa lesen = <b>jenayah perdagangan</b></li><li><b>Kemahiran &amp; pengalaman</b> pekerja — elak kesilapan, tingkat produktiviti</li></ul></div>
+    </div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>B</u>ila <u>K</u>ilang <u>I</u>ni <u>S</u>iap, <u>B</u>awa <u>P</u>ulang</div><p>Bangunan · Kilang &amp; mesin · ICT · Stok · Bahan mentah · Produk siap &nbsp;|&nbsp; Teknologi: <b>H-L-K</b> (Harta intelek, Lesen, Kemahiran)</p></div>
+    <p><b>Tujuan mengurus sumber fizikal:</b> pastikan semua sumber <b>selamat, berfungsi dan boleh digunakan</b> untuk memudahkan penghasilan produk/perkhidmatan.</p>
+
+    <h3><span class="sn">2.2</span>Prosedur mengurus sumber fizikal</h3>
+    <ol class="pts">
+      <li><b>Perlindungan insurans &amp; keselamatan</b> — insurans kebakaran (bangunan, mesin, stok, kilang), insurans kecurian, penghantaran tertangguh, kehilangan/kerosakan barang, perlindungan wang, jaminan kesetiaan pekerja, liabiliti awam. Pasang alat pemadam api, CCTV, penggera, laluan kecemasan.</li>
+      <li><b>Penyelenggaraan &amp; baik pulih secara terancang</b> — jadual pemeriksaan berkala (cegah kerosakan) dan kerja pembaikan segera.</li>
+    </ol>
+
+    <h3><span class="sn">2.4</span>Prosedur mengurus sumber teknologi</h3>
+    <div class="tw"><table class="t">
+      <tr><th></th><th>Paten</th><th>Hak cipta terpelihara</th></tr>
+      <tr><td>Maksud</td><td>Hak eksklusif untuk <b>reka cipta</b> (produk atau proses) yang baharu</td><td>Hak eksklusif pencipta mengawal penggunaan <b>karya</b> untuk tempoh tertentu</td></tr>
+      <tr><td>Syarat</td><td>Belum dizahirkan oleh mana-mana syarikat</td><td>Idea yang telah direkod/dizahirkan; tanpa mengira kualiti</td></tr>
+      <tr><td>Contoh</td><td>Reka bentuk kereta</td><td>Karya sastera, muzik, seni, filem, rakaman bunyi, siaran, karya terbitan (cth. Upin &amp; Ipin)</td></tr>
+      <tr><td>Tempoh / undang-undang</td><td><b>20 tahun</b> dari tarikh pemfailan; sah di Malaysia sahaja</td><td><b>Akta Hak Cipta 1987</b>; dikuatkuasa KPDNKK &amp; PDRM</td></tr>
+      <tr><td>Daftar di</td><td colspan="2"><b>MyIPO</b> (Perbadanan Harta Intelek Malaysia)</td></tr>
+    </table></div>
+
+    <h3><span class="sn">2.5–2.7</span>Aplikasi, perbandingan &amp; perkaitan</h3>
+    <ul class="dot">
+      <li><b>PERODUA</b> — bangunan &amp; kilang 80 hektar di Sungai Choh, Rawang; makmal R&amp;D &amp; trek ujian; mesin diselenggara berkala; stok di gudang &amp; pusat jualan; <b>paten</b> reka bentuk kereta; kerjasama <b>Daihatsu</b> untuk kemahiran.</li>
+      <li><b>Perniagaan produk</b> (cth. kilang biskut) guna <b>lebih banyak</b> sumber fizikal (bahan mentah, produk siap) berbanding <b>perniagaan perkhidmatan</b> (cth. bengkel motor). Produk boleh dipatenkan; <b>perkhidmatan tidak boleh dipatenkan</b>.</li>
+      <li><b>Perkaitan:</b> sumber fizikal &amp; teknologi <b>saling bergantung</b> dan digunakan serentak — pekerja mahir (teknologi) guna mesin/kamera (fizikal) supaya bahan mentah tidak membazir, kualiti terjamin, mesin diselenggara baik.</li>
+    </ul>
+
+    <div class="flips" data-flips="t5b2"></div>
+    <div class="quiz" data-ch="t5b2"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b2">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b3">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 3
+========================================================= -->
+<section class="chap t5" id="t5b3" data-title="T5 Bab 3 · Sumber Pembiayaan Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 1: Sumber Perniagaan</span>
+    <h2><span class="big">3</span>Sumber Pembiayaan Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±12 min</span><span class="chip hot">🔥 Fokus: 7 pembiayaan bank, agensi kerajaan, justifikasi pilihan</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b3" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <p>Semua perniagaan memerlukan <b>modal</b> — wang tunai, inventori, bangunan, kilang, jentera. Kenal pasti jenis perniagaan &amp; jumlah modal sebelum pilih sumber pembiayaan.</p>
+    <div class="vs">
+      <div class="plus"><h4>Sumber DALAMAN</h4><ul><li><b>Simpanan peribadi</b> — sumber asas permulaan</li><li><b>Modal daripada keuntungan (rizab)</b> — untuk modal pusingan</li></ul></div>
+      <div class="minus" style="background:var(--t5-soft)"><h4 style="color:var(--t5)">Sumber LUARAN</h4><ul><li><b>Bank &amp; institusi kewangan</b> (7 jenis)</li><li><b>Agensi kerajaan</b>: bantuan modal, jaminan kredit, geran R&amp;D</li></ul></div>
+    </div>
+    <h3><span class="sn">3.2</span>7 jenis pembiayaan bank &amp; institusi kewangan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Jenis</th><th>Ciri utama</th></tr>
+      <tr><td>Modal permulaan</td><td>Pinjaman untuk mula berniaga (jangka pendek/panjang, berpenggal) — <i>sumber modal formal</i></td></tr>
+      <tr><td>Sewa beli</td><td>Bank beli aset &amp; sewakan; <b>hak milik berpindah selepas semua ansuran dijelaskan</b> (rumah kedai, kenderaan)</td></tr>
+      <tr><td>Pajakan</td><td>Sewa mesin/jentera untuk tempoh tertentu; <b>hak milik kekal pada bank/syarikat pajakan</b></td></tr>
+      <tr><td>Pemfaktoran</td><td>Syarikat pemfaktoran <b>beli invois / akaun belum terima pada harga diskaun</b>; tugas kutip hutang dipindahkan</td></tr>
+      <tr><td>Syer</td><td>Terbitkan syer untuk tambah modal; bank saudagar jadi penanggung jamin terbitan syer</td></tr>
+      <tr><td>Overdraf</td><td>Pemegang <b>akaun semasa</b> keluarkan wang <b>melebihi baki</b> hingga had; faedah harian atas jumlah digunakan sahaja</td></tr>
+      <tr><td>Gadaian / Ar-Rahnu</td><td>Barang berharga jadi cagaran; gagal bayar → barang jadi milik Ar-Rahnu</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>M</u>ak <u>S</u>u <u>P</u>ergi <u>P</u>asar <u>S</u>ayur <u>O</u>rang <u>A</u>sli</div><p>Modal permulaan · Sewa beli · Pajakan · Pemfaktoran · Syer · Overdraf · Ar-Rahnu</p></div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span><p><b>Sewa beli</b> → akhirnya <b>jadi milik</b> usahawan. <b>Pajakan</b> → <b>tidak</b> jadi milik usahawan (hanya penyewa). Jangan tertukar!</p></div>
+
+    <h4>Agensi kerajaan</h4>
+    <div class="tw"><table class="t">
+      <tr><th>Agensi</th><th>Isi penting</th></tr>
+      <tr><td>MARA</td><td>Bantu usahawan Bumiputera; pembiayaan patuh syariah (SPiKE, SPiM, SJUM); ruang niaga, gerai, tapak kilang, kursus</td></tr>
+      <tr><td>TEKUN</td><td>Konsep <b>"pinjaman asas simpanan"</b>; pinjaman <b>RM500 – RM50,000</b>; bayar balik 1 bulan – 5 tahun; galak budaya menabung</td></tr>
+      <tr><td>CGC</td><td>Syarikat Jaminan Kredit — beri <b>jaminan kredit</b> kepada PKS <b>tanpa cagaran</b> supaya pinjaman bank diluluskan</td></tr>
+      <tr><td>Agrobank</td><td>Bank kerajaan untuk <b>pertanian</b>; caj perkhidmatan rendah (MUS1M-i, Program Agropreneur Muda)</td></tr>
+      <tr><td>MOSTI</td><td><b>Geran R&amp;D</b> — Dana SMART, Dana GO (Dana Fasilitasi &amp; Dana Inno)</td></tr>
+    </table></div>
+
+    <h3><span class="sn">3.4</span>Kekuatan &amp; kelemahan pembiayaan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Sumber</th><th>Kekuatan</th><th>Kelemahan</th></tr>
+      <tr><td>Dalaman</td><td>Cepat &amp; ringkas · tiada kos faedah</td><td>Modal terhad · sukar tambah modal dalam masa singkat</td></tr>
+      <tr><td>Bank / institusi kewangan</td><td>Tempoh &amp; ansuran ikut kemampuan · jumlah ikut keperluan</td><td>Perlu <b>penjamin &amp; cagaran</b> · syarat ketat · faedah tinggi</td></tr>
+      <tr><td>Agensi kerajaan</td><td>Tanpa cagaran · jumlah ikut keperluan · tidak dikenakan faedah (buku teks)</td><td>Persaingan sengit · jumlah terhad (pinjam berulang) · tertakluk terma &amp; syarat</td></tr>
+    </table></div>
+
+    <h3><span class="sn">3.5</span>Prosedur mendapatkan pembiayaan</h3>
+    <div class="flow"><div>Sediakan rancangan perniagaan</div><div>Dapatkan khidmat nasihat kewangan<small>kelayakan, had, cagaran, cara bayar balik</small></div><div>Buat permohonan<small>patuhi syarat &amp; dokumen</small></div><div>Pembiayaan diluluskan<small>terima surat kelulusan, tandatangan kontrak</small></div></div>
+    <p><b>Dokumen biasa:</b> salinan kad pengenalan, gambar pasport, salinan pendaftaran perniagaan, lesen PBT, gambar lokasi, perjanjian sewa premis, bil utiliti, rekod jualan &amp; pembelian, sijil akademik.</p>
+
+    <h3><span class="sn">3.6</span>Justifikasi pilihan pembiayaan</h3>
+    <div class="blk tip"><span class="lb">💡 Panduan jawab soalan "cadangkan sumber pembiayaan"</span>
+      <ul class="dot">
+        <li><b>Modal kecil</b> (cth. RM2,000 gerai minuman) → <b>simpanan peribadi</b>.</li>
+        <li><b>Modal sederhana, tiada cagaran</b> → <b>agensi kerajaan</b> (TEKUN / MARA) atau <b>CGC</b>.</li>
+        <li><b>Beli kenderaan / rumah kedai</b> → <b>sewa beli</b>. <b>Guna mesin tanpa mahu milik</b> → <b>pajakan</b>.</li>
+        <li><b>Modal besar</b> (perkongsian, syarikat) → <b>pinjaman bank</b>; syarikat awam → <b>terbitan syer</b>.</li>
+        <li><b>Banding tawaran bank:</b> pilih kadar faedah lebih rendah / tanpa cagaran / tempoh sesuai — <b>berikan alasan</b>.</li>
+      </ul>
+    </div>
+
+    <div class="flips" data-flips="t5b3"></div>
+    <div class="quiz" data-ch="t5b3"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b3">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b4">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 4
+========================================================= -->
+<section class="chap t5" id="t5b4" data-title="T5 Bab 4 · Penyata Kewangan Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 1: Sumber Perniagaan</span>
+    <h2><span class="big">4</span>Penyata Kewangan Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±18 min</span><span class="chip hot">🔥 Fokus: butiran penyata, 7 nisbah asas, tafsiran</span><a class="chip" href="#formula">🧮 Kalkulator nisbah</a></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b4" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Penyata kewangan</b> — laporan yang menunjukkan <span class="k">kedudukan kewangan perniagaan bagi suatu tempoh tertentu</span> (untung/rugi, nilai aset, liabiliti &amp; ekuiti).</p></div>
+    <div class="tw"><table class="t">
+      <tr><th>Penyata</th><th>Kandungan</th><th>Tunjuk apa?</th></tr>
+      <tr><td>Penyata pendapatan</td><td>Akaun perdagangan (jualan bersih, kos jualan) + akaun untung rugi (hasil, belanja)</td><td><b>Untung / rugi</b></td></tr>
+      <tr><td>Kunci kira-kira (penyata kedudukan kewangan)</td><td>Aset (bukan semasa, semasa), liabiliti (semasa, bukan semasa), ekuiti pemilik</td><td><b>Harta &amp; hutang</b></td></tr>
+      <tr><td>Penyata aliran tunai</td><td>Baki b/b, penerimaan, pembayaran, lebihan/kurangan, baki h/b</td><td>Punca &amp; penggunaan <b>tunai</b>; mampu bayar liabiliti semasa?</td></tr>
+    </table></div>
+
+    <h3><span class="sn">4.2</span>Butiran penting</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Butiran</th><th>Maksud</th><th>Contoh</th></tr>
+      <tr><td>Aset bukan semasa</td><td>Hayat guna &gt; 1 tahun, kecairan rendah</td><td>Kenderaan, mesin, perabot</td></tr>
+      <tr><td>Aset semasa</td><td>Hayat guna &lt; 1 tahun, kecairan tinggi</td><td>Inventori, tunai, akaun belum terima (penghutang)</td></tr>
+      <tr><td>Liabiliti semasa</td><td>Hutang jangka pendek</td><td>Akaun belum bayar (pemiutang), overdraf</td></tr>
+      <tr><td>Liabiliti bukan semasa</td><td>Hutang &gt; 1 tahun</td><td>Pinjaman bank, gadai janji, pinjaman kerajaan</td></tr>
+      <tr><td>Ekuiti pemilik</td><td>Modal pemilik + untung bersih − ambilan</td><td>Modal awal</td></tr>
+      <tr><td>Ambilan</td><td>Pemilik ambil aset perniagaan untuk kegunaan <b>peribadi</b></td><td>Ambil barang/tunai</td></tr>
+      <tr><td>Kos tetap / kos berubah</td><td>Tidak berubah / berubah ikut tingkat pengeluaran</td><td>Sewa, insurans / bahan mentah, upah</td></tr>
+    </table></div>
+    <details class="more" open><summary>📄 Contoh penyata pendapatan (XYZ Enterprise) — ikut buku teks</summary><div class="in">
+      <div class="ex">Jualan                              210,000
+(−) Pulangan jualan                   8,000
+Jualan bersih                       202,000
+(−) Kos jualan:
+    Inventori awal          50,000
+    Belian 110,000 − pulangan 3,000 = 107,000
+    (+) Angkutan masuk 2,600, upah atas belian 5,000,
+        insurans atas belian 3,000, duti import 6,400
+    Kos belian             124,000
+    Kos barang untuk dijual 174,000
+    (−) Inventori akhir     59,000
+    Kos jualan                      115,000
+UNTUNG KASAR                         87,000
+(+) Hasil: komisen 6,300 + faedah 2,250  →  95,550
+(−) Belanja: sewa 9,000, insurans 2,100, gaji 10,500 = 21,600
+UNTUNG BERSIH                        73,950</div>
+      <p style="margin-top:8px">Kunci kira-kira: Aset bukan semasa 102,000 + aset semasa 122,900 = <b>224,900</b> = Ekuiti (50,000 + 73,950 − 1,000 = 122,950) + pinjaman bank 90,000 + pemiutang 11,950.</p>
+    </div></details>
+
+    <h3><span class="sn">4.3</span>Pihak berkepentingan &amp; kegunaan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Pihak</th><th>Kegunaan penyata kewangan</th></tr>
+      <tr><td>Pemegang saham / pemilik</td><td>Tahu kedudukan kewangan &amp; tentukan hala tuju</td></tr>
+      <tr><td>Pelabur</td><td>Tahu keberuntungan &amp; bakal pulangan; yakin untuk melabur</td></tr>
+      <tr><td>Pihak pengurusan</td><td>Nilai prestasi, bonus &amp; dividen, banding tahun lepas, rancang agihan sumber</td></tr>
+      <tr><td>Pembiaya / institusi kewangan</td><td>Nilai keupayaan urus hutang sebelum beri pinjaman</td></tr>
+      <tr><td>Pembekal / pemiutang</td><td>Tahu kemampuan bayar hutang &amp; kredit</td></tr>
+    </table></div>
+    <p><b>Kegunaan dalam operasi:</b> penyata pendapatan → <b>ukur prestasi</b> &amp; <b>tingkatkan untung</b> (ramal prestasi, rancang strategi, sedia laporan pinjaman). Kunci kira-kira → tahu kedudukan aset, tanggungan &amp; ekuiti; <b>penilaian perniagaan</b>. TPM → tahap jualan minimum supaya tidak rugi.</p>
+
+    <h3><span class="sn">4.5</span>Nisbah asas — 3 kumpulan, 7 nisbah</h3>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>U</u>ntung <u>4</u> · <u>C</u>air <u>1</u> · <u>C</u>ekap <u>2</u></div><p><b>Untung:</b> margin untung kasar, margin untung bersih, untung tokokan, pulangan atas modal · <b>Kecairan:</b> nisbah semasa · <b>Kecekapan:</b> pusing ganti stok, pusing ganti aset</p></div>
+    <div class="tw"><table class="t">
+      <tr><th>Nisbah</th><th>Formula</th><th>Contoh buku teks</th><th>Tafsiran</th></tr>
+      <tr><td>Margin untung kasar</td><td>UK ÷ Jualan bersih × 100</td><td>473,247 ÷ 567,320 = 83.4%</td><td>Setiap RM1 jualan bersih → 83.4 sen untung kasar</td></tr>
+      <tr><td>Margin untung bersih</td><td>UB ÷ Jualan bersih × 100</td><td>304,084 ÷ 567,320 = 53.6%</td><td>Tinggi = pengurusan operasi cekap</td></tr>
+      <tr><td>Untung tokokan</td><td>UK ÷ <b>Kos jualan</b> × 100</td><td>141,800 ÷ 567,320 = 25%</td><td>Harga jual = kos + 25%</td></tr>
+      <tr><td>Pulangan atas modal</td><td>UB ÷ Modal awal × 100</td><td>304,082 ÷ 1,353,807 = 22.46%</td><td>Setiap RM1 modal → 22.46 sen untung bersih</td></tr>
+      <tr><td>Nisbah semasa</td><td>Aset semasa ÷ Liabiliti semasa</td><td>697,237 ÷ 57,400 = 12.1 : 1</td><td>RM12.10 aset semasa bagi setiap RM1 hutang jangka pendek</td></tr>
+      <tr><td>Pusing ganti stok</td><td>Kos jualan ÷ Stok purata</td><td>693,070 ÷ 278,334 = 2.49 kali</td><td>Stok dijual &amp; diganti 2.49 kali setahun</td></tr>
+      <tr><td>Pusing ganti aset</td><td>Jualan bersih ÷ Jumlah aset</td><td>567,320 ÷ 713,970 = 0.79 kali</td><td>Kecekapan guna aset jana jualan</td></tr>
+    </table></div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span>
+      <ul class="dot"><li><b>Untung tokokan</b> bahagi dengan <b>kos jualan</b>; <b>margin untung kasar</b> bahagi dengan <b>jualan bersih</b>.</li><li><b>Stok purata</b> = (stok awal + stok akhir) ÷ 2.</li><li>Nisbah semasa ditulis <b>___ : 1</b>; pusing ganti dalam <b>kali</b>; nisbah untung dalam <b>%</b>.</li></ul>
+    </div>
+
+    <h3><span class="sn">4.6</span>Justifikasi kedudukan kewangan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Nisbah (Musidah Jati Enterprise)</th><th>2015 → 2016</th><th>Tafsiran</th></tr>
+      <tr><td>Margin untung kasar</td><td>32.1% → 30.0% ↓</td><td>Untung kasar berkurang — kedudukan kurang baik</td></tr>
+      <tr><td>Margin untung bersih</td><td>7.5% → 6.4% ↓</td><td>Kurang cekap urus operasi</td></tr>
+      <tr><td>Pulangan atas modal</td><td>6.42% → 4.8% ↓</td><td>Kurang cekap buat pelaburan</td></tr>
+      <tr><td>Untung tokokan</td><td>13.6% → 10.0% ↓</td><td>Kurang cekap kawal harga jual &amp; kos</td></tr>
+      <tr><td>Nisbah semasa</td><td>1.97 → 2.05 kali ↑</td><td>Lebih mampu bayar hutang jangka pendek</td></tr>
+      <tr><td>Pusing ganti stok</td><td>7.11 → 6.6 kali ↓</td><td>Stok lambat terjual → kos simpan, keusangan; modal terikat</td></tr>
+      <tr><td>Pusing ganti aset</td><td>1.29 → 1.35 kali ↑</td><td>Cekap urus aset untuk jana jualan</td></tr>
+    </table></div>
+    <div class="blk tip"><span class="lb">💡 Formula tafsir</span><p><b>Naik</b> (untung / kecekapan / kecairan) = <b>baik</b>. <b>Turun</b> = kurang baik + beri sebab + cadangan (kurangkan kos, naikkan jualan, promosi, kawal stok).</p></div>
+
+    <div class="flips" data-flips="t5b4"></div>
+    <div class="quiz" data-ch="t5b4"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b4">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b5">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 5
+========================================================= -->
+<section class="chap t5" id="t5b5" data-title="T5 Bab 5 · Persediaan Menjadi Usahawan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 2: Usaha Niaga</span>
+    <h2><span class="big">5</span>Persediaan Menjadi Usahawan</h2>
+    <div class="meta"><span class="chip">⏱ ±10 min</span><span class="chip hot">🔥 Fokus: ciri keperibadian + contoh usahawan, 7 faktor penyumbang</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b5" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Usahawan</b> — individu atau kumpulan yang <span class="k">menubuhkan / menerajui perniagaan sendiri, mengembangkannya dan menanggung risiko</span>.</p></div>
+    <h3><span class="sn">5.1</span>13 ciri keperibadian usahawan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Ciri</th><th>Maksud ringkas</th><th>Contoh usahawan (buku teks)</th></tr>
+      <tr><td>Berani mengambil risiko</td><td>Yakin hadapi ketidakpastian; urus risiko</td><td>Datuk Wira Dr. Maznah Hamid (Securiforce)</td></tr>
+      <tr><td>Kreatif &amp; inovatif</td><td>Kreatif = cipta baharu; inovatif = ubah suai produk sedia ada</td><td>Puan Azean Mahmud (Sabun Taharah)</td></tr>
+      <tr><td>Tabah</td><td>Tidak jemu &amp; putus asa</td><td>Puan Zarinnah Mohideen (Zarlith Events)</td></tr>
+      <tr><td>Yakin diri &amp; optimistik</td><td>Yakin kebolehan, terbuka terhadap kegagalan</td><td>Datuk Yusof Haslam</td></tr>
+      <tr><td>Berinisiatif &amp; bertanggungjawab</td><td>Proaktif, cari idea baharu</td><td>Puan Faiza Bawumi (beras Faiza)</td></tr>
+      <tr><td>Komitmen tinggi</td><td>Keazaman jelas &amp; terarah</td><td>Anthony Tan &amp; Tan Hooi Ling (Grab)</td></tr>
+      <tr><td>Pandai mengambil peluang</td><td>Rebut peluang daripada perubahan</td><td>Haziqah Nurulhuda (kuih bulan halal)</td></tr>
+      <tr><td>Berfikiran positif untuk berjaya</td><td>Kejayaan = motivasi utama</td><td>Nur Amirah Maulat Abdullah</td></tr>
+      <tr><td>Kebolehan menentukan visi &amp; misi</td><td>Tentukan hala tuju</td><td>Dato' Wan Mohammad Sani (Sani Express)</td></tr>
+      <tr><td>Berani untuk gagal</td><td>Kegagalan = pengajaran</td><td>Tan Sri Tony Fernandes (AirAsia)</td></tr>
+      <tr><td>Semangat sepasukan</td><td>Kerjasama capai matlamat sama</td><td>Hj. Burhanuddin Md Radzi (Les' Copaque)</td></tr>
+      <tr><td>Berdikari</td><td>Tidak bergantung orang lain</td><td>Khairil Gibran Yahaya (usahawan tani)</td></tr>
+      <tr><td>Fleksibel</td><td>Sesuaikan pendekatan ikut situasi</td><td>Vivy Yusof (FashionValet)</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan — pecah 13 ciri kepada 4 kumpulan (3-3-3-4)</span><div class="code">❤️ <u>H</u>ati · 🧠 <u>M</u>inda · 👀 <u>M</u>ata · 💪 <u>T</u>indakan</div>
+      <ul class="dot"><li><b>Hati:</b> Berani ambil risiko · Kreatif &amp; inovatif · Tabah</li><li><b>Minda:</b> Yakin &amp; optimistik · Inisiatif &amp; bertanggungjawab · Komitmen tinggi</li><li><b>Mata:</b> Pandai ambil peluang · Berfikiran positif · Tentukan visi &amp; misi</li><li><b>Tindakan:</b> Berani gagal · Semangat sepasukan · Berdikari · Fleksibel</li></ul></div>
+    <div class="vs">
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">5 kekuatan diri</h4><ul><li>Kemahiran pembangunan karakter diri</li><li>Fokus tenaga &amp; tumpuan</li><li>Perhubungan baik dengan pasangan (semua pihak)</li><li>Keupayaan membina jenama</li><li>Menyelesaikan masalah kecil terlebih dahulu</li></ul></div>
+      <div class="plus" style="background:var(--surface-2)"><h4 style="color:var(--ink)">Kelebihan menjadi usahawan</h4><ul><li><b>Diri:</b> berfikiran positif, berdisiplin, berdikari</li><li><b>Keluarga:</b> sumber pendapatan, boleh diwarisi, pupuk minat niaga</li><li><b>Masyarakat:</b> peluang pekerjaan, pelbagai produk, kurang jenayah</li><li><b>Negara:</b> produk tempatan ke luar negara, kerjasama serantau, aliran masuk modal asing</li></ul></div>
+    </div>
+
+    <h3><span class="sn">5.2</span>7 faktor penyumbang memulakan perniagaan</h3>
+    <ol class="pts">
+      <li><b>Modal</b> — tunai, alatan, stok; sumber dalaman/luaran.</li>
+      <li><b>Kemahiran</b> — pengurusan kewangan, pemasaran, media sosial, ICT.</li>
+      <li><b>Lokasi sesuai</b> — tumpuan ramai, hampir pelanggan &amp; pembekal, ada infrastruktur, mudah dikunjungi.</li>
+      <li><b>Stok</b> — <i>bergerak pantas</i> (makanan, keperluan harian — risiko rendah) vs <i>bergerak perlahan</i> (perabot, kereta mewah — risiko tinggi).</li>
+      <li><b>Latihan</b> — aliran tunai, perakaunan, stok, SM, penjenamaan (cth. GiatMARA).</li>
+      <li><b>Pemasaran</b> — sasaran pasaran + campuran pemasaran (produk, tempat, harga, promosi).</li>
+      <li><b>Bantuan profesional</b> — kewangan (pinjaman, subsidi: MOA, KKLW, KPDNKK, MOSTI) &amp; khidmat nasihat (MARA, SME Corp, BSN, CGC, UDA, firma konsultan).</li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>M</u>ak <u>K</u>ata <u>L</u>auk <u>S</u>edap <u>L</u>agi <u>P</u>edas, <u>B</u>est!</div><p>Modal · Kemahiran · Lokasi · Stok · Latihan · Pemasaran · Bantuan profesional</p></div>
+
+    <h3><span class="sn">5.3</span>Berniaga sebagai kerjaya</h3>
+    <ul class="dot">
+      <li><b>Matlamat peribadi</b> — sara hidup, masa fleksibel, bentuk personaliti, kepuasan.</li>
+      <li><b>Objektif perniagaan</b> — cipta peluang pekerjaan, produk berkualiti, kurangkan import (barang gantian import → imbangan dagangan baik), bangunkan kawasan.</li>
+      <li><b>Keberuntungan perniagaan</b> — sumber manusia pakar, luaskan pasaran, guna teknologi terkini, mantapkan imej, laksana tanggungjawab sosial (cukai, zakat, derma).</li>
+    </ul>
+
+    <div class="flips" data-flips="t5b5"></div>
+    <div class="quiz" data-ch="t5b5"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b5">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b6">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 6
+========================================================= -->
+<section class="chap t5" id="t5b6" data-title="T5 Bab 6 · Persediaan Memulakan Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 2: Usaha Niaga</span>
+    <h2><span class="big">6</span>Persediaan Memulakan Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±12 min</span><span class="chip hot">🔥 Fokus: 3 akta, prosedur SSM, tanggungjawab, dokumen</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b6" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <h3><span class="sn">6.1</span>3 akta penubuhan entiti perniagaan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Perkara</th><th>Akta Pendaftaran Perniagaan 1956</th><th>Akta Syarikat 2016</th><th>Akta PLT 2012</th></tr>
+      <tr><td>Entiti</td><td>Milikan tunggal &amp; perkongsian</td><td>Sdn. Bhd. &amp; Berhad</td><td>Perkongsian Liabiliti Terhad</td></tr>
+      <tr><td>Bilangan pemilik</td><td>Tunggal: 1 · Perkongsian: 2–20</td><td>Sdn. Bhd.: 1–50 pemegang syer · Bhd: min. 1, tiada had</td><td>Min. 2, tiada had</td></tr>
+      <tr><td>Pengarah</td><td>—</td><td>Sdn. Bhd.: min. 1 · Bhd: min. 2</td><td>—</td></tr>
+      <tr><td>Modal</td><td>Sumbangan pemilik/pekongsi</td><td>Sumbangan saham</td><td>Sumbangan pekongsi</td></tr>
+      <tr><td>Liabiliti peribadi</td><td><b>Tidak terhad</b></td><td>Terhad setakat saham tidak berbayar</td><td>Terhad (kecuali salah laku sendiri)</td></tr>
+      <tr><td>Pengurusan</td><td>Pemilik / pekongsi</td><td>Lembaga pengarah</td><td>Pekongsi</td></tr>
+      <tr><td>Nama / contoh</td><td>—</td><td>"Sdn. Bhd." (Wira Digital Sdn. Bhd.) · "Berhad" (AirAsia Berhad)</td><td>"PLT"</td></tr>
+    </table></div>
+    <div class="blk note"><span class="lb">ℹ️ Nota</span><p>Akta Pendaftaran Perniagaan 1956 (SSM) terpakai di <b>Semenanjung &amp; Wilayah Persekutuan</b> — tidak terpakai di Sabah dan Sarawak.</p></div>
+    <p><b>Faedah daftar di SSM:</b> entiti sah di sisi undang-undang (boleh berkontrak, waris boleh tuntut hak) · layak perlindungan insurans peniaga kecil · layak pinjaman mikro (Bank Rakyat, TEKUN, AIM, MARA, SME) · mudah dapat lesen premis &amp; permit · kerajaan dapat maklumat tepat · layak hadiri seminar &amp; latihan.</p>
+
+    <h3><span class="sn">6.2</span>Prosedur pendaftaran</h3>
+    <h4>Milikan tunggal &amp; perkongsian (APP 1956)</h4>
+    <div class="flow"><div>Dapat kelulusan nama<small>3 cadangan nama; nama sendiri tak perlu kelulusan</small></div><div>Isi Borang A<small>Borang Pendaftaran Perniagaan</small></div><div>Hantar ke SSM<small>+ dokumen sokongan + fi</small></div></div>
+    <p>Kemudian dapatkan <b>lesen perniagaan PBT</b>.</p>
+    <h4>Syarikat persendirian &amp; awam (Akta Syarikat 2016)</h4>
+    <div class="flow"><div>Permohonan carian nama<small>elak nama sama/dikawal</small></div><div>Permohonan pemerbadanan<small>Borang Seksyen 14</small></div><div>Notis Pemerbadanan dikeluarkan SSM<small>bukti pendaftaran (Seksyen 15)</small></div></div>
+    <p>Fi pendaftaran: berhad menurut saham <b>RM1,000</b>; berhad menurut jaminan <b>RM3,000</b>. Lantik <b>setiausaha syarikat dalam 30 hari</b> selepas pemerbadanan.</p>
+
+    <h3><span class="sn">6.3</span>6 tanggungjawab selepas mendaftar</h3>
+    <ol class="pts">
+      <li>Pamer <b>sijil perakuan pendaftaran &amp; lesen</b> di tempat jelas.</li>
+      <li>Pamer <b>papan tanda</b> ikut spesifikasi PBT.</li>
+      <li>Nama &amp; nombor pendaftaran tertera pada <b>dokumen rasmi</b> (resit, invois, nota serahan).</li>
+      <li><b>Memperbaharui</b> sijil pendaftaran.</li>
+      <li>Daftar <b>perubahan maklumat</b> dalam <b>30 hari</b> (alamat, jenis perniagaan, cawangan, pemilik).</li>
+      <li><b>Menamatkan</b> pendaftaran dalam <b>30 hari</b> (berhenti, bankrap, kematian, perintah mahkamah).</li>
+    </ol>
+
+    <h3><span class="sn">6.4–6.5</span>5 rekod / dokumen perniagaan</h3>
+    <div class="tw"><table class="t">
+      <tr><th>Rekod</th><th>Dokumen</th></tr>
+      <tr><td>Transaksi bank</td><td>Penyata bank (bulanan, akaun semasa)</td></tr>
+      <tr><td>Jualan</td><td>Bil tunai, resit, invois, slip daftar tunai (salinan dikeluarkan kepada pelanggan)</td></tr>
+      <tr><td>Pembelian</td><td>Bil tunai, resit, invois, slip daftar tunai (diterima daripada pembekal)</td></tr>
+      <tr><td>Kos operasi</td><td>Bil utiliti, bil pengangkutan, pos, insurans, baucar bayaran gaji/sewa</td></tr>
+      <tr><td>Ambilan &amp; modal</td><td><b>Memo</b> — pemilik bawa masuk modal / ambil barang atau tunai untuk peribadi (ambilan <b>kurangkan modal</b>)</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>B</u>aju <u>J</u>ualan <u>P</u>uasa <u>K</u>ena <u>A</u>wal</div><p>Bank · Jualan · Pembelian · Kos operasi · Ambilan &amp; modal</p></div>
+
+    <h3><span class="sn">6.6</span>Penyata aliran tunai</h3>
+    <p>Menunjukkan aliran <b>sebenar</b> tunai masuk (penerimaan) &amp; keluar (pembayaran). <b>Proforma</b> = ramalan/jangkaan (diperlukan untuk mohon pinjaman).</p>
+    <div class="ex">Baki b/b
++ PENERIMAAN: modal, jualan tunai, terimaan penghutang, komisen diterima
+− PEMBAYARAN: gaji, belian tunai, bayaran pemiutang, iklan, sewa, utiliti
+= Lebihan / (kurangan)
+Baki h/b  →  menjadi baki b/b bulan berikutnya</div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span><p>Jualan/belian <b>secara kredit</b> TIDAK dimasukkan dalam aliran tunai sehingga wang <b>sebenar</b> diterima/dibayar (terimaan penghutang / bayaran pemiutang).</p></div>
+
+    <h3><span class="sn">6.7–6.8</span>Pemasaran &amp; jualan</h3>
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Pemasaran</b> — strategi, proses atau kaedah menyalurkan produk/perkhidmatan daripada pengeluar kepada pengguna. <b>Jualan</b> — aktiviti pertukaran hak milik produk antara pembeli dengan penjual. Matlamat sama: <b>jana keuntungan</b>.</p></div>
+    <div class="card-grid">
+      <div class="mini"><h4>📦 Produk/perkhidmatan</h4><p>Jenama, pembungkusan, reka bentuk, saiz, kualiti, status halal, jaminan</p></div>
+      <div class="mini"><h4>📍 Agihan/tempat</h4><p>Infrastruktur, pengangkutan, hampir pelanggan; saluran agihan sesuai</p></div>
+      <div class="mini"><h4>💰 Harga</h4><p>Ambil kira permintaan, kos pengeluaran &amp; persaingan</p></div>
+      <div class="mini"><h4>📣 Promosi</h4><p>Pengiklanan · jualan langsung · promosi jualan · publisiti</p></div>
+    </div>
+    <div class="tw"><table class="t">
+      <tr><th>Kaedah promosi</th><th>Ciri</th></tr>
+      <tr><td>Pengiklanan</td><td>Komunikasi dirancang (media cetak/elektronik) untuk beritahu &amp; pujuk</td></tr>
+      <tr><td>Jualan langsung</td><td>Pertemuan <b>peribadi</b> jurujual dengan bakal pelanggan</td></tr>
+      <tr><td>Promosi jualan</td><td>Insentif jangka pendek: cabutan bertuah, diskaun, kupon, sampel percuma</td></tr>
+      <tr><td>Publisiti</td><td>Maklumat melalui media massa; <b>kos ditanggung media</b>; kredibiliti tinggi</td></tr>
+    </table></div>
+
+    <div class="flips" data-flips="t5b6"></div>
+    <div class="quiz" data-ch="t5b6"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b6">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#t5b7">Bab seterusnya →</a></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TINGKATAN 5 · BAB 7
+========================================================= -->
+<section class="chap t5" id="t5b7" data-title="T5 Bab 7 · Merancang Pengendalian Perniagaan">
+  <div class="chap-head">
+    <span class="pill">Tingkatan 5 · Tajuk 2: Usaha Niaga</span>
+    <h2><span class="big">7</span>Merancang Pengendalian Perniagaan</h2>
+    <div class="meta"><span class="chip">⏱ ±10 min</span><span class="chip hot">🔥 Fokus: 5 kepentingan, 12 bahagian format</span></div>
+    <div class="chap-actions"><button class="ibtn" data-print="t5b7" aria-label="Cetak bab ini" title="Cetak bab ini"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg></button></div>
+  </div>
+  <div class="chap-body">
+    <div class="blk def"><span class="lb">Definisi</span><p><b>Rancangan perniagaan</b> — <span class="k">dokumen bertulis</span> yang menerangkan maklumat perniagaan atau projek yang hendak dijalankan secara <b>menyeluruh dan terperinci</b>. Juga dikenali sebagai pelan induk perniagaan, kertas kerja atau kertas projek.</p></div>
+    <p><b>Pihak berkepentingan:</b> usahawan, pekerja, pembekal, pelanggan, bakal pelabur / pemberi pinjaman.</p>
+    <h3><span class="sn">7.2</span>5 kepentingan rancangan perniagaan</h3>
+    <ol class="pts">
+      <li><b>Menilai projek dengan teliti</b> — jadi garis panduan, kurangkan kesilapan.</li>
+      <li><b>Merancang keperluan sumber</b> — manusia, fizikal, pembiayaan.</li>
+      <li><b>Menjangka risiko &amp; masalah</b> — cth. kurang modal, lokasi tidak strategik.</li>
+      <li><b>Gambaran projek berdaya maju</b> atau tidak.</li>
+      <li><b>Meyakinkan pelabur / bank</b> — tunjuk kemampuan bayar hutang.</li>
+    </ol>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan</span><div class="code"><u>N</u>asi <u>S</u>ambal <u>R</u>ebus <u>D</u>ah <u>Y</u>ummy</div><p>Nilai projek · Sumber · Risiko · Daya maju · Yakinkan pelabur/bank</p></div>
+
+    <h3><span class="sn">7.3</span>Format — 12 bahagian</h3>
+    <div class="tw"><table class="t">
+      <tr><th>#</th><th>Bahagian</th><th>Kandungan utama</th></tr>
+      <tr><td>1</td><td>Ringkasan eksekutif</td><td>Gambaran ringkas keseluruhan: nama, alamat, bentuk perniagaan, kegiatan utama, modal permulaan, maklumat pemilik, no. pendaftaran/lesen</td></tr>
+      <tr><td>2</td><td>Pengenalan (tujuan)</td><td>Mohon pinjaman · rancang pelaksanaan · yakinkan bank · yakinkan pembekal beri kredit</td></tr>
+      <tr><td>3</td><td>Latar belakang perniagaan</td><td>Nama, alamat, telefon, bentuk, kegiatan, tarikh mula &amp; daftar, no. daftar, modal, sumber pembiayaan, bank &amp; no. akaun</td></tr>
+      <tr><td>4</td><td>Latar belakang pemilik / rakan kongsi</td><td>Nama, no. KP, umur, alamat, kelulusan, status, pengalaman, kemahiran</td></tr>
+      <tr><td>5</td><td>Kedudukan tapak projek</td><td>Lakaran / pelan lokasi</td></tr>
+      <tr><td>6</td><td>Objektif projek</td><td>Sasaran <b>jualan</b>, sasaran <b>untung</b> (melepasi TPM), sasaran <b>pelanggan</b></td></tr>
+      <tr><td>7</td><td>Rancangan pentadbiran</td><td><b>Carta organisasi</b>, spesifikasi tugas, jadual gaji &amp; insentif, senarai keperluan pejabat</td></tr>
+      <tr><td>8</td><td>Rancangan operasi</td><td><b>Carta aliran proses</b>, bahan mentah, mesin &amp; peralatan, susun atur ruang, perbelanjaan operasi, pembahagian tugas</td></tr>
+      <tr><td>9</td><td>Rancangan pemasaran</td><td>Maklumat pesaing, keperluan pelanggan, campuran pemasaran, potensi kembang</td></tr>
+      <tr><td>10</td><td>Rancangan kewangan</td><td>Kos/modal projek, sumber pembiayaan, pelan bayar balik, <b>proforma penyata aliran tunai</b></td></tr>
+      <tr><td>11</td><td>Penutup</td><td>Rumusan &amp; cadangan</td></tr>
+      <tr><td>12</td><td>Lampiran</td><td>Gambar produk, sijil pendaftaran, lesen, peta lokasi, kad perniagaan, gambar kedai</td></tr>
+    </table></div>
+    <div class="blk mnemo"><span class="lb">🧠 Jambatan hafalan — 12 bahagian</span><div class="code"><u>R</u>ia <u>P</u>ergi <u>L</u>awat <u>L</u>ima <u>K</u>edai, <u>O</u>rder <u>P</u>isang <u>O</u>ren <u>P</u>apaya <u>K</u>elapa, <u>P</u>ulang <u>L</u>ewat</div><p>Ringkasan · Pengenalan · Latar perniagaan · Latar pemilik · Kedudukan tapak · Objektif · Pentadbiran · Operasi · Pemasaran · Kewangan · Penutup · Lampiran</p></div>
+    <div class="blk trap"><span class="lb">⚠ Perangkap SPM</span><p>Carta <b>organisasi</b> → rancangan <b>pentadbiran</b>. Carta <b>aliran proses</b> → rancangan <b>operasi</b>. Penyata aliran tunai → rancangan <b>kewangan</b>.</p></div>
+    <div class="blk tip"><span class="lb">💡 Contoh sasaran</span><p>Jika margin keuntungan 20% dan sasaran jualan Januari RM12,400, maka sasaran untung = 20% × 12,400 = <b>RM2,480</b>.</p></div>
+
+    <div class="flips" data-flips="t5b7"></div>
+    <div class="quiz" data-ch="t5b7"></div>
+    <div class="chap-foot"><button class="btn done-btn" data-done="t5b7">✅ Saya dah faham bab ini</button><a class="btn ghost" href="#rawak">🎯 Kuiz rawak →</a></div>
+  </div>
+</section>
+
+<!-- ================= KUIZ RAWAK ================= -->
+<section class="chap" id="rawak">
+  <div class="chap-head">
+    <span class="pill">🎯 Uji diri</span>
+    <h2><span class="big">🎯</span>Kuiz Rawak 10 Soalan</h2>
+    <p style="margin:0;color:var(--muted)">Soalan dipilih secara rawak daripada semua bab. Sasaran: 8/10 ke atas!</p>
+  </div>
+  <div class="chap-body">
+    <div class="quiz" id="randomQuiz" data-ch="rawak"></div>
+    <div class="chap-foot" style="border-top:0"><button class="btn acc" id="newRandom">🔀 Soalan baharu</button><span id="bestScore" style="color:var(--muted);font-size:.9em"></span></div>
+  </div>
+</section>
+
+<footer class="ft">
+  <p><b>Nota Kilat Perniagaan SPM</b> — Tingkatan 4 &amp; 5 (KSSM)</p>
+  <p>Disediakan oleh <b>Cikgu Rabbani</b>, SMK Dato' Undang Musa Al-Haj, Jelebu, Negeri Sembilan.</p>
+  <p style="font-size:.8em">Berdasarkan buku teks Perniagaan Tingkatan 4 &amp; 5 KPM. Kemajuan &amp; skor disimpan dalam pelayar peranti anda sahaja.</p>
+</footer>
+
+</div>
+</main>
+
+<div class="totop" id="totop"><button class="ibtn" aria-label="Kembali ke atas" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+"use strict";
+/* ---------- storan selamat ---------- */
+var store={get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+var $=function(s,r){return (r||document).querySelector(s)}, $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var CH=["t4b1","t4b2","t4b3","t4b4","t5b1","t5b2","t5b3","t5b4","t5b5","t5b6","t5b7"];
+var CHNAME={t4b1:"T4 Bab 1",t4b2:"T4 Bab 2",t4b3:"T4 Bab 3",t4b4:"T4 Bab 4",t5b1:"T5 Bab 1",t5b2:"T5 Bab 2",t5b3:"T5 Bab 3",t5b4:"T5 Bab 4",t5b5:"T5 Bab 5",t5b6:"T5 Bab 6",t5b7:"T5 Bab 7"};
+function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("show");clearTimeout(toast._t);toast._t=setTimeout(function(){t.classList.remove("show")},2200)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+/* ---------- tema ---------- */
+var root=document.documentElement;
+var SUN='<circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>';
+var MOON='<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>';
+function isDark(){var t=root.getAttribute("data-theme");if(t)return t==="dark";return window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches}
+function paintIcon(){$("#themeIco").innerHTML=isDark()?SUN:MOON}
+var savedTheme=store.get("nkp_theme",null); if(savedTheme)root.setAttribute("data-theme",savedTheme);
+paintIcon();
+$("#themeBtn").addEventListener("click",function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);store.set("nkp_theme",n);paintIcon();toast(n==="dark"?"🌙 Mod malam":"☀️ Mod siang")});
+
+/* ---------- jam & tarikh ---------- */
+var HARI=["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"],BULAN=["Januari","Februari","Mac","April","Mei","Jun","Julai","Ogos","September","Oktober","November","Disember"];
+function pad(n){return n<10?"0"+n:""+n}
+function tick(){var d=new Date(),h=d.getHours(),ap=h<12?"PG":"PTG",h12=h%12||12;
+  $("#clkT").textContent=h12+":"+pad(d.getMinutes())+":"+pad(d.getSeconds())+" "+ap;
+  $("#clkD").innerHTML='<span class="long">'+HARI[d.getDay()]+", "+d.getDate()+" "+BULAN[d.getMonth()]+" "+d.getFullYear()+'</span><span class="short">'+HARI[d.getDay()].slice(0,3)+", "+d.getDate()+" "+BULAN[d.getMonth()].slice(0,3)+" "+d.getFullYear()+"</span>";}
+tick();setInterval(tick,1000);
+
+/* ---------- saiz tulisan ---------- */
+var fs=store.get("nkp_fs",16);function applyFs(){root.style.setProperty("--fs",fs+"px")}applyFs();
+$("#fsUp").addEventListener("click",function(){fs=Math.min(21,fs+1);applyFs();store.set("nkp_fs",fs)});
+$("#fsDown").addEventListener("click",function(){fs=Math.max(13,fs-1);applyFs();store.set("nkp_fs",fs)});
+
+/* ---------- menu mudah alih ---------- */
+function closeNav(){document.body.classList.remove("nav-open")}
+$("#menuBtn").addEventListener("click",function(){document.body.classList.toggle("nav-open")});
+$("#scrim").addEventListener("click",closeNav);
+$$("#nav a").forEach(function(a){a.addEventListener("click",closeNav)});
+
+/* ---------- buka semua / cetak ---------- */
+$("#openAll").addEventListener("click",function(){var ds=$$("details.more"),open=ds.some(function(d){return !d.open});ds.forEach(function(d){d.open=open});toast(open?"📖 Semua nota dibuka":"📕 Nota ringkas ditutup")});
+var openedForPrint=[];
+window.addEventListener("beforeprint",function(){openedForPrint=$$("details.more").filter(function(d){return !d.open});openedForPrint.forEach(function(d){d.open=true})});
+window.addEventListener("afterprint",function(){openedForPrint.forEach(function(d){d.open=false});document.body.classList.remove("print-one");$$(".print-target").forEach(function(s){s.classList.remove("print-target")})});
+function printAll(){document.body.classList.remove("print-one");window.print()}
+$("#printBtn").addEventListener("click",printAll);$("#printBtn2").addEventListener("click",printAll);
+$$("[data-print]").forEach(function(b){b.addEventListener("click",function(){var s=document.getElementById(b.getAttribute("data-print"));document.body.classList.add("print-one");s.classList.add("print-target");setTimeout(function(){window.print()},50)})});
+
+/* ---------- jadual bertindan (telefon) ---------- */
+$$("table.t").forEach(function(tb){var rows=tb.rows;if(!rows.length||!rows[0].querySelector("th"))return;
+  var heads=Array.prototype.map.call(rows[0].cells,function(c){return c.textContent.trim()});rows[0].classList.add("hd");tb.classList.add("stack");
+  var occ=[];for(var r=1;r<rows.length;r++){var col=0;Array.prototype.forEach.call(rows[r].cells,function(c){while(occ[r]&&occ[r][col])col++;
+      if(col===0)c.classList.add("c0");else if(heads[col])c.setAttribute("data-label",heads[col]);
+      var rs=c.rowSpan||1,cs=c.colSpan||1;for(var i=0;i<rs;i++){occ[r+i]=occ[r+i]||[];for(var j=0;j<cs;j++)occ[r+i][col+j]=1}
+      if(cs>1)c.removeAttribute("data-label");col+=cs;});}});
+
+/* ---------- kad imbas ---------- */
+var FLIPS={
+t4b1:[["Perniagaan","Aktiviti urus niaga jual beli barang/perkhidmatan antara penjual dan pembeli untuk memenuhi keperluan & kehendak pengguna, melibatkan pertukaran nilai untuk untung."],["Liabiliti tidak terhad","Harta peribadi pemilik boleh digunakan untuk menjelaskan hutang perniagaan (milikan tunggal, perkongsian biasa)."],["Francaisi","Pihak yang membeli hak kebenaran menggunakan jenama & sistem francaisor."],["Ekonomi bidangan","Kos seunit pengeluaran berkurang apabila perniagaan beroperasi secara besar-besaran."]],
+t4b2:[["Inflasi","Kenaikan harga barang & perkhidmatan secara berterusan."],["Deflasi","Kejatuhan harga barang & perkhidmatan secara berterusan."],["Guna tenaga penuh","Kadar pengangguran kurang daripada 4% (hanya pengangguran geseran)."],["Dasar lambakan","Strategi jual produk di bawah kos untuk menyingkirkan perniagaan kecil daripada pasaran."]],
+t4b3:[["Visi","Wawasan jangka panjang (lebih 5 tahun) yang menjadi panduan hala tuju."],["Misi","Pernyataan ringkas tujuan utama — sebab organisasi wujud pada masa ini."],["Titik pulang modal","Tahap jumlah hasil sama dengan jumlah kos — tiada untung, tiada rugi."],["Syer pasaran","Peratus penguasaan pasaran sesebuah perniagaan berbanding pesaing."]],
+t4b4:[["Bahagian fungsian","Bahagian dalam organisasi yang mempunyai tanggungjawab dan fungsi khusus."],["Carta organisasi","Struktur organisasi yang dipamerkan dalam bentuk hierarki."],["Pemborong","Membeli secara pukal daripada pengeluar dan memecah pukal untuk dijual kepada peruncit."],["Komersialisasi","Langkah terakhir pembangunan produk: tentukan di mana, bila, kepada siapa & bagaimana produk dilancar."]],
+t5b1:[["PSM","Usaha membangunkan tenaga kerja untuk menarik, membangun dan mengekalkan pekerja berprestasi tinggi."],["SOP","Dokumen arahan bertulis untuk keseragaman pelaksanaan tugas & fungsi tertentu."],["Kebolehkerjaan","Kemahiran/kebolehan pekerja yang membuat majikan berminat menawarkan pekerjaan."],["Struktur matriks","Gabungan struktur fungsi + produk/projek; dikenali sistem berbilang arahan."]],
+t5b2:[["Sumber fizikal","Aset ketara/nyata seperti bangunan, mesin, stok, bahan mentah, produk siap."],["Paten","Hak eksklusif untuk reka cipta baharu (produk/proses); dilindungi 20 tahun dari tarikh pemfailan."],["Hak cipta","Hak eksklusif pencipta mengawal penggunaan karya (sastera, muzik, filem…) — Akta Hak Cipta 1987."],["Lesen perisian","Perjanjian bertulis antara pemilik dengan pengguna perisian."]],
+t5b3:[["Pemfaktoran","Syarikat pemfaktoran membeli invois/akaun belum terima pada harga diskaun dan mengutip hutang."],["Overdraf","Pemegang akaun semasa mengeluarkan wang melebihi baki hingga had tertentu."],["Sewa beli","Sewa aset dengan tujuan memiliki — hak milik berpindah selepas ansuran habis."],["Pajakan","Sewa mesin/jentera bagi tempoh tertentu; hak milik kekal pada pemajak."]],
+t5b4:[["Penyata kewangan","Laporan kedudukan kewangan perniagaan bagi suatu tempoh tertentu."],["Kunci kira-kira","Penyata kedudukan kewangan: aset, liabiliti dan ekuiti pemilik."],["Nisbah semasa","Aset semasa ÷ liabiliti semasa — kemampuan bayar hutang jangka pendek."],["Ambilan","Pemilik mengambil tunai/barang perniagaan untuk kegunaan peribadi; mengurangkan modal."]],
+t5b5:[["Usahawan","Individu/kumpulan yang menubuhkan & mengembangkan perniagaan sendiri serta menanggung risiko."],["Inovatif","Mengubah suai produk sedia ada supaya lebih berkualiti & menarik."],["Stok bergerak pantas","Stok yang cepat dijual (makanan, keperluan harian) — risiko rendah."],["Bantuan profesional","Sokongan kewangan & bukan kewangan (khidmat nasihat) daripada agensi kerajaan & badan berkanun."]],
+t5b6:[["Akta Pendaftaran Perniagaan 1956","Mengawal pendaftaran milikan tunggal & perkongsian di SSM (Semenanjung & WP)."],["Proforma","Ramalan atau jangkaan (cth. proforma penyata aliran tunai)."],["Publisiti","Maklumat produk melalui media massa; kos ditanggung media; kredibiliti tinggi."],["Memo","Dokumen rekod ambilan & modal pemilik."]],
+t5b7:[["Rancangan perniagaan","Dokumen bertulis yang menerangkan perniagaan/projek secara menyeluruh & terperinci."],["Ringkasan eksekutif","Gambaran ringkas & spesifik keseluruhan perniagaan."],["Rancangan operasi","Carta aliran proses, bahan mentah, mesin, susun atur, perbelanjaan operasi, agihan tugas."],["Sasaran untung","Anggaran untung selepas tolak kos; mesti melepasi titik pulang modal."]]
+};
+$$("[data-flips]").forEach(function(box){var arr=FLIPS[box.getAttribute("data-flips")]||[];
+  box.insertAdjacentHTML("beforebegin",'<h3 class="no-print"><span class="sn">⚡</span>Kad imbas — tekan untuk terbalikkan</h3>');
+  box.innerHTML=arr.map(function(c){return '<button class="flip" type="button" aria-label="Kad imbas: '+esc(c[0])+'"><div class="fi"><div class="fa">'+esc(c[0])+'<small>Tekan untuk lihat jawapan ↻</small></div><div class="fb">'+esc(c[1])+'</div></div></button>'}).join("");});
+document.addEventListener("click",function(e){var f=e.target.closest&&e.target.closest(".flip");if(f)f.classList.toggle("on")});
+
+/* ---------- bank soalan ---------- */
+var QZ={
+t4b1:[
+["Keperluan berbeza dengan kehendak kerana keperluan…",["tidak terhad dan sukar dipuaskan","terhad, mudah dipuaskan dan sama bagi semua individu","berbeza antara individu","bertujuan untuk hidup lebih selesa"],1,"Keperluan terhad, mudah dipuaskan & sama bagi semua. Kehendak pula tidak terhad & berbeza."],
+["Bentuk pemilikan manakah pemiliknya menanggung liabiliti TIDAK terhad?",["Syarikat Sendirian Berhad","Koperasi","Milikan tunggal","Perkongsian Liabiliti Terhad"],2,"Pemilik tunggal menanggung liabiliti tidak terhad — harta peribadi boleh digunakan untuk bayar hutang."],
+["Rakan kongsi yang hanya menyumbang modal, tidak aktif mengurus, dan menanggung liabiliti tidak terhad ialah rakan kongsi…",["berhad","lelap","aktif","nominal"],1,"Rakan kongsi lelap (tidur) hanya sumbang modal. Rakan kongsi berhad pula liabilitinya terhad."],
+["Bilangan minimum anggota untuk menubuhkan koperasi ialah…",["2 orang","20 orang","50 orang","100 orang"],2,"Koperasi memerlukan sekurang-kurangnya 50 anggota."],
+["Saham syarikat manakah boleh diurus niaga di Bursa Malaysia?",["Syarikat Sendirian Berhad","Syarikat Awam Berhad","Perkongsian","Koperasi"],1,"Hanya saham Syarikat Awam Berhad (Bhd) boleh diurus niaga di Bursa Malaysia."],
+["Kilang roti yang memproses tepung menjadi roti termasuk dalam sektor…",["utama","kedua","ketiga","awam"],1,"Sektor kedua memproses bahan mentah menjadi barang siap/separuh siap."],
+["OBBU yang menjual tepung gandum bersubsidi menggunakan kaedah jualan…",["percuma","pada harga kos","di bawah harga kos","pada harga pasaran"],2,"Barang bersubsidi kerajaan dijual di bawah harga kos."],
+["Pihak yang membeli hak menggunakan jenama dalam perniagaan francais ialah…",["francaisor","francaisi","pemegang saham","pemborong"],1,"Francaisi membeli hak; francaisor ialah syarikat induk pemilik jenama."]],
+t4b2:[
+["Dasar yang melibatkan perbelanjaan kerajaan dan kadar cukai ialah dasar…",["kewangan","fiskal","lambakan","penswastaan"],1,"Dasar fiskal = perbelanjaan kerajaan + cukai. Dasar kewangan = BNM, kadar faedah."],
+["Pekerja kilang hilang kerja kerana digantikan robot. Ini pengangguran…",["bermusim","kitaran","teknologi","geseran"],2,"Pengangguran teknologi berlaku apabila teknologi menggantikan pekerja."],
+["Guna tenaga penuh dicapai apabila kadar pengangguran…",["kurang daripada 4%","kurang daripada 10%","sifar","melebihi 4%"],0,"Guna tenaga penuh = pengangguran kurang 4% (hanya pengangguran geseran)."],
+["Untuk mengatasi inflasi, Bank Negara Malaysia boleh…",["menurunkan kadar faedah","menaikkan kadar faedah","menurunkan cukai pendapatan","menambah penawaran wang"],1,"Kadar faedah naik → rakyat menyimpan → permintaan jatuh → harga tidak terus naik."],
+["Gaya pengurusan (9,9) dalam grid pengurusan ialah gaya…",["laissez-faire","autokratik","demokratik","sokongan"],2,"(9,9) demokratik; (9,1) autokratik; (1,9) sokongan; (1,1) laissez-faire; (5,5) sederhana."],
+["Dalam analisis SWOT, kemunculan barang pengganti oleh pesaing ialah…",["kekuatan","kelemahan","peluang","ancaman"],3,"Ancaman = perubahan luaran yang membantutkan perniagaan."],
+["Syarikat bertaraf perintis dikecualikan cukai selama…",["2 tahun","5 tahun","10 tahun","20 tahun"],1,"Taraf perintis: pengecualian cukai 5 tahun."],
+["Syarikat besar luar negara menjual produk di bawah kos untuk menyingkirkan peniaga kecil. Ini dipanggil…",["dasar lambakan","pemfaktoran","inflasi tolakan kos","pasaran tepu"],0,"Dasar lambakan dikawal melalui Akta Persaingan 2010."]],
+t4b3:[
+["Huruf 'A' dalam ciri objektif SMART bermaksud…",["Accurate — tepat","Attainable — boleh dicapai","Active — aktif","Annual — tahunan"],1,"S-Spesifik, M-Boleh diukur, A-Boleh dicapai, R-Munasabah, T-Jangka masa."],
+["Objektif jangka pendek ialah objektif yang ingin dicapai dalam tempoh…",["kurang daripada 5 tahun","lebih daripada 5 tahun","tepat 10 tahun","tiada had masa"],0,"Jangka pendek < 5 tahun; jangka panjang > 5 tahun."],
+["Kos tetap RM40,000, harga seunit RM20 dan kos berubah seunit RM12. Berapakah TPM?",["2,000 unit","3,333 unit","5,000 unit","8,000 unit"],2,"TPM = 40,000 ÷ (20 − 12) = 40,000 ÷ 8 = 5,000 unit."],
+["Antara berikut, yang manakah kos berubah?",["Sewa bangunan","Bahan mentah","Insurans","Bayaran balik pinjaman"],1,"Kos bahan mentah berubah mengikut kuantiti pengeluaran."],
+["Organisasi bukan bermotifkan untung seperti persatuan didaftarkan di…",["SSM","ROS","LHDN","MATRADE"],1,"OBBU didaftar di Jabatan Pendaftaran Pertubuhan (ROS) atau Pejabat Pendaftar Pertubuhan Belia (ROY)."],
+["Yang manakah BUKAN konsep 5C yang digunakan bank menilai pinjaman?",["Capital","Collateral","Customer","Character"],2,"5C: Capital, Capacity, Character, Collateral, Conditions."],
+["Visi sesebuah perniagaan menggambarkan…",["aktiviti harian pekerja","matlamat jangka panjang melebihi 5 tahun","sasaran jualan bulanan","senarai produk"],1,"Visi = wawasan jangka panjang (> 5 tahun)."]],
+t4b4:[
+["Kawalan utiliti mesin termasuk dalam kawalan…",["awalan","semasa","selepas","kewangan"],1,"Kawalan semasa = kawalan pengeluaran, utiliti mesin dan staf."],
+["Saluran agihan yang paling sesuai untuk barang tempahan khas dan perkhidmatan profesional ialah…",["Pengeluar → Pengguna","Pengeluar → Peruncit → Pengguna","Pengeluar → Pemborong → Peruncit → Pengguna","Pengeluar → Ejen → Peruncit → Pengguna"],0,"Saluran 1 (langsung) — tanpa orang tengah."],
+["Langkah PERTAMA pembangunan produk baharu ialah…",["Komersialisasi","Ujian pemasaran","Penjanaan idea","Analisis perniagaan"],2,"Bermula dengan penjanaan idea dan berakhir dengan komersialisasi."],
+["Proses penerima menterjemah mesej yang dihantar dipanggil…",["enkod","dekod","saluran","maklum balas"],1,"Dekod = penerima menterjemah mesej. Enkod = penghantar mengolah idea."],
+["Peranan utama pemborong dalam saluran agihan ialah…",["menjual terus kepada pengguna akhir","membeli secara pukal dan memecah pukal untuk peruncit","mengeluarkan barang","mengiklankan produk"],1,"Pemborong beli pukal daripada pengeluar, pecah pukal untuk peruncit."],
+["Intranet dalam sesebuah organisasi digunakan untuk…",["menjual produk ke luar negara","komunikasi dalaman antara staf","membayar cukai","mencari pembekal baharu"],1,"Intranet = komunikasi dalaman; Internet = luaran."],
+["Bahagian fungsian yang menerima invois pembekal dan membuat pembayaran ialah bahagian…",["pembelian","jualan","kewangan","pengagihan"],2,"Bahagian kewangan bayar pembekal & hantar invois kepada pembeli."]],
+t5b1:[
+["Gaji Puan Darina RM3,000. Kadar KWSP pekerja 11% dan majikan 12%. Jumlah caruman KWSP sebulan ialah…",["RM330","RM360","RM690","RM123"],2,"330 (pekerja) + 360 (majikan) = RM690."],
+["Encik Kassim diberi ganjaran mengikut jumlah jualan yang dibuat. Ganjaran ini ialah…",["upah","elaun","komisen","gaji asas"],2,"Komisen bergantung pada jumlah jualan."],
+["Struktur organisasi yang dikenali sebagai 'sistem berbilang arahan' ialah struktur…",["fungsi","wilayah","matriks","pelanggan"],2,"Matriks = gabungan fungsi + produk/projek."],
+["Puan Khadijah guna kenderaan syarikat untuk menghantar anaknya ke sekolah tanpa kebenaran. Kesalahannya ialah…",["rasuah","pecah amanah","salah guna aset syarikat","ingkar arahan"],2,"Menggunakan aset syarikat untuk tujuan peribadi tanpa kebenaran."],
+["Standard Prosedur Operasi (SOP) ialah…",["penempatan pekerja ikut kemahiran","dokumen arahan bertulis untuk keseragaman pelaksanaan tugas","sistem gaji pekerja","struktur organisasi"],1,"SOP = dokumen arahan bertulis; minimumkan risiko & jaga keselamatan."],
+["Encik Rahmat dinaikkan gaji apabila dipindahkan ke Kuala Lumpur kerana kos hidup tinggi. Faktor penentu gaji ialah…",["faktor lokasi","kemampuan organisasi","undang-undang kerajaan","ganjaran pesaing"],0,"Faktor lokasi — kos sara hidup setempat."],
+["Potongan WAJIB dalam gaji pekerja ialah…",["bonus dan elaun","KWSP dan PERKESO","pinjaman perumahan dan insurans","biasiswa dan komisen"],1,"KWSP & PERKESO diwajibkan oleh undang-undang."]],
+t5b2:[
+["Antara berikut, yang manakah sumber fizikal?",["Bangunan","Harta intelek","Pengalaman","Lesen perisian"],0,"Bangunan ialah aset ketara. Yang lain ialah sumber teknologi."],
+["Sumber fizikal juga dikenali sebagai…",["sumber tidak nyata","aset ketara","liabiliti","modal kerja"],1,"Sumber fizikal = aset ketara/nyata."],
+["Paten di Malaysia dilindungi selama…",["5 tahun","10 tahun","20 tahun dari tarikh pemfailan","seumur hidup"],2,"Paten dilindungi 20 tahun dari tarikh pemfailan."],
+["Agensi untuk mendaftar paten dan hak cipta di Malaysia ialah…",["SSM","MyIPO","MATRADE","SIRIM"],1,"MyIPO — Perbadanan Harta Intelek Malaysia."],
+["Menggunakan perisian tanpa lesen ialah…",["dibenarkan untuk perniagaan kecil","jenayah perdagangan","tanggungjawab sosial","hak cipta terpelihara"],1,"Guna perisian tanpa lesen = jenayah perdagangan."],
+["Insurans yang melindungi bangunan, mesin dan stok daripada api ialah insurans…",["kecurian","kebakaran","kesetiaan","liabiliti awam"],1,"Insurans kebakaran."]],
+t5b3:[
+["Contoh sumber pembiayaan DALAMAN ialah…",["overdraf dan syer","simpanan peribadi dan rizab","pinjaman bank","bantuan agensi kerajaan"],1,"Dalaman = simpanan peribadi + modal daripada keuntungan (rizab)."],
+["Kemudahan di mana syarikat membeli invois/akaun belum terima pada harga diskaun ialah…",["pajakan","sewa beli","pemfaktoran","overdraf"],2,"Pemfaktoran memindahkan tugas kutip hutang kepada syarikat pemfaktoran."],
+["Pemegang akaun semasa boleh mengeluarkan wang melebihi baki hingga had tertentu melalui…",["overdraf","Ar-Rahnu","pajakan","syer"],0,"Overdraf — faedah dikenakan atas jumlah digunakan sahaja."],
+["Agensi yang memberi jaminan kredit kepada PKS yang tiada cagaran ialah…",["MOSTI","CGC","Agrobank","SSM"],1,"Credit Guarantee Corporation (CGC)."],
+["Jumlah pinjaman TEKUN ialah antara…",["RM100 – RM5,000","RM500 – RM50,000","RM50,000 – RM500,000","RM1 juta ke atas"],1,"TEKUN: RM500 hingga RM50,000; bayar balik 1 bulan – 5 tahun."],
+["Langkah pertama untuk mendapatkan sumber pembiayaan ialah…",["menandatangani kontrak","menyediakan rancangan perniagaan","menerima surat kelulusan","membuka akaun semasa"],1,"Sediakan rancangan perniagaan → khidmat nasihat → mohon → lulus."],
+["Kelemahan utama pinjaman bank ialah…",["tiada faedah","memerlukan cagaran dan penjamin","jumlah pinjaman sangat kecil","tidak perlu dokumen"],1,"Bank perlukan cagaran, penjamin & kenakan faedah."]],
+t5b4:[
+["Encik Musa memperoleh untung kasar 25 sen bagi setiap RM1 kos jualan. Nisbah yang digunakan ialah…",["margin untung kasar","untung tokokan","pulangan atas modal","nisbah semasa"],1,"Untung tokokan = untung kasar ÷ kos jualan × 100 = 25%."],
+["Aset semasa RM60,000 dan liabiliti semasa RM20,000. Nisbah semasa ialah…",["1 : 3","2 : 1","3 : 1","0.33 : 1"],2,"60,000 ÷ 20,000 = 3 : 1."],
+["Penyata yang menunjukkan aset, liabiliti dan ekuiti pemilik ialah…",["penyata pendapatan","kunci kira-kira","penyata aliran tunai","akaun perdagangan"],1,"Kunci kira-kira = penyata kedudukan kewangan."],
+["Kos jualan RM90,000; stok awal RM10,000; stok akhir RM20,000. Pusing ganti stok ialah…",["3 kali","4.5 kali","6 kali","9 kali"],2,"Stok purata = (10,000 + 20,000) ÷ 2 = 15,000. 90,000 ÷ 15,000 = 6 kali."],
+["Contoh liabiliti semasa ialah…",["pinjaman bank 10 tahun","kenderaan","akaun belum bayar","inventori"],2,"Akaun belum bayar (pemiutang) ialah hutang jangka pendek."],
+["Baki b/b RM5,000; penerimaan RM12,000; pembayaran RM9,000. Baki h/b ialah…",["RM2,000","RM8,000","RM14,000","RM26,000"],1,"5,000 + 12,000 − 9,000 = RM8,000."],
+["Untung bersih RM20,000 dan jualan bersih RM80,000. Margin untung bersih ialah…",["4%","20%","25%","400%"],2,"20,000 ÷ 80,000 × 100 = 25%."]],
+t5b5:[
+["Pemaju yang terus menyiapkan projek walaupun pernah gagal semasa kegawatan ekonomi menunjukkan ciri…",["tabah","berani mengambil risiko","fleksibel","berdikari"],0,"Tabah = tidak jemu dan tidak mudah berputus asa."],
+["Contoh stok bergerak perlahan ialah…",["roti dan susu","perabot dan kereta mewah","beras dan gula","sayur-sayuran"],1,"Stok bergerak perlahan lambat dijual dan berisiko tinggi."],
+["Yang manakah BUKAN faktor penyumbang untuk memulakan perniagaan?",["Modal","Lokasi yang sesuai","Latihan","Dividen"],3,"7 faktor: modal, kemahiran, lokasi, stok, latihan, pemasaran, bantuan profesional."],
+["Yang manakah BUKAN ciri lokasi perniagaan yang sesuai?",["Tempat tumpuan ramai","Berhampiran pelanggan dan pembekal","Ada kemudahan infrastruktur","Jauh dari pelanggan dan sukar dikunjungi"],3,"Lokasi sesuai mestilah mudah dikunjungi dan hampir pelanggan."],
+["Usahawan yang mengubah suai produk sedia ada supaya lebih berkualiti bersifat…",["kreatif","inovatif","berdikari","optimistik"],1,"Inovatif = ubah suai produk sedia ada; kreatif = cipta sesuatu yang baharu."],
+["Kelebihan menjadi usahawan kepada NEGARA ialah…",["sumber pendapatan keluarga","pengaliran masuk modal asing","berfikiran positif","masa kerja fleksibel"],1,"Kepada negara: produk tempatan ke luar negara, kerjasama serantau, aliran masuk modal asing."]],
+t5b6:[
+["Perniagaan milikan tunggal dan perkongsian tertakluk kepada…",["Akta Syarikat 2016","Akta Pendaftaran Perniagaan 1956","Akta PLT 2012","Akta Koperasi 1993"],1,"APP 1956 — didaftar di SSM."],
+["Mengikut Akta Syarikat 2016, syarikat awam mesti mempunyai sekurang-kurangnya…",["seorang pengarah","dua orang pengarah","50 orang pengarah","20 orang pengarah"],1,"Syarikat awam: min. 2 pengarah; Sdn. Bhd.: min. 1 pengarah."],
+["Perubahan maklumat perniagaan mesti didaftarkan dalam tempoh…",["7 hari","14 hari","30 hari","90 hari"],2,"Daftar perubahan & penamatan dalam tempoh 30 hari."],
+["Pemilik mengambil barang niaga untuk kegunaan peribadi. Dokumen yang merekodkannya ialah…",["invois","memo","resit rasmi","penyata bank"],1,"Memo = rekod ambilan dan modal."],
+["Kaedah promosi melalui media massa yang kosnya ditanggung media dan mempunyai kredibiliti tinggi ialah…",["pengiklanan","jualan langsung","promosi jualan","publisiti"],3,"Publisiti — mesejnya dipercayai pengguna."],
+["Mengikut Akta Syarikat 2016, bilangan pemegang syer Sdn. Bhd. ialah…",["2 hingga 20 orang","1 hingga 50 orang","min. 50 orang","tiada had"],1,"Sdn. Bhd.: seorang hingga 50 pemegang syer."]],
+t5b7:[
+["Bahagian rancangan perniagaan yang memberi gambaran ringkas keseluruhan perniagaan ialah…",["penutup","ringkasan eksekutif","lampiran","rancangan operasi"],1,"Ringkasan eksekutif ialah bahagian pertama."],
+["Carta aliran proses terdapat dalam rancangan…",["pentadbiran","operasi","pemasaran","kewangan"],1,"Rancangan operasi: carta aliran proses, bahan mentah, mesin, susun atur."],
+["Carta organisasi dan spesifikasi tugas terdapat dalam rancangan…",["pentadbiran","operasi","pemasaran","kewangan"],0,"Rancangan pentadbiran."],
+["Proforma penyata aliran tunai disediakan dalam rancangan…",["pentadbiran","operasi","pemasaran","kewangan"],3,"Rancangan kewangan: modal, pembiayaan, bayar balik, aliran tunai."],
+["Berapakah bilangan bahagian dalam format rancangan perniagaan?",["8","10","12","15"],2,"12 bahagian — dari ringkasan eksekutif hingga lampiran."],
+["Margin keuntungan 20% dan sasaran jualan RM15,000. Sasaran untung ialah…",["RM1,500","RM3,000","RM12,000","RM75,000"],1,"20% × 15,000 = RM3,000."]]
+};
+var TOTALQ=0;CH.forEach(function(c){TOTALQ+=(QZ[c]||[]).length});
+$("#statQ").textContent=TOTALQ;$("#statM").textContent=$$(".mnemo").length;
+
+var best=store.get("nkp_best",{});
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+
+function renderQuiz(box,list,key,title){
+  var score=0,answered=0,n=list.length,L="ABCD";
+  var h='<div class="quiz-h"><h4>'+title+'</h4><span class="qscore">Skor: <b class="sc">0</b> / '+n+'</span></div>';
+  list.forEach(function(q,qi){
+    var order=shuffle([0,1,2,3]);
+    h+='<div class="q" data-a="'+order.indexOf(q[2])+'"><div class="qt"><span class="qn">'+(qi+1)+'.</span>'+(q.tag?'<span class="chip" style="margin-right:6px;font-size:.72rem">'+q.tag+'</span>':'')+esc(q[0])+'</div><div class="opts">';
+    order.forEach(function(oi,k){h+='<button class="opt" type="button" data-k="'+k+'"><span class="L">'+L[k]+'</span><span>'+esc(q[1][oi])+'</span></button>'});
+    h+='</div><div class="qfb"></div></div>';
+  });
+  h+='<div class="qend" style="display:none;margin-top:12px"></div>';
+  box.innerHTML=h;
+  $$(".q",box).forEach(function(qel,qi){
+    $$(".opt",qel).forEach(function(b){b.addEventListener("click",function(){
+      if(qel.classList.contains("done"))return;qel.classList.add("done");
+      var a=+qel.getAttribute("data-a"),k=+b.getAttribute("data-k"),ok=a===k;
+      $$(".opt",qel).forEach(function(o){o.disabled=true});
+      $$(".opt",qel)[a].classList.add("right");if(!ok)b.classList.add("wrong");
+      var fb=$(".qfb",qel);fb.className="qfb show "+(ok?"ok":"no");fb.innerHTML=(ok?"✅ <b>Betul!</b> ":"❌ <b>Belum tepat.</b> Jawapan: <b>"+"ABCD"[a]+"</b>. ")+esc(list[qi][3]);
+      answered++;if(ok)score++;$(".sc",box).textContent=score;
+      if(answered===n){var prev=best[key]||0;if(score>prev){best[key]=score;store.set("nkp_best",best)}
+        var pct=Math.round(score/n*100),msg=pct>=80?"🏆 Cemerlang! Anda bersedia.":pct>=50?"👍 Bagus! Ulang kaji isi yang salah.":"💪 Jangan putus asa — baca semula bab ini dan cuba lagi.";
+        var end=$(".qend",box);end.style.display="block";end.innerHTML='<div class="blk '+(pct>=50?"tip":"trap")+'" style="margin:0"><b>'+score+'/'+n+' ('+pct+'%)</b> — '+msg+' <button class="btn ghost" type="button" style="margin-left:6px;padding:6px 12px">🔁 Ulang</button></div>';
+        $("button",end).addEventListener("click",function(){renderQuiz(box,list,key,title)});
+        updateProgress();if(key==="rawak")showBest();}
+    })});
+  });
+}
+$$(".quiz[data-ch]").forEach(function(box){var c=box.getAttribute("data-ch");if(QZ[c])renderQuiz(box,QZ[c],c,"🎯 Kuiz pantas · "+QZ[c].length+" soalan")});
+function newRandom(){var pool=[];CH.forEach(function(c){QZ[c].forEach(function(q){var x=q.slice();x.tag=CHNAME[c];pool.push(x)})});renderQuiz($("#randomQuiz"),shuffle(pool).slice(0,10),"rawak","🎲 10 soalan rawak daripada semua bab")}
+function showBest(){$("#bestScore").textContent=best.rawak?"Skor terbaik kuiz rawak: "+best.rawak+"/10":""}
+newRandom();showBest();
+$("#newRandom").addEventListener("click",function(){newRandom();$("#rawak").scrollIntoView({behavior:"smooth"})});
+
+/* ---------- kemajuan ---------- */
+var done=store.get("nkp_done",{});
+function updateProgress(){
+  var c=CH.filter(function(k){return done[k]}).length,pct=Math.round(c/CH.length*100);
+  $("#sbPct").textContent=pct+"%";$("#sbBar").style.width=pct+"%";$("#sbCount").textContent=c+" / "+CH.length+" bab selesai";
+  var qs=0;CH.forEach(function(k){qs+=best[k]||0});$("#sbQuiz").textContent="Kuiz: "+qs+"/"+TOTALQ;
+  $("#ringPct").textContent=pct+"%";$("#ringFg").style.strokeDashoffset=(314.16*(1-pct/100)).toFixed(1);
+  $$("[data-ch]").forEach(function(el){if(el.tagName==="A")el.classList.toggle("done",!!done[el.getAttribute("data-ch")])});
+  $$("[data-done]").forEach(function(b){var k=b.getAttribute("data-done");b.classList.toggle("done-on",!!done[k]);b.textContent=done[k]?"✔ Selesai — tekan untuk batal":"✅ Saya dah faham bab ini"});
+}
+$$("[data-done]").forEach(function(b){b.addEventListener("click",function(){var k=b.getAttribute("data-done");done[k]=!done[k];if(!done[k])delete done[k];store.set("nkp_done",done);updateProgress();if(done[k])toast("🎉 Hebat! "+CHNAME[k]+" ditanda selesai")})});
+updateProgress();
+
+/* ---------- nav aktif & bar bacaan ---------- */
+var navLinks={};$$("#nav a").forEach(function(a){navLinks[a.getAttribute("href").slice(1)]=a});
+var secs=$$("main section[id]");
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(ents){ents.forEach(function(e){if(e.isIntersecting){Object.keys(navLinks).forEach(function(k){navLinks[k].classList.remove("active")});var l=navLinks[e.target.id];if(l)l.classList.add("active")}})},{rootMargin:"-40% 0px -55% 0px"});secs.forEach(function(s){io.observe(s)})}
+var rb=$("#readbar"),tt=$("#totop");
+function onScroll(){var h=document.documentElement,max=h.scrollHeight-h.clientHeight;rb.style.width=(max>0?h.scrollTop/max*100:0)+"%";tt.classList.toggle("show",h.scrollTop>700)}
+window.addEventListener("scroll",onScroll,{passive:true});onScroll();
+
+/* ---------- carian ---------- */
+function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/\s+/g," ")}
+var IDX=[];
+secs.forEach(function(sec){if(sec.id==="utama"||sec.id==="rawak")return;var title=sec.getAttribute("data-title")||(($("h2",sec)||{}).textContent||"").trim();
+  $$("h3, h4, p, li, tr, .mini, .fx, .ex",sec).forEach(function(el){if(el.closest(".quiz")||el.closest(".flips")||el.closest(".calc"))return;if(el.tagName==="P"&&el.closest("li"))return;var t=(el.tagName==="TR"?Array.prototype.map.call(el.cells,function(c){return (c.innerText||c.textContent).trim()}).join(" · "):(el.innerText||el.textContent)).replace(/\s+/g," ").trim();if(t.length<3)return;IDX.push({el:el,t:t,n:norm(t),sec:title,id:sec.id})})});
+var qi=$("#q"),res=$("#results"),sel=-1,hits=[];
+function snippet(t,term){var i=norm(t).indexOf(term),s=Math.max(0,i-45),e=Math.min(t.length,i+term.length+90),part=(s>0?"…":"")+t.slice(s,e)+(e<t.length?"…":"");var re=new RegExp("("+term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");return esc(part).replace(re,"<mark>$1</mark>")}
+function doSearch(){var v=norm(qi.value.trim());sel=-1;if(v.length<2){res.classList.remove("show");res.innerHTML="";return}
+  var terms=v.split(" ").filter(Boolean);hits=IDX.filter(function(x){return terms.every(function(t){return x.n.indexOf(t)>-1})});
+  var seen={};hits=hits.filter(function(x){var k=x.id+"|"+x.t.slice(0,60);if(seen[k])return false;seen[k]=1;return true}).slice(0,40);
+  if(!hits.length){res.innerHTML='<div class="rh">Tiada padanan untuk "<b>'+esc(qi.value)+'</b>". Cuba kata kunci lain (cth. "liabiliti", "nisbah").</div>'}
+  else{res.innerHTML='<div class="rh">'+hits.length+(hits.length===40?"+":"")+' padanan</div>'+hits.map(function(x,i){return '<a href="#" data-i="'+i+'"><span class="rt">'+esc(x.sec)+'</span><span class="rs">'+snippet(x.t,terms[0])+'</span></a>'}).join("")}
+  res.classList.add("show")}
+function go(i){var x=hits[i];if(!x)return;var d=x.el.closest("details");if(d)d.open=true;res.classList.remove("show");qi.blur();closeNav();
+  x.el.scrollIntoView({behavior:"smooth",block:"center"});x.el.classList.remove("flash");void x.el.offsetWidth;x.el.classList.add("flash")}
+qi.addEventListener("input",doSearch);qi.addEventListener("focus",function(){if(qi.value.trim().length>1)doSearch()});
+qi.addEventListener("keydown",function(e){var as=$$("a",res);if(e.key==="ArrowDown"){e.preventDefault();sel=Math.min(as.length-1,sel+1)}else if(e.key==="ArrowUp"){e.preventDefault();sel=Math.max(0,sel-1)}else if(e.key==="Enter"){e.preventDefault();go(sel<0?0:sel);return}else if(e.key==="Escape"){res.classList.remove("show");qi.blur();return}else return;as.forEach(function(a,i){a.classList.toggle("sel",i===sel)});if(as[sel])as[sel].scrollIntoView({block:"nearest"})});
+res.addEventListener("click",function(e){var a=e.target.closest("a[data-i]");if(a){e.preventDefault();go(+a.getAttribute("data-i"))}});
+document.addEventListener("click",function(e){if(!e.target.closest(".search"))res.classList.remove("show")});
+document.addEventListener("keydown",function(e){if(e.key==="/"&&document.activeElement!==qi&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();qi.focus()}});
+
+/* ---------- kalkulator ---------- */
+function num(id){var v=parseFloat($("#"+id).value);return isFinite(v)?v:0}
+function rm(v){return "RM"+v.toLocaleString("ms-MY",{minimumFractionDigits:2,maximumFractionDigits:2})}
+function nf(v,d){return v.toLocaleString("ms-MY",{minimumFractionDigits:d,maximumFractionDigits:d})}
+function row(l,v,s){return '<div class="row"><span>'+l+(s?'<small>'+s+'</small>':'')+'</span><b>'+v+'</b></div>'}
+function calcTPM(){var kt=num("c_kt"),h=num("c_h"),kb=num("c_kb"),q=num("c_q"),m=h-kb,o="";
+  if(m<=0){o=row("⚠ Harga mesti lebih tinggi daripada kos berubah seunit","—")}
+  else{var tpm=kt/m,th=h*q,tk=kt+kb*q,u=th-tk;
+    o=row("Margin sumbangan seunit","RM"+nf(m,2),"Harga − kos berubah seunit")+row("TPM (unit)",nf(tpm,2)+" unit",Math.ceil(tpm)!==tpm?"Jual sekurang-kurangnya "+nf(Math.ceil(tpm),0)+" unit untuk tidak rugi":"Kos tetap ÷ margin sumbangan")+row("TPM (RM)",rm(tpm*h))+row("Jumlah hasil pada "+nf(q,0)+" unit",rm(th))+row("Jumlah kos pada "+nf(q,0)+" unit",rm(tk),"Kos tetap + kos berubah")+row(u>=0?"✅ Untung":"❌ Rugi",rm(Math.abs(u)),q>tpm?"Kuantiti melebihi TPM":q<tpm?"Kuantiti kurang daripada TPM":"Tepat pada TPM")}
+  $("#tpmOut").innerHTML=o}
+function calcPP(){var jb=num("p_j")-num("p_pj"),bb=num("p_b")-num("p_pb"),kb=bb+num("p_bab"),kj=num("p_ia")+kb-num("p_ik"),uk=jb-kj,ub=uk+num("p_h")-num("p_bl");
+  $("#ppOut").innerHTML=row("Jualan bersih",rm(jb),"Jualan − pulangan jualan")+row("Belian bersih",rm(bb))+row("Kos belian",rm(kb),"Belian bersih + belanja atas belian")+row("Kos jualan",rm(kj),"Inventori awal + kos belian − inventori akhir")+row(uk>=0?"Untung kasar":"Rugi kasar",rm(Math.abs(uk)),"Jualan bersih − kos jualan")+row(ub>=0?"✅ Untung bersih":"❌ Rugi bersih",rm(Math.abs(ub)),"Untung kasar + hasil − belanja")}
+function dv(a,b){return b?a/b:NaN}
+function show(v,suf,d){return isFinite(v)?nf(v,d==null?2:d)+suf:"—"}
+function calcN(){var jb=num("n_jb"),kj=num("n_kj"),uk=num("n_uk"),ub=num("n_ub"),ma=num("n_ma"),as=num("n_as"),ls=num("n_ls"),sp=(num("n_sa")+num("n_sk"))/2,ja=num("n_ja");
+  var muk=dv(uk,jb)*100,mub=dv(ub,jb)*100,ut=dv(uk,kj)*100,pam=dv(ub,ma)*100,ns=dv(as,ls),pgs=dv(kj,sp),pga=dv(jb,ja);
+  $("#nOut").innerHTML=row("Margin untung kasar",show(muk,"%"),isFinite(muk)?"Setiap RM1 jualan bersih → "+nf(muk,2)+" sen untung kasar":"")
+   +row("Margin untung bersih",show(mub,"%"),isFinite(mub)?"Setiap RM1 jualan bersih → "+nf(mub,2)+" sen untung bersih":"")
+   +row("Untung tokokan",show(ut,"%"),isFinite(ut)?"Harga jual = kos + "+nf(ut,2)+"%":"")
+   +row("Pulangan atas modal",show(pam,"%"),isFinite(pam)?"Setiap RM1 modal → "+nf(pam,2)+" sen untung bersih":"")
+   +row("Nisbah semasa",isFinite(ns)?nf(ns,2)+" : 1":"—",isFinite(ns)?"RM"+nf(ns,2)+" aset semasa bagi setiap RM1 liabiliti semasa":"")
+   +row("Pusing ganti stok",show(pgs," kali"),"Stok purata = RM"+nf(sp,2))
+   +row("Pusing ganti aset",show(pga," kali"),"Jualan bersih ÷ jumlah aset")}
+["c_kt","c_h","c_kb","c_q"].forEach(function(i){$("#"+i).addEventListener("input",calcTPM)});
+["p_j","p_pj","p_ia","p_b","p_pb","p_bab","p_ik","p_h","p_bl"].forEach(function(i){$("#"+i).addEventListener("input",calcPP)});
+["n_jb","n_kj","n_uk","n_ub","n_ma","n_as","n_ls","n_sa","n_sk","n_ja"].forEach(function(i){$("#"+i).addEventListener("input",calcN)});
+calcTPM();calcPP();calcN();
+})();
+</script>
+</body>
+</html>
